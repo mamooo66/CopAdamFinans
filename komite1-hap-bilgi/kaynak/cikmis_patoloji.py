@@ -8,7 +8,7 @@ ilgili dersin 2026-27 PDF'i Drive'da okunabilir olunca o PDF'ten yazılıp deste
 Q(yıl, soru_no, kök, cevap, not, n=kaç soruyu temsil ettiği, ref=sayıma girmeyen çapraz atıf)
 """
 
-from icerik import Q
+from yardim import Q
 
 BEKLEYEN = {}
 

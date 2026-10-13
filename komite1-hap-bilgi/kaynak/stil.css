@@ -109,7 +109,10 @@ li.c b{color:#45091a}
 .kapak > *{position:relative}
 .kp-ust{font-size:15px;letter-spacing:.04em;color:#F7B6CF;font-weight:600}
 .kp-baslik{margin:24px 0 0;font-size:100px;line-height:.94;font-weight:900;letter-spacing:-.035em}
-.kp-baslik span{color:#FF8FB8}
+.kp-dersler{display:block;margin-top:12px;font-size:62px;letter-spacing:-.025em;line-height:1}
+.kp-dersler .p{color:#FF8FB8}
+.kp-dersler .f{color:#7FE3EE}
+.kp-dersler .ayir{color:rgba(255,255,255,.45);font-weight:700}
 .kp-alt{font-size:29px;margin-top:20px;font-weight:650}
 .kp-alt b{color:#FDE047}
 .kp-kutular{display:flex;gap:16px;margin-top:34px}
@@ -124,16 +127,21 @@ li.c b{color:#45091a}
 .kp-alt2 b{color:#FDE047}
 
 /* ---------- içindekiler ---------- */
-.toc-govde .sut{gap:6px}
-.toc{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--cizgi);border-radius:10px;padding:6px 12px;text-decoration:none;color:var(--metin)}
-.toc .tn{font-weight:800;color:#fff;background:var(--mor);border-radius:6px;padding:2px 6px;font-size:13px}
-.toc .tt{flex:1;font-size:13.5px;font-weight:650;line-height:1.2;min-width:0}
+.toc-govde .sut{gap:.34em}
+.toc-bas{display:flex;align-items:center;gap:.6em;font-size:.8em;font-weight:850;letter-spacing:.1em;color:#fff;background:var(--mor);
+  border-radius:.55em;padding:.45em .8em;text-decoration:none}
+.toc-bas span{margin-left:auto;font-weight:700;letter-spacing:0;opacity:.85}
+.toc-bas.f{background:#0B5563}
+.toc{display:flex;align-items:center;gap:.6em;background:#fff;border:1px solid var(--cizgi);border-radius:.6em;padding:.28em .7em;text-decoration:none;color:var(--metin)}
+.toc .tn{font-weight:800;color:#fff;background:var(--mor);border-radius:.38em;padding:.08em .4em;font-size:.8em;flex:0 0 auto}
+.toc.f .tn{background:#0B5563}
+.toc .tt{flex:1;font-size:.88em;font-weight:650;line-height:1.25;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .toc .tt b{font-weight:650;color:inherit}
-.toc .tt em{display:block;font-style:normal;font-weight:500;font-size:11.5px;color:var(--soluk)}
-.toc .bar{width:84px;height:8px;background:#F1EDF7;border-radius:99px;overflow:hidden;flex:0 0 auto}
+.toc .bar{width:4.6em;height:.5em;background:#F1EDF7;border-radius:99px;overflow:hidden;flex:0 0 auto}
 .toc .bar i{display:block;height:100%;background:var(--kirmizi);border-radius:99px}
-.toc .tc{width:24px;text-align:right;font-weight:800;color:var(--kirmizi);font-size:14px}
-.toc .tp{width:30px;text-align:right;font-weight:800;color:var(--mor);font-size:14px}
+.toc .tc{width:1.6em;text-align:right;font-weight:800;color:var(--kirmizi);font-size:.88em;flex:0 0 auto}
+.toc .tp{width:2.1em;text-align:right;font-weight:800;color:var(--mor);font-size:.88em;flex:0 0 auto}
+.toc.f .tp{color:#0B5563}
 
 /* ---------- dağılım ---------- */
 .govde.dg{gap:18px}
@@ -182,3 +190,24 @@ ul.sb{list-style:none;margin:0;padding:0;columns:2;column-gap:16px;width:100%}
 .q.hatira .qtag{background:#7C5CC4}
 .q.ref{border-left-color:#9AA6B8;background:#FAFAFC}
 .q.ref .qtag{background:#9AA6B8}
+
+/* ---------- ders ayracı ---------- */
+.ders-ayrac .dv-baslik.dv-ders{font-size:92px;letter-spacing:-.03em;margin:10px 0 8px}
+.ders-ayrac .dv-cip{text-decoration:none;font-size:12.5px}
+.ders-ayrac .dv-ozet li{font-size:16.5px}
+
+/* ---------- farmakoloji renkleri ---------- */
+.slide.f .hdr{background:linear-gradient(90deg,#0B4552 0%,#11707E 100%)}
+.slide.f .hdr .no{background:#13A3B8}
+.slide.f .kart h3,.slide.f .kart h3 b{color:#0B5563}
+.slide.f .kart li::before{background:#8FD0D9}
+.slide.f .ftr .pg{color:#0B5563}
+.slide.f .q{border-left-color:#0B5563}
+.slide.f .q .qtag{background:#0B5563}
+.slide.f .q.ref{border-left-color:#9AA6B8}
+.slide.f .q.ref .qtag{background:#9AA6B8}
+.slide.f .dtab tfoot td{background:#0B5563;border-color:#0B5563}
+.slide.f .dtab td.dt{color:#0B5563}
+.slide.f .ec .rk{background:#0B5563}
+.ayrac.f{background:radial-gradient(900px 620px at 88% 15%,#1D8C9C 0%,#0F5462 46%,#062830 100%)}
+.ayrac.f .dv-ust,.ayrac.f .dv-ozet h4,.ayrac.f .dv-icerik h4{color:#9EE6EF}
