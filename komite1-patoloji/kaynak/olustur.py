@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""İçerik modüllerinden 1280x720 slayt HTML'i üretir (pdf.mjs ile PDF'e basılır)."""
+"""İçerik modüllerinden 1280x720 slayt HTML'i üretir (pdf.cjs ile PDF'e basılır).
+
+Desteye yalnızca icerik.py · BOLUMLER (2026-27 PDF'lerinden yazılmış dersler) girer.
+Ön sayfalar (içindekiler, dağılım, en çok çıkanlar) bölüm sayısına göre kendiliğinden eklenir.
+"""
 
 import html
 import math
@@ -12,11 +16,9 @@ BURASI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BURASI)
 
 from icerik import BOLUMLER, YILLAR  # noqa: E402
-import icerik2  # noqa: E402,F401  (bölüm 11-22'yi BOLUMLER'e ekler)
-from icerik_ek import EN_COK, SON_BAKIS  # noqa: E402
+from cikmis_patoloji import BEKLEYEN  # noqa: E402
 
 TAM_YIL = {"21-22": "2021-22", "22-23": "2022-23", "23-24": "2023-24", "24-25": "2024-25", "25-26": "2025-26"}
-ON_SAYFA = 5  # kapak, kullanım, içindekiler, dağılım, en çok çıkanlar
 
 
 # ------------------------------------------------------------------ yardımcılar
@@ -157,60 +159,58 @@ def slayt(ic, sinif="", sid=None):
 
 # ------------------------------------------------------------------ ön sayfalar
 def kapak():
-    toplam = sum(sum(sayim(b).values()) for b in BOLUMLER)
+    taranan = sum(sum(sayim(b).values()) for b in list(BOLUMLER) + list(BEKLEYEN.values()))
+    ders = len(BOLUMLER)
     ic = f'''
     <div class="kp-desen"></div>
     <div class="kp-ust">BAİBÜ Tıp Fakültesi · Dönem III · Hastalıkların Biyolojik Temeli Kurulu (I. Kurul)</div>
     <h1 class="kp-baslik">KOMİTE 1<br><span>PATOLOJİ</span></h1>
-    <div class="kp-alt">Hap Bilgi Slaytları <b>+</b> Son 5 Yılın Çıkmışları</div>
+    <div class="kp-alt">Hap Bilgi Slaytları <b>·</b> yalnızca 2026-27 dönemi PDF'lerinden</div>
     <div class="kp-kutular">
-      <div><b>{toplam}</b><span>çıkmış patoloji sorusu<br>konu konu işlendi</span></div>
-      <div><b>22</b><span>başlık · 46 saatlik<br>patoloji dersinin tamamı</span></div>
-      <div><b>5</b><span>yıl: 2021-22 → 2025-26<br>(Dönem III Kurul 1)</span></div>
+      <div><b>{ders}</b><span>ders · bu dönemin<br>PDF'inden yazıldı</span></div>
+      <div><b>{taranan}</b><span>çıkmış patoloji sorusu tarandı<br>2021-22 → 2025-26</span></div>
+      <div><b>5</b><span>yılın çıkmışı · bilgi çıktıysa<br>yanında ÇIKMIŞ etiketi</span></div>
     </div>
     <div class="kp-lejant">
       <span class="ck">ÇIKMIŞ<span class="y">24-25</span></span> sınavda çıkmış bilgi
       <span class="ck sicak">★ ÇIKMIŞ<span class="x">×3</span><span class="y">…</span></span> 3+ yıl çıkmış
       <span class="tuzak-ornek">⚠ Tuzak</span> çeldirici olarak sorulmuş yanlış ifade
     </div>
-    <div class="kp-alt2">2026-27 Kurul Sınavı: <b>30 Ekim 2026 Cuma</b></div>
+    <div class="kp-alt2">Yeni PDF geldikçe ilgili ders çıkmışlarıyla birlikte eklenir · Kurul sınavı: <b>30 Ekim 2026 Cuma</b></div>
     '''
     return slayt(ic, "kapak")
 
 
 def kullanim(sayfa):
+    pdfler = "".join(f"<li>2026-27 PDF: <b>{html.escape(b['kaynak'])}</b> → Bölüm {b['no']:02d}</li>" for b in BOLUMLER)
     ic = f'''
     <header class="hdr"><span class="no">i</span><span class="ttl">Nasıl kullanılır? · Kaynaklar</span><span class="sp"></span></header>
     <div class="govde iki" data-max="16">
       <div class="sut">
-        <div class="kart"><h3>Etiketler</h3><ul>
-          <li class="c">Patoloji sorusunda doğrudan çıkmış bilgi {ck_rozet(["24-25"])}</li>
-          <li class="c">Birden çok yıl çıkmış bilgi (×yıl sayısı) {ck_rozet(["22-23", "25-26"])}</li>
-          <li class="c">3 veya daha fazla yıl çıkmış — “garanti” konu {ck_rozet(["22-23", "24-25", "25-26"])}</li>
-          <li class="c">Sınavda yanlış ifade (çeldirici) olarak sorulmuş bilgi {ck_rozet(["24-25"])}<span class="tuzak">⚠ Tuzak: “Hücre içi glikojen depoları artar” → YANLIŞ</span></li>
-          <li>Başka bir ders (İç Hast., Pediatri, Biyokimya, Enfeksiyon) sorusunda geçen ilgili bilgi {gri_rozet("İÇ HAST. 23-24")}</li>
-          <li><b>21-22*</b> = 2021-22 kitapçığı yok; öğrencilerin hatırladığı sorulardan derlendi.</li>
+        <div class="kart"><h3>Kaynak kuralı</h3><ul>
+          <li>Hap bilgiler <b>yalnızca bu dönemin (2026-27) ders PDF'lerinden</b> yazıldı. Eski klasör, geçmiş yılların notları ve kitaplar <b>kullanılmadı</b>.</li>
+          {pdfler}
+          <li>2026-27 PDF'i gelmemiş dersler desteye konmadı; çıkmış soruları hazır bekliyor, PDF gelince eklenecek.</li>
         </ul></div>
         <div class="kart"><h3>Slayt düzeni</h3><ul>
-          <li>Her başlık bir <b>ayraç slaytı</b> ile başlar: hoca, 2026 ders tarihi, 5 yıllık soru sayısı ve öne çıkanlar.</li>
-          <li>Ardından <b>hap bilgi</b> slaytları, en sonda o başlığın <b>çıkmış soruları</b> (✔ doğru cevap + çeldiriciler).</li>
-          <li>İçindekiler ve soru dağılımı tablosu tıklanabilir; ilgili başlığa atlar.</li>
-          <li>Cevap anahtarı olmayan sorular ders slaytı + Robbins'e göre cevaplandı; şüpheli olan tek soru (25-26 S66) ⚠ ile not edildi.</li>
+          <li>Her ders bir <b>ayraç slaytı</b> ile başlar: hoca, 2026 ders tarihi, 5 yıllık soru sayısı.</li>
+          <li>Ardından <b>hap bilgi</b> slaytları, en sonda o dersin <b>çıkmış soruları</b> (✔ doğru cevap + çeldiriciler).</li>
         </ul></div>
       </div>
       <div class="sut">
+        <div class="kart"><h3>Etiketler</h3><ul>
+          <li class="c">Patoloji sorusunda doğrudan çıkmış bilgi {ck_rozet(["24-25"])}</li>
+          <li class="c">Birden çok yıl çıkmış bilgi (×yıl sayısı) {ck_rozet(["22-23", "25-26"])}</li>
+          <li class="c">3 veya daha fazla yıl çıkmış {ck_rozet(["22-23", "24-25", "25-26"])}</li>
+          <li class="c">Sınavda yanlış ifade (çeldirici) olarak sorulmuş bilgi {ck_rozet(["24-25"])}<span class="tuzak">⚠ Tuzak: sınavdaki yanlış ifade</span></li>
+          <li>Başka bir dersin sorusunda geçen ilgili bilgi {gri_rozet("İÇ HAST. 23-24")}</li>
+        </ul></div>
         <div class="kart"><h3>Çıkmış soru kaynakları (Drive)</h3><ul>
           <li><b>2025-26</b> d3k1 soru kitapçığı A — patoloji S61-82</li>
           <li><b>2024-25</b> kitapçık — patoloji S69-90</li>
           <li><b>2023-24</b> “2023 K1 SON” kitapçığı A — patoloji S61-82</li>
           <li><b>2022-23</b> Toplu Çıkmışlar › Komite 1 — patoloji S60-83</li>
-          <li><b>2021-22</b> Toplu Çıkmışlar › Komite 1 — hatırlanan 24 patoloji sorusundan 18'i</li>
-        </ul></div>
-        <div class="kart"><h3>Hap bilgi kaynakları</h3><ul>
-          <li><b>Patoloji › 2026-2027 (yeni)</b> klasörü: <b>1-PATOLOJİYE GİRİŞ</b> (S. E. Düzcü) — şu an klasördeki tek PDF.</li>
-          <li>Yeni klasörde henüz olmayan dersler için en güncel <b>2025-26 ders slaytları</b>: Ç. Boran (neoplazi 1-6, karsinojenler), S. P. Özer (dalak, yumuşak doku, immün sistem).</li>
-          <li>S. E. Düzcü ve N. T. Karabekiroğlu dersleri için 2025-26 <b>ders notları</b> (Patoloji.pdf) + Robbins Temel Patoloji.</li>
-          <li>Konu sırası ve saatleri: <b>Kurul-1 Ders Programı 2026-27</b> (42 teorik + 4 pratik saat).</li>
+          <li><b>2021-22*</b> Toplu Çıkmışlar › Komite 1 — kitapçık yok, öğrencilerin hatırladığı sorular</li>
         </ul></div>
       </div>
     </div>
@@ -257,6 +257,10 @@ def dagilim(sayfa):
         hoca[b["hoca"]] = hoca.get(b["hoca"], 0) + sum(sayim(b).values())
     hoca_li = "".join(f"<li><b>{v}</b> soru — {html.escape(kisa_hoca(k))}</li>"
                       for k, v in sorted(hoca.items(), key=lambda kv: -kv[1]))
+    sirali = sorted(BOLUMLER, key=lambda b: -sum(sayim(b).values()))
+    verimli = ", ".join(f"<b>{md(b['baslik'])} ({sum(sayim(b).values())})</b>" for b in sirali[:5] if sum(sayim(b).values()))
+    tam = [md(b["baslik"]) for b in BOLUMLER if all(sayim(b)[y] for y in YILLAR)]
+    her_yil = f"<li><b>5/5 yıl</b> soru gelenler: {', '.join(tam)}.</li>" if tam else ""
     ic = f'''
     <header class="hdr"><span class="no">%</span><span class="ttl">5 Yılın Patoloji Soru Dağılımı</span><span class="sp"></span>
       <span class="meta">her hücre = o yıl o başlıktan çıkan soru</span></header>
@@ -268,8 +272,8 @@ def dagilim(sayfa):
       <div class="dg-yan">
         <div class="kart"><h3>Ne anlama geliyor?</h3><ul>
           <li>Patoloji her yıl <b>22-24 soru</b> (95 soruluk kurul sınavının ~%24'ü).</li>
-          <li>En verimli başlıklar: <b>İmmün sistem (15)</b>, <b>Moleküler temel (10)</b>, <b>Lenf nodu (10)</b>, <b>Akut inflamasyon (7)</b>, <b>Karsinojenler (7)</b>.</li>
-          <li><b>5/5 yıl</b> soru gelenler: hücre hasarı, iyileşme-tamir, amiloidoz, epitelyal tümörler, lenf nodu, karsinojenler, moleküler temel.</li>
+          <li>Bu destede en verimli dersler: {verimli}.</li>
+          {her_yil}
         </ul></div>
         <div class="kart"><h3>Hoca bazında (5 yıl)</h3><ul>{hoca_li}</ul></div>
         <div class="not">21-22* sütunu hatırlanan sorulardan derlendi (resmi kitapçık yok).</div>
@@ -279,10 +283,23 @@ def dagilim(sayfa):
     return slayt(ic, "", "dagilim")
 
 
-def en_cok(sayfa):
+def en_cok_listesi(en_fazla=16):
+    """İki veya daha çok yıl çıkmış maddeler (yıl sayısına göre)."""
+    liste = []
+    for b in BOLUMLER:
+        for kartlar in b["slaytlar"]:
+            for c in kartlar:
+                for m in c["maddeler"]:
+                    if len(m["y"]) >= 2:
+                        liste.append((m["t"], m["y"], b["no"]))
+    liste.sort(key=lambda x: -len(x[1]))
+    return liste[:en_fazla]
+
+
+def en_cok(sayfa, liste):
     li = []
-    for i, (t, ys, no) in enumerate(EN_COK, 1):
-        li.append(f'<li><span class="rk">{i}</span><span class="ec-t">{md(t)} {ck_rozet(ys.split())}'
+    for i, (t, ys, no) in enumerate(liste, 1):
+        li.append(f'<li><span class="rk">{i}</span><span class="ec-t">{md(t)} {ck_rozet(ys)}'
                   f'<a class="ec-git" href="#b{no:02d}">→ Bölüm {no:02d}</a></span></li>')
     yari = (len(li) + 1) // 2
     ic = f'''
@@ -300,7 +317,6 @@ def ayrac(b, sayfa):
     cipler = "".join(
         f'<div class="yc{" bos" if c[y] == 0 else ""}"><span>{yil_etiketi(y)}</span><b>{c[y]}</b></div>' for y in YILLAR)
     ozet = "".join(f"<li>{md(o)}</li>" for o in b.get("ozet", []))
-    yeni = '<span class="yeni">YENİ 2026-27 PDF</span>' if b.get("yeni") else ""
     saat = f' · {html.escape(b["saat"])}' if b.get("saat") and b["saat"] != "—" else ""
     basliklar = [c["baslik"] for kartlar in b["slaytlar"] for c in kartlar]
     if b["sorular"]:
@@ -310,7 +326,7 @@ def ayrac(b, sayfa):
             else '<div class="dv-n sifir"><b>0</b><span>son 5 yılda<br>doğrudan soru yok</span></div>')
     ic = f'''
     <div class="dv-bg">{b["no"]:02d}</div>
-    <div class="dv-ust">BÖLÜM {b["no"]:02d} / {len(BOLUMLER)} {yeni}</div>
+    <div class="dv-ust">BÖLÜM {b["no"]:02d} / {len(BOLUMLER)} <span class="yeni">2026-27 PDF</span></div>
     <h1 class="dv-baslik">{md(b["baslik"])}</h1>
     <div class="dv-meta">{html.escape(b["hoca"])} · 2026: {html.escape(b["tarih"])}{saat}</div>
     <div class="dv-istat">{sayi}<div class="dv-yillar">{cipler}</div></div>
@@ -349,39 +365,48 @@ def soru_html(q):
 def soru_slayti(b, sorular, sayfa, sira, adet):
     ek = f'<span class="parca soru">ÇIKMIŞ SORULAR{f" {sira}/{adet}" if adet > 1 else ""}</span>'
     ic = (f'{ust_bant(b, ek)}<div class="govde sorular" data-max="17.5">{"".join(soru_html(q) for q in sorular)}</div>'
-          f'{alt_bant(sayfa, "Cevaplar: ders slaytları + Robbins (resmi cevap anahtarı yok)")}')
+          f'{alt_bant(sayfa, "Cevaplar 2026-27 ders PDF’ine göre · resmi cevap anahtarı yok")}')
     return slayt(ic, "soru-slayt")
-
-
-def son_bakis(parcalar, sayfa0):
-    out = []
-    for i, parca in enumerate(parcalar):
-        li = "".join(f'<li>{md(t)} {ck_rozet(ys.split())}</li>' for t, ys in parca)
-        ic = f'''
-        <header class="hdr"><span class="no">✓</span><span class="ttl">Son Bakış — Tek Satırlık Haplar</span>
-          <span class="parca">{i + 1}/{len(parcalar)}</span><span class="sp"></span><span class="meta">sınav sabahı</span></header>
-        <div class="govde tek" data-max="17"><ul class="sb">{li}</ul></div>
-        {alt_bant(sayfa0 + i)}'''
-        out.append(slayt(ic, "", "sonbakis" if i == 0 else None))
-    return out
 
 
 # ------------------------------------------------------------------ montaj
 def olustur():
+    # ön sayfalar: kapak + kullanım her zaman; diğerleri ancak anlamlıysa
+    ec = en_cok_listesi()
+    coklu = len(BOLUMLER) >= 2
+    toplam_soru = sum(sum(sayim(b).values()) for b in BOLUMLER)
+    on = ["kapak", "kullanim"]
+    if coklu:
+        on.append("icindekiler")
+    if coklu and toplam_soru:
+        on.append("dagilim")
+    if ec:
+        on.append("encok")
+
     # 1. geçiş: sayfa sayıları
     plan = []
     for b in BOLUMLER:
         soru_sayfalari = sorulari_sayfala(b["sorular"]) if b["sorular"] else []
         plan.append((b, soru_sayfalari))
-    baslangic, p = {}, ON_SAYFA + 1
+    baslangic, p = {}, len(on) + 1
     for b, ss in plan:
         baslangic[b["no"]] = p
         p += 1 + len(b["slaytlar"]) + len(ss)
-    son_parcalar = [SON_BAKIS[:17], SON_BAKIS[17:]]
-    toplam = p - 1 + len(son_parcalar)
+    toplam = p - 1
 
     # 2. geçiş: render
-    s = [kapak(), kullanim(2), icindekiler(3, baslangic), dagilim(4), en_cok(5)]
+    s = []
+    for i, ad in enumerate(on, 1):
+        if ad == "kapak":
+            s.append(kapak())
+        elif ad == "kullanim":
+            s.append(kullanim(i))
+        elif ad == "icindekiler":
+            s.append(icindekiler(i, baslangic))
+        elif ad == "dagilim":
+            s.append(dagilim(i))
+        elif ad == "encok":
+            s.append(en_cok(i, ec))
     for b, ss in plan:
         sayfa = baslangic[b["no"]]
         s.append(ayrac(b, sayfa))
@@ -392,7 +417,6 @@ def olustur():
         for i, qs in enumerate(ss, 1):
             s.append(soru_slayti(b, qs, sayfa, i, len(ss)))
             sayfa += 1
-    s.extend(son_bakis(son_parcalar, p))
     assert len(s) == toplam, (len(s), toplam)
 
     with open(os.path.join(BURASI, "stil.css"), encoding="utf-8") as f:
