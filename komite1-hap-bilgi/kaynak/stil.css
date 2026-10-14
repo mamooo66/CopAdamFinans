@@ -192,9 +192,13 @@ ul.sb{list-style:none;margin:0;padding:0;columns:2;column-gap:16px;width:100%}
 .q.ref .qtag{background:#9AA6B8}
 
 /* ---------- ders ayracı ---------- */
-.ders-ayrac .dv-baslik.dv-ders{font-size:92px;letter-spacing:-.03em;margin:10px 0 8px}
-.ders-ayrac .dv-cip{text-decoration:none;font-size:12.5px}
-.ders-ayrac .dv-ozet li{font-size:16.5px}
+.ders-ayrac .dv-baslik.dv-ders{font-size:76px;letter-spacing:-.03em;margin:6px 0 4px}
+.ders-ayrac .dv-istat{margin-top:14px}
+.ders-ayrac .dv-n b{font-size:60px}
+.ders-ayrac .dv-ozet{margin-top:14px;padding:10px 18px 11px}
+.ders-ayrac .dv-ozet li{font-size:15.5px;line-height:1.36}
+.ders-ayrac .dv-icerik{margin-top:12px}
+.ders-ayrac .dv-cip{text-decoration:none;font-size:12px;padding:3px 9px}
 
 /* ---------- farmakoloji renkleri ---------- */
 .slide.f .hdr{background:linear-gradient(90deg,#0B4552 0%,#11707E 100%)}

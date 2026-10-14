@@ -107,5 +107,7 @@ BOLUM = dict(
           "PDF slayt 20 (Şekil 7.10): “Efikasite: A=B=D>C”. Diğer şıklar yanlış (C en yüksek, A>B>D=C, A<B=C=D vb.)."),
         Q("22-23", 28, "A, B, C ve D ilaçlarının POTENS (etki gücü) bakımından ilişkisi hangisidir? (grafik soruda yok)", "d) A>B>D",
           "PDF slayt 20 (Şekil 7.10): “Güç: A>B>D”. Diğer şıklar (A<B<C, A=B>C, A=B=D, A<B>C) yanlış."),
+        Q("24-25", 31, "Kararlı plazma konsantrasyonuna erişme süresi hangisine bağlıdır?", "c) Yarılanma ömrü (t½)",
+          "Doz PDF'i slayt 13: kararlı duruma erişme hızı eliminasyon hız sabitesine, yani t½'ye bağlıdır. Soru Farmakoloji F04'te sayılır.", ref=True),
     ],
 )
