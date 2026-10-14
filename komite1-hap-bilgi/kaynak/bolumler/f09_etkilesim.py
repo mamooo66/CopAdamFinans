@@ -120,8 +120,7 @@ BOLUM = dict(
             ]),
             C("Antagonizma türleri (slayt)", [
                 B("**Kimyasal antagonizma**.", y="25-26 23-24"),
-                B("**Fizyolojik antagonizma**: **ayrı reseptör** mekanizması ile **zıt yönde** etkilidir.", y="25-26 21-22",
-                  tuzak="“Farklı bir reseptöre bağlanarak başka bir ilacın etkisine zıt yönde etki oluşturan ilaçtır” → DOĞRU (S42 şıkkı; yanlış olan başka şık)"),
+                B("**Fizyolojik antagonizma**: **ayrı reseptör** mekanizması ile **zıt yönde** etkilidir.", y="25-26 21-22"),
                 B("**Farmakolojik antagonizma**: iki ilaç **aynı reseptöre** bağlanır.", y="24-25 22-23"),
             ]),
         ],
