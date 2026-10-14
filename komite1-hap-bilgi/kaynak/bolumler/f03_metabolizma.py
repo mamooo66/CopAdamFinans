@@ -117,7 +117,9 @@ BOLUM = dict(
                 B("**CYP1A2**: antidepresanlar (imipramin, klomipramin), **ksantinler (kafein, teofilin)**, polisiklik aromatik hidrokarbonlar, parasetamol, propranolol, varfarin.", y="23-24 24-25 25-26"),
                 B("**CYP2C9**: **fenitoin**, fluvastatin, lozartan, irbesartan, oral antidiyabetikler (glipizid, glibenklamid, tolbutamid), **NSAİ analjezikler** (diklofenak, flurbiprofen, ibuprofen, indometasin, naproksen, piroksikam), varfarin.", y="24-25 25-26"),
                 B("**CYP2C19**: antidepresanlar (amitriptilin, imipramin, klomipramin), **diazepam**, **proton pompası inhibitörleri** (lansoprazol, omeprazol), propranolol.", y="23-24 25-26"),
-                B("**CYP2D6**: trisiklik antiaritmikler (meksiletin, propafenon), antidepresanlar (amitriptilin, fluoksetin, fluvoksamin, imipramin, klomipramin, maprotilin, trazodon, venlafaksin), **beta-blokörler** (metoprolol, propranolol, timolol), nöroleptikler (haloperidol, tioridazin), **opioid analjezikler** (dekstrometorfan, kodein, tramadol), nikotin.", y="23-24 24-25"),
+                B("**CYP2D6**: trisiklik antiaritmikler (meksiletin, propafenon); **beta-blokörler** (metoprolol, propranolol, timolol); nikotin.", y="23-24 24-25"),
+                B("Antidepresanlar: amitriptilin, fluoksetin, fluvoksamin, imipramin, klomipramin, maprotilin, trazodon, venlafaksin.", lvl=1),
+                B("**Nöroleptikler** (haloperidol, tioridazin); **opioid analjezikler** (dekstrometorfan, kodein, tramadol).", lvl=1),
             ]),
         ],
         [
@@ -156,7 +158,8 @@ BOLUM = dict(
             ]),
             C("3. Kopma (I) — hidroliz", [
                 B("**Kopma**: ya ilaç molekülünden **bir grubun koparılması** ya da molekülü oluşturan **daha ufak moleküllere ayrılması** şeklinde olur."),
-                B("**Hidroliz**: **esterazlar** (asetilkolin esteraz, psödokolin esteraz: asetilkolin, süksinilkolin, prokain, aspirin...), **peptidazlar** (proinsülin) ya da **amidazlar** (prokainamid, indometazin, lidokain) tarafından yapılır."),
+                B("**Hidroliz**: **esterazlar**, **peptidazlar** (proinsülin) ya da **amidazlar** (prokainamid, indometazin, lidokain) tarafından yapılır."),
+                B("Esterazlar: **asetilkolin esteraz, psödokolin esteraz** (asetilkolin, süksinilkolin, prokain, aspirin...).", lvl=1),
             ]),
             C("3. Kopma (II) — dekarboksilasyon ve diğerleri", [
                 B("**Dekarboksillenme**: çeşitli **dekarboksilaz** enzimlerin yardımıyla (5-hidroksitriptofan, histidin, **L-Dopa**...)."),
@@ -173,7 +176,8 @@ BOLUM = dict(
             C("1. Glukuronik asidle birleşme", [
                 B("**UDP-glukuronil transferaz** ile yapılır; **mikrozomal** bir enzimdir (kloramfenikol, salisilik asid, morfin...)."),
                 B("Glukuronatlar genellikle **inaktiftir**; kısmen **böbreklerden**, kısmen **karaciğer hücreleri tarafından safra içine** itrah edilir."),
-                B("**Enterohepatik siklus**: safra ile barsağa gelen konjugatlar barsak lümenindeki **beta-glukuronidaz** ile hidroliz edilir; serbest ilaç absorbe edilip **portal dolaşımla KC hücrelerine** erişir. Bu olay **ilaç etkisini önemli ölçüde uzatır**."),
+                B("**Enterohepatik siklus**: safra ile barsağa gelen konjugatlar barsak lümenindeki **beta-glukuronidaz** ile hidroliz edilir; serbest ilaç absorbe edilip **portal dolaşımla KC hücrelerine** erişir."),
+                B("Bu olay **ilaç etkisini önemli ölçüde uzatır**.", lvl=1),
             ]),
             C("Enterohepatik siklus (slayttaki şema)", [
                 B("**Karaciğer** (glukuronid konjugasyonu) → **safra** (konjugat itrahı) → **barsak lümeni** (β-glukuronidaz ile hidroliz) → **serbest ilaç** → **portal dolaşım**."),

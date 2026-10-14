@@ -20,7 +20,8 @@ BOLUM = dict(
             ]),
             C("Antimikrobik spektrum", [
                 B("**Gram (+)**: A grubu β-hemolitik streptokoklar, Strep. pneumoniae, Bacillus anthracis’in bazı suşları."),
-                B("**Diğerleri**: H. influenzae, H. ducreyi, Brucella, Pseudomonas pseudomallei, Vibrio cholerae, Corynebacterium diphtheriae, Yersinia pestis, Calymmatobacterium granulomatis, Actinomyces, Nocardia, **Plasmodium, Toxoplasma**, bazı Enterobacteriaceae."),
+                B("**Diğerleri**: H. influenzae, H. ducreyi, Brucella, Pseudomonas pseudomallei, Vibrio cholerae, Corynebacterium diphtheriae, Yersinia pestis, Calymmatobacterium granulomatis."),
+                B("Ayrıca: Actinomyces, Nocardia, **Plasmodium, Toxoplasma**, bazı Enterobacteriaceae."),
             ]),
             C("Farmakokinetik", [
                 B("Mide-barsak kanalından **iyi absorbe** edilir; plazma proteinlerine **%20-80** bağlanır."),
@@ -91,7 +92,8 @@ BOLUM = dict(
                 B("**E. coli ve diğer enterobakterlerin** yaptığı yukarı ve aşağı **İYE’de ilk tercih** edilecek ilaçlardan biri."),
                 B("**Akut sistit** (tek doz forte tb); **kronik rekürren İYE ve piyelonefrit**; **akut ve kronik bakteriyel prostatit**te güçlü etkinlik."),
                 B("**Ürojenital gonore**: hasta penisiline alerjik veya penisilinaz salgılayan gonokok ise penisilin yerine."),
-                B("**Solunum**: duyarlı bakterilerce oluşan **alt solunum yolu hastane dışı infeksiyonları** (S. pneumoniae, H. influenzae); **akut bronşit**, **kronik bronşitlerin önlenmesi**; **akut otitis media ve sinüzit**."),
+                B("**Alt solunum yolu hastane dışı infeksiyonları** (S. pneumoniae, H. influenzae gibi); **akut bronşit**, **kronik bronşitlerin önlenmesi**."),
+                B("**Üst solunum yolu**: akut otitis media ve sinüzitte kullanılabilir."),
             ]),
             C("GİS infeksiyonları ve diğerleri", [
                 B("**Shigella etkenli enterit**te **florokinolonların alternatifi**.", y="24-25"),
@@ -105,7 +107,7 @@ BOLUM = dict(
         [
             C("Ko-trimaksazol — yan tesirler", [
                 B("**Trimetoprim**e bağlı en sık: **kaşıntı, ciltte makülopapüler / morbiliform döküntü**; nadiren Kİ depresyonu."),
-                B("İlacın memeli hücrelerindeki **dihidrofolat redüktaza afinitesi bakterininkine göre çok düşük** olmasına rağmen **uzun süreli kullanımda folik asid eksikliği** → **megaloblastik anemi**."),
+                B("Memeli hücresindeki **dihidrofolat redüktaza afinitesi bakterininkine göre çok düşük** olsa da **uzun süreli kullanımda folik asid eksikliği** → **megaloblastik anemi**."),
                 B("Bu nedenle **uzun sürecek tedavilerde mutlaka folik asid verilmeli**."),
             ]),
             C("Kontrendikasyonlar", [
@@ -121,7 +123,7 @@ BOLUM = dict(
           "Sülfonamidler **dihidropteroat sentetaz** için PABA ile yarışır. B, C (BOS hariç), D (kristalüri), E (sulfizoksazol en çok tercih edilen) doğru."),
         Q("24-25", 37, "Sülfonamidler için YANLIŞ olan hangisidir?",
           "B) İdrar yollarında çökme yapmazlar",
-          "İdrar yollarında **çökme** (kristalüri) yan etkidir. Doğru: ko-trimaksazol kombinasyonu, streptokokal farenjit/tonsillitte kontrendike, depo → Stevens-Johnson, Shigella’da FQ alternatifi."),
+          "İdrar yollarında **çökme** yan etkidir. Doğru: ko-trimaksazol kombinasyonu, strep. farenjit/tonsillitte kontrendike, depo → Stevens-Johnson, Shigella’da FQ alternatifi."),
         Q("23-24", 22, "Yanık tedavisinde yaygın kullanılan sülfonamid hangisidir?",
           "C) Gümüş sulfadiazin",
           "Sulfasetamid → konjunktivit; sulfasalazin → ülseratif kolit/RA; sulfizoksazol → sistemik ve üriner infeksiyon; sülfametaksazol → ko-trimaksazol bileşeni."),

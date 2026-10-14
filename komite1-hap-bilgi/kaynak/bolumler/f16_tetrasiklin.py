@@ -98,7 +98,8 @@ BOLUM = dict(
         ],
         [
             C("Yan etkiler — GİS, diş-kemik", [
-                B("**1. GİS**: bulantı, kusma, anoreksi, ishal sık. Birkaç günlük tedaviden sonra barsakta **Candida** cinsi mantarlar hakim olur; flora bozukluğuna bağlı ishal, **C. difficile** psödomembranöz koliti."),
+                B("**1. GİS**: bulantı, kusma, anoreksi, ishal sık."),
+                B("Birkaç günlük tedaviden sonra barsakta **Candida** hakim olur; flora bozukluğuna bağlı ishal, **C. difficile** psödomembranöz koliti.", lvl=1),
                 B("**2. Diş ve kemik**: kalsiyuma bağlanarak **kahverengi lekelenme**; gebelikte fetal diş/kemikte renk değişikliği, gelişme bozukluğu, **kemik deformiteleri**."),
                 B("**Gebelere 4. aydan sonra verilmemeli.**", lvl=1),
                 B("**Bebek ve 12 yaş altı çocuklarda kontendikedir**: mine ve dentinde hipoplazi, kalıcı dişlerde gelişme bozukluğu.", lvl=1),
@@ -121,7 +122,7 @@ BOLUM = dict(
             ]),
             C("SSS ve diğer", [
                 B("**8. SSS**: **minosiklin** lipid çözünür olduğundan SSS’ne penetre olur; en sık **vestibüler toksisiteye bağlı vertigo** (baş dönmesi, bulantı, denge bozukluğu, kulak çınlaması)."),
-                B("**9. Beyin psödotümörü**: tetrasiklin alan **yenidoğan ve bebeklerde** fontanellerde şişme ve papilla ödemi ile **beyin tümörünü taklit eden reversibl sendrom** (pseudotümör serebri); kafa içi basınç artışına bağlı.", y="24-25"),
+                B("**9. Beyin psödotümörü**: **yenidoğan ve bebeklerde** fontanellerde şişme, papilla ödemi; **beyin tümörünü taklit eden reversibl sendrom** (pseudotümör serebri), kafa içi basınç artışına bağlı.", y="24-25"),
                 B("Beyin psödotümörü yapan diğer ilaçlar: **nalidiksik asit ve amiodaron**.", lvl=1),
                 B("**10. Gebelerde**: fötusla ilgili toksik tesirlerin yanı sıra **katabolik asidoz**."),
             ]),
@@ -194,7 +195,8 @@ BOLUM = dict(
                 B("**1) Kemik iliği depresyonu**"),
                 B("**2) GİS bozuklukları**"),
                 B("**3) Alerjik** cilt döküntüleri, ürtiker, anjiyoödem."),
-                B("**4) Gri sendrom**: prematüre ve yenidoğanda kloramfenikol **konjügasyonla yeterince metabolize edilemez**, kan düzeyi çok yükselir → **akut solunum ve dolaşım depresyonu, hipotermi, kas gevşemesi, karında distansiyon, metabolik asidoz, ciltte gri renk**."),
+                B("**4) Gri sendrom**: prematüre ve yenidoğanda kloramfenikol **konjügasyonla yeterince metabolize edilemez**, kan düzeyi çok yükselir."),
+                B("Tablo: **akut solunum ve dolaşım depresyonu, hipotermi, kas gevşemesi, karında distansiyon, metabolik asidoz, ciltte gri renk**.", lvl=1),
                 B("Gri sendrom, ilacı **aşırı dozda alan erişkinlerde** de ortaya çıkabilir.", lvl=1),
                 B("**5) Herxheimer reaksiyonu**: yüksek doz kloramfenikolle **öldürülen tifo basillerinin toksinleriyle** oluşan **dolaşım kollapsı**; tedavisinde **sistemik glukokortikoidler** kullanılabilir."),
                 B("**6) Nörotoksik**: başağrısı, ruhsal depresyon, deliryum, konfüzyon; nadiren **periferik nörit, optik nöropati**."),
