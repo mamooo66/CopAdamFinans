@@ -10,14 +10,13 @@ _KESIK = " · (PDF metni kesik; doğrulanamadı)"
 BOLUM = dict(
     key="inflamasyon", baslik="Akut ve Kronik İnflamasyon",
     hoca="Doç. Dr. Selma Erdoğan Düzcü", tarih="22-24 Eylül", saat="5 saat",
+    eksik='PDF 11,7 MB: Drive yalnızca **ilk 79-80 slaytın** metnini verebildi (araşidonik asit / siklooksijenaz yolunda kesiliyor). Sonraki kısım — **kronik inflamasyon** dahil — bu bölümde **yok**; PDF küçültülüp yüklenince eklenecek.',
     kaynak="3-AKUT VE KRONİK İNFLAMASYON · Doç. Dr. S. E. Düzcü · 2026",
     ozet=["Son 5 yılda bu dersten **10 resmi + 1 hatırlanan soru**: akut tarafta **hücresel olaylar** (selektin, hücre içi öldürme), "
           "**TLR / inflammazom**, akut faz sitokinleri, morfolojik paternler; kronik tarafta **granülom, dev hücre, kronik iltihap hücreleri**.",
           "Tuzaklar: **selektin = gevşek yapışma + yuvarlanma** (sıkı adezyon = integrin) · **marjinasyon = duvara (periferiye) yaklaşma** · "
           "**CD31 = transmigrasyon** (kemotaksis değil) · **ROT / NO / granül enzimleri = hücre içi öldürme** · "
-          "**inflammazom = DAMP, sitozol** (TLR = PAMP) · **histamin hücre kökenli**, **TXA₂ vazokonstriktör**.",
-          "**Eksik kısım:** PDF metni 79. slaytta (siklooksijenaz yolu) kesildi; diğer mediatörler, morfolojik paternler ve kronik "
-          "inflamasyon bu modülde yok. Bu bölümlerin sorularında “PDF metni kesik” notu vardır."],
+          "**inflammazom = DAMP, sitozol** (TLR = PAMP) · **histamin hücre kökenli**, **TXA₂ vazokonstriktör**."],
     slaytlar=[
         # ---------------------------------------------------------------- 1
         [

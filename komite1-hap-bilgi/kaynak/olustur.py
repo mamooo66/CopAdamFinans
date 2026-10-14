@@ -240,6 +240,9 @@ def kullanim(sayfa):
     ders_li = "".join(
         f"<li><b>{d}</b>: {len(ders_bolumleri(d))} ders — Drive › Komite-1 › PDF › {d} › 2026-2027(yeni)</li>" for d in ds)
     bekleyen_n = sum(n for d in ds for _, n in bekleyen(d))
+    eksikler = [b for b in BOLUMLER if b.get("eksik")]
+    eksik_li = (f"<li>⚠ PDF'i kısmen okunabilen dersler: {', '.join(b['kod'] for b in eksikler)} — eksik kısım ayraç slaytında yazıyor.</li>"
+                if eksikler else "")
     kaynak_li = "".join(
         f"<li><b>{y}</b> {html.escape(k)} — "
         + " · ".join(f"{d.lower()} {p if d == 'Patoloji' else f}" for d in ds) + "</li>"
@@ -253,6 +256,7 @@ def kullanim(sayfa):
           {ders_li}
           <li>Çıkmış sorunun cevabı 2026-27 PDF'inde yoksa soru yine gösterilir ve <b>“(PDF'te geçmiyor)”</b> diye işaretlenir.</li>
           <li>PDF'i henüz yüklenmemiş dersler desteye konmadı; çıkmışları hazır bekliyor ({bekleyen_n} soru).</li>
+          {eksik_li}
         </ul></div>
         <div class="kart"><h3>Slayt düzeni</h3><ul>
           <li>Her ders kendi bölümünde: <b>ders ayracı</b> → <b>soru dağılımı</b> → <b>en çok çıkanlar</b> → dersler.</li>
@@ -421,6 +425,7 @@ def ayrac(b, sayfa):
     cipler = "".join(f'<span class="dv-cip">{md(x)}</span>' for x in basliklar)
     sayi = (f'<div class="dv-n"><b>{t}</b><span>çıkmış soru<br>son 5 yılda</span></div>' if t
             else '<div class="dv-n sifir"><b>0</b><span>son 5 yılda<br>doğrudan soru yok</span></div>')
+    eksik = f'<div class="dv-eksik">⚠ {md(b["eksik"])}</div>' if b.get("eksik") else ""
     ic = f'''
     <div class="dv-bg">{b["kod"][1:]}</div>
     <div class="dv-ust">{buyuk(b["ders"])} · BÖLÜM {b["sira"]} / {b["ders_toplam"]} <span class="yeni">2026-27 PDF</span></div>
@@ -428,6 +433,7 @@ def ayrac(b, sayfa):
     <div class="dv-meta">{html.escape(b["hoca"])} · 2026: {html.escape(b["tarih"])}{saat}</div>
     <div class="dv-istat">{sayi}<div class="dv-yillar">{yil_cipleri(c)}</div></div>
     <div class="dv-ozet"><h4>Bu başlıkta öne çıkanlar</h4><ul>{ozet}</ul></div>
+    {eksik}
     <div class="dv-icerik"><h4>Bu bölümde</h4><div class="dv-cipler">{cipler}</div></div>
     <div class="dv-kaynak">Kaynak: {html.escape(b["kaynak"])}<span class="pg">{sayfa} / @@TOPLAM@@</span></div>'''
     return slayt(ic, f"ayrac {SINIF[b['ders']]}", b["kod"])

@@ -7,6 +7,7 @@ from yardim import B, C, Q  # noqa: F401
 BOLUM = dict(
     key="iyilesme", baslik="İyileşme, Tamir ve Onarım",
     hoca="Doç. Dr. Selma Erdoğan Düzcü", tarih="29 Eylül", saat="2 saat",
+    eksik='PDF 14,6 MB: Drive yalnızca **ilk 80 slaytın** metnini verebildi (yara iyileşmesini etkileyen faktörlerde bitiyor). 80. slayttan sonrası bu bölümde **yok**; PDF küçültülüp yüklenince eklenecek.',
     kaynak="4-İYİLEŞME, TAMİR VE ONARIM · Doç. Dr. S. E. Düzcü · 2026-27",
     ozet=["**Granülasyon dokusu** en çok sorulan konu (25-26, 22-23, 21-22*): **3-5. gün**, kabuk altında **yumuşak-pembe-granüllü**; "
           "mikroskopide **fibroblast + makrofaj ağırlıklı iltihap hücresi + yeni kapillerli gevşek ECM**.",
