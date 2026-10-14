@@ -50,8 +50,9 @@ BOLUM = dict(
         # 3 — göz
         [
             C("Göze uygulama", [
-                B("Göze uygulanan ilaçlar: **kolir**, oftalmik (oküler) preparatlar.", y="22-23", tuzak="Göze uygulanan preparat ovül / ampul / flakon / apirojen adını alır → YANLIŞ"),
-                B("Gözde amaçlar: **göz içi basıncını düşürmek**; **miyozis veya midriyazis** gibi etkiler; diğer lokal etkiler (antibakteriyel, antienflamatuar); **göz kuruluğunda nemlendirmek**; göz ameliyatlarında kan ve dokuları uzaklaştırmak (göz banyoları, yıkama çözeltileri)."),
+                B("Göze uygulanan ilaçlar: **kolir**, oftalmik (oküler) preparatlar.", y="22-23", tuzak="“Göze uygulanan preparat ovül / ampul / flakon / apirojen adını alır” → YANLIŞ"),
+                B("Gözde amaçlar: **göz içi basıncını düşürmek**; **miyozis veya midriyazis** gibi etkiler; **göz kuruluğunda nemlendirmek**."),
+                B("Diğer lokal etkiler (antibakteriyel, antienflamatuar); göz ameliyatlarında kan ve dokuları uzaklaştırmak (göz banyoları, yıkama çözeltileri)."),
                 B("Göze uygulanan ilaçlar **steril** olmalıdır; ameliyatlarda kullanılan göz banyoları ve yıkama çözeltileri **koruyucu içermemeli, steril ve apirojen** olmalıdır.", y="22-23"),
                 B("Şekiller: çözeltiler (sulu veya yağlı), **süspansiyonlar (göz damlası)**, merhemler, kremler ve **göz kapağının içine yerleştirilen oküler insert**."),
                 B("Başlıca **lokal etki** için uygulanır; oküler yolla **sistemik etki** de elde etmek mümkündür."),
@@ -67,7 +68,7 @@ BOLUM = dict(
         # 4 — intranazal, kulak, ağız, mide-barsak
         [
             C("İntranazal uygulama", [
-                B("**Dekonjestan, antihistaminik, kortikosteroidler** lokal etki amacıyla **damla veya sprey** şeklinde uygulanabilir.", y="21-22", tuzak="İntranazal yol enteral bir yoldur → YANLIŞ"),
+                B("**Dekonjestan, antihistaminik, kortikosteroidler** lokal etki amacıyla **damla veya sprey** şeklinde uygulanabilir.", y="21-22", tuzak="“İntranazal yol enteral bir yoldur” → YANLIŞ"),
                 B("Burun mukozası ilaçlara **son derece geçirgendir**; uygulamadan sonra ilaç **ilk geçiş etkisine uğramaz**."),
                 B("**Vazopresin, kalsitonin, oksitosin** ve türevleri **sistemik etki** için sprey şeklinde buruna uygulanabilir."),
                 B("**Yağlı solüsyonlar** intranazal uygulanmamalı: alt solunum yollarına aspire edilip **lipid pnömonisi** yapar (özellikle bebeklerde)."),
@@ -126,7 +127,7 @@ BOLUM = dict(
         # 7 — parenteral genel
         [
             C("Parenteral uygulama — yollar", [
-                B("**İntravenöz (i.v.)** · **intramüsküler (i.m.)** · **subkütan (s.c.)** · **kemik iliği içine** · **intraarteriyel (i.a.)** enjeksiyon.", y="24-25", tuzak="Enteral yol da parenteral veriliş yoludur → YANLIŞ"),
+                B("**İntravenöz (i.v.)** · **intramüsküler (i.m.)** · **subkütan (s.c.)** · **kemik iliği içine** · **intraarteriyel (i.a.)** enjeksiyon.", y="24-25", tuzak="“Enteral yol da parenteral veriliş yoludur” → YANLIŞ"),
                 B("Parenteral = ilaçların **enjeksiyon yolu** ile uygulanması."),
             ]),
             C("Parenteral — ne zaman?", [
@@ -146,8 +147,8 @@ BOLUM = dict(
         [
             C("İntravenöz (i.v.) enjeksiyon", [
                 B("İlacın **enjektör aracılığı ile doğrudan periferik bir vene** uygulanması."),
-                B("**Biyoyararlanımı %100'dür.**", y="22-23 25-26", tuzak="Oral (rektal, intravajinal, intrakardiyak) yolda biyoyararlanım %100 kabul edilir → YANLIŞ"),
-                B("Uygulama hızı ayarlanabilir, kandaki ilaç düzeyine göre değiştirilebilir; **bolus enjeksiyonda hemen cevap** alınır.", y="25-26", tuzak="Oral yolda en hızlı etki başlangıcı sağlanır → YANLIŞ"),
+                B("**Biyoyararlanımı %100'dür.**", y="22-23 25-26", tuzak="“Oral (rektal, intravajinal, intrakardiyak) yolda biyoyararlanım %100 kabul edilir” → YANLIŞ"),
+                B("Uygulama hızı ayarlanabilir, kandaki ilaç düzeyine göre değiştirilebilir; **bolus enjeksiyonda hemen cevap** alınır.", y="25-26", tuzak="“Oral yolda en hızlı etki başlangıcı sağlanır” → YANLIŞ"),
             ]),
             C("Şu durumlarda i.v. yol seçilir", [
                 B("**Acil etki** istendiğinde."),
@@ -199,7 +200,8 @@ BOLUM = dict(
                 B("Lokal anestezik + vazokonstriktör: bölgede kalma süresi artar, etki uzar, **sistemik etki azalır**."),
             ]),
             C("İntraarteriyel (i.a.) ve kemik iliği içine enjeksiyon", [
-                B("**İ.a.** (özel durumlarda): anjiyografi gibi radyolojik muayeneler için **radyoopak madde**; kanser kemoterapisinde **tümör bulunan organa giden artere** — diğer dokulardaki istenmeyen etkiler en aza iner."),
+                B("**İ.a.** (özel durumlarda): anjiyografi gibi radyolojik muayeneler için **radyoopak madde**."),
+                B("Kanser kemoterapisinde **tümör bulunan organa giden artere** uygulanır → diğer dokulardaki istenmeyen etkiler en aza iner."),
                 B("**Kemik iliği içine**: bebeklerde, bazen yetişkinlerde **damar bulunamazsa** uygun kemik iliği (**sternum**) içine; ilaç buradan hızla kana geçer. **Çok nadir** başvurulur."),
             ]),
         ],
@@ -207,7 +209,7 @@ BOLUM = dict(
         [
             C("Enteral uygulama", [
                 B("İlacın **sindirim kanalına (mide-bağırsak)** uygulanması ve buradan **absorbsiyona bırakılması**; en çok kullanılan **oral** uygulamadır."),
-                B("Yollar: **oral (per oral, p.o.)** · **sublingual ve bukkal** · **rektal**.", y="21-22 24-25", tuzak="İntranazal yol enteraldir → YANLIŞ"),
+                B("Yollar: **oral (per oral, p.o.)** · **sublingual ve bukkal** · **rektal**.", y="21-22 24-25", tuzak="“İntranazal yol enteraldir” → YANLIŞ"),
             ]),
             C("Oral uygulama (p.o.)", [
                 B("İlacın **ağızdan yutularak** alınması; **kolay, ekonomik ve düzenli** olduğundan **en sık kullanılan** yöntemdir.", y="25-26"),
@@ -217,8 +219,8 @@ BOLUM = dict(
             ]),
             C("Oral yolun sınırları", [
                 B("Fizikokimyasal özellikleri nedeniyle **absorbe edilemeyen** veya GİS'te **yıkılan** ilaçlar için tercih edilmez."),
-                B("**Bulantı-kusma** şikâyeti olan veya **bilinci yerinde olmayan** hastalara uygulanmaz.", y="25-26", tuzak="Oral yol bilinci kapalı hastalarda güvenle uygulanabilir → YANLIŞ"),
-                B("Oral uygulamada en büyük sorun **biyoyararlanımdır**; absorpsiyonda hem fizyolojik hem ilaçla ilgili birçok faktör rol oynar.", y="25-26", tuzak="Oral yolun biyoyararlanımı daima %100'dür → YANLIŞ"),
+                B("**Bulantı-kusma** şikâyeti olan veya **bilinci yerinde olmayan** hastalara uygulanmaz.", y="25-26", tuzak="“Oral yol bilinci kapalı hastalarda güvenle uygulanabilir” → YANLIŞ"),
+                B("Oral uygulamada en büyük sorun **biyoyararlanımdır**; absorpsiyonda hem fizyolojik hem ilaçla ilgili birçok faktör rol oynar.", y="25-26", tuzak="“Oral yolun biyoyararlanımı daima %100'dür” → YANLIŞ"),
                 B("Oral şekiller: **tablet, kapsül, draje, enterik kaplı tablet, çiğneme tableti, granül, şase, şurup**."),
             ]),
         ],
@@ -307,7 +309,8 @@ BOLUM = dict(
             ]),
             C("İnhaler kapsül", [
                 B("Kapsül + taşıyıcı madde (**laktoz**) + **kortikosteroid** veya **bronkodilatör** ilaç içeren formlar."),
-                B("Kullanım: kapak açılır → kapsül yuvaya yerleştirilip kapatılır → yan **düğmelere bir kez basılıp bırakılır (kapsül kırılır)** → ağızlık ağza konup **hızla derin nefes** alınır; **vızıldama sesi** duyulmalıdır."),
+                B("Kullanım: kapak açılır → kapsül yuvaya yerleştirilip kapatılır → yan **düğmelere bir kez basılıp bırakılır (kapsül kırılır)**."),
+                B("Ağızlık ağza konup **hızla derin nefes** alınır; **vızıldama sesi** duyulmalıdır."),
             ]),
             C("Nebülizasyon tedavisi (slayttaki maddeler)", [
                 B("Mavi sütun: **minimum kooperasyon** · orofarenkste biriken ilaç miktarı **çok az** · ilaç uzun dönemde dağılır · **güçlü plasebo etki**."),

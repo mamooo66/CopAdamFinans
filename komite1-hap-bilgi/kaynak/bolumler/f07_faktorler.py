@@ -121,7 +121,8 @@ BOLUM = dict(
                 B("**K vitamini içeren yeşil sebzeler (brokoli, ıspanak)** ve **oral antikoagülanlar (varfarin)**."),
             ]),
             C("8. Genetik faktörler", [
-                B("**Genetik polimorfizm** eliminasyon hızını, ilaç reseptörlerinin, transport proteinlerinin ve diğer hedef yapıların niteliğini/niceliğini değiştirir → etki **bireyler, etnik gruplar ve ırklar arasında** değişir."),
+                B("**Genetik polimorfizm** eliminasyon hızını, ilaç reseptörlerinin, transport proteinlerinin ve diğer hedef yapıların niteliğini/niceliğini değiştirir."),
+                B("Sonuç: ilaç etkisi **bireyler, etnik gruplar ve ırklar arasında** değişkenlik gösterir."),
             ]),
         ],
         # 7

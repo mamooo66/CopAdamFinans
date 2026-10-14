@@ -221,7 +221,8 @@ BOLUM = dict(
         [
             C("Fizyolojik ve kimyasal antagonizma", [
                 B("**Fizyolojik antagonist**: **farklı reseptörlere** bağlanarak **zıt fizyolojik etkiler**. Örn. adrenalin → β₂ → bronkodilatasyon; asetilkolin → M₃ → bronkokonstriksiyon."),
-                B("**Kimyasal antagonist**: başka ilaç/maddeyle **doğrudan etkileşip** etkisini nötralize eder. Örn. **protamin → heparini nötralize eder**; EDTA → metal iyonlarını bağlar; dimerkaprol → ağır metalleri bağlar."),
+                B("**Kimyasal antagonist**: başka ilaç/maddeyle **doğrudan etkileşip** etkisini nötralize eder. Örn. **protamin → heparini nötralize eder**."),
+                B("Diğer kimyasal antagonist örnekleri: **EDTA** → metal iyonlarını bağlar; **dimerkaprol** → ağır metalleri bağlar.", lvl=1),
             ]),
             C("İlaç etkileşimleri — sınıflama", [
                 B("**Farmakodinamik**: sinerjizma, antagonizma."),
