@@ -2,6 +2,7 @@
 // Kullanım: node pdf.cjs [--html slaytlar.html] [--pdf çıktı.pdf] [--olc]
 //   --olc : PDF basmadan yalnızca her slaytın sığan yazı boyutunu ve taşmayı raporlar.
 const path = require('path');
+const { pathToFileURL } = require('url');
 const { chromium } = require('playwright');
 
 function arg(ad) {
@@ -16,7 +17,7 @@ function arg(ad) {
   const sadeceOlc = process.argv.includes('--olc');
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });
-  await page.goto('file://' + html, { waitUntil: 'load' });
+  await page.goto(pathToFileURL(html).href, { waitUntil: 'load' });
   await page.waitForFunction(() => window.__hazir === true, null, { timeout: 60000 });
   await page.emulateMedia({ media: 'print' });
   const rapor = await page.evaluate(() => window.__sigdir());

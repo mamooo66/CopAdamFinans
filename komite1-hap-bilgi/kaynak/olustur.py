@@ -13,6 +13,7 @@ Dağılım ve en çok çıkanlar sayfaları ancak gösterecek veri varsa eklenir
 import html
 import math
 import os
+import pathlib
 import re
 import sys
 
@@ -531,6 +532,8 @@ def olustur(secili=None, hedef=None):
 
     with open(os.path.join(BURASI, "stil.css"), encoding="utf-8") as f:
         css = f.read()
+    # Yazı tipleri mutlak adresle: --cikti başka klasöre yazsa da Inter yüklenir ve sığma ölçümü aynı kalır.
+    css = css.replace('url("fontlar/', 'url("' + pathlib.Path(BURASI, "fontlar").as_uri() + "/")
     with open(os.path.join(BURASI, "sigdir.js"), encoding="utf-8") as f:
         js = f.read()
     sayfa_html = (f'<!doctype html><html lang="tr"><head><meta charset="utf-8">'
@@ -549,4 +552,10 @@ if __name__ == "__main__":
     ap.add_argument("--sadece", help="virgülle modül adları (ör. p02_hasar,f01_giris)")
     ap.add_argument("--cikti", help="HTML çıktı yolu (varsayılan kaynak/slaytlar.html)")
     a = ap.parse_args()
-    olustur(a.sadece.split(",") if a.sadece else None, a.cikti)
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    secili = a.sadece.split(",") if a.sadece else None
+    bilinmeyen = [m for m in secili or [] if not os.path.exists(os.path.join(BURASI, "bolumler", m + ".py"))]
+    if bilinmeyen:
+        sys.exit(f"bolumler/ altında yok: {', '.join(bilinmeyen)} (modülün DOSYA adını ver, ör. p04_inflamasyon)")
+    olustur(secili, a.cikti)
