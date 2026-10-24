@@ -33,9 +33,10 @@ def bas(k, olc=False):
     r = subprocess.run(komut, capture_output=True, text=True, encoding="utf-8")
     satirlar = r.stdout.strip().splitlines()
     for x in satirlar:
-        if "<<<" in x:
+        if "<<<" in x or "sığıyor" in x or "sorun var" in x or x.startswith("PDF:"):
             print("   ", x)
-    print("   ", satirlar[-1] if satirlar else r.stderr[-800:])
+    if not satirlar:
+        print("   ", r.stderr[-800:])
     if r.returncode:
         sys.exit(r.returncode)
 

@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """Son 5 yılın (2021-22 → 2025-26) Kurul 1 PATOLOJİ çıkmış soruları — konu konu, cevaplı.
 
-Yalnızca çıkmış soru kitapçıklarından derlendi. Yalnızca 2026-27 PDF'i HENÜZ YÜKLENMEMİŞ dersler (tümöre karşı konak savunması, tümör büyümesi, dalak,
-immün sistem, infeksiyon patolojisi). Bu konuların hap bilgi slaytları yok:
+Yalnızca çıkmış soru kitapçıklarından derlendi. Yalnızca 2026-27 PDF'i HENÜZ YÜKLENMEMİŞ dersler (dalak, immün sistem, infeksiyon patolojisi). Bu konuların hap bilgi slaytları yok:
 ilgili dersin 2026-27 PDF'i Drive'da okunabilir olunca o PDF'ten yazılıp desteye eklenecek
 (bolumler/pNN_*.py). Desteye girmeden önce her sorunun cevabı/notu o PDF ile karşılaştırılmalı.
 
@@ -12,29 +11,6 @@ Q(yıl, soru_no, kök, cevap, not, n=kaç soruyu temsil ettiği, ref=sayıma gir
 from yardim import Q
 
 BEKLEYEN = {}
-
-# ---------------------------------------------------------------- buyume
-BEKLEYEN['buyume'] = dict(
-    baslik='Tümör Büyümesinin Biyolojisi, Anjiogenez, İnvazyon ve Metastaz',
-    hoca='Prof. Dr. Çetin Boran', tarih='15 Ekim',
-    sorular=[
-        Q('25-26', 80, 'Hangisi doğru DEĞİLDİR?', '“Düşük büyüme fraksiyonuna sahip tümörler antineoplastik ilaç tedavisine daha iyi yanıt verir”', 'Doğrular: apoptoz tümör gelişimini önler · seminoma malign · RB kilit süpresör · anaplazi tanımı'),
-        Q('24-25', 87, 'Anti-VEGF monoklonal antikor verilen hastada tümör büyümesi durdu; en olası neden?', 'Yeni damar oluşumu durmuştur', 'Mutasyon olmaması, karsinojen yokluğu, EGFR aktivasyonu, DNA tamir mutasyonu değil'),
-        Q('22-23', 78, '(Doğru seçenek olarak)', '“Replikatif havuz ne kadar genişse kemoterapötiklerle tümör o kadar hızlı küçülür” ✔', 'Bkz. Bölüm 12 – sorunun yanlış ifadesi E2F', ref=True),
-        Q('21-22', None, 'Hipoksi durumunda uyarılan?', 'HIF-1α', 'Öğrenci hatırlamasından derlenmiş soru'),
-    ],
-)
-
-# ---------------------------------------------------------------- konak
-BEKLEYEN['konak'] = dict(
-    baslik='Tümöre Karşı Konak Savunması, Tümörün Konağa Etkileri, Kanserin Tanısı',
-    hoca='Prof. Dr. Çetin Boran', tarih='13 Ekim',
-    sorular=[
-        Q('25-26', 82, 'Hangisi onkofetal antijendir?', 'AFP', 'MUC-1, CD20, CD8, MHC değil'),
-        Q('23-24', 81, 'Hangisi onkofetal antijendir?', 'CEA', 'CD20, CD30, MUC-1, MHC class II değil'),
-        Q('21-22', None, 'Hangisi paraneoplastik sendrom örneğidir?', 'Cushing sendromu', 'Öğrenci hatırlamasından derlenmiş soru'),
-    ],
-)
 
 # ---------------------------------------------------------------- dalak
 BEKLEYEN['dalak'] = dict(

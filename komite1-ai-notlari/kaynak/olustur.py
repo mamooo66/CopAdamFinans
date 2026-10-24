@@ -450,10 +450,24 @@ def ayrac(b, sayfa):
     t = sum(c.values())
     ozet = "".join(f"<li>{md(o)}</li>" for o in b.get("ozet", []))
     saat = f' · {html.escape(b["saat"])}' if b.get("saat") and b["saat"] != "—" else ""
-    basliklar = [k["baslik"] for kartlar in b["slaytlar"] for k in kartlar]
+    basliklar = []
+    for kartlar in b["slaytlar"]:
+        for k in kartlar:
+            if k["baslik"] not in basliklar:
+                basliklar.append(k["baslik"])
+    # Ayraçta 4 satıra sığacak kadar başlık (≈560 karakter); fazlası "+N başlık daha"
+    secilen, uzunluk = [], 0
+    for x in basliklar:
+        if uzunluk + len(duz(x)) + 6 > 560:
+            break
+        secilen.append(x)
+        uzunluk += len(duz(x)) + 6
+    kalan = len(basliklar) - len(secilen)
+    cipler = "".join(f'<span class="dv-cip">{md(x)}</span>' for x in secilen)
+    if kalan:
+        cipler += f'<span class="dv-cip">+{kalan} başlık daha</span>'
     if b["sorular"]:
-        basliklar.append("Çıkmış sorular")
-    cipler = "".join(f'<span class="dv-cip">{md(x)}</span>' for x in basliklar)
+        cipler += '<span class="dv-cip">Çıkmış sorular</span>'
     sayi = (f'<div class="dv-n"><b>{t}</b><span>çıkmış soru<br>son 5 yılda</span></div>' if t
             else '<div class="dv-n sifir"><b>0</b><span>son 5 yılda<br>doğrudan soru yok</span></div>')
     eksik = f'<div class="dv-eksik">⚠ {md(b["eksik"])}</div>' if b.get("eksik") else ""
