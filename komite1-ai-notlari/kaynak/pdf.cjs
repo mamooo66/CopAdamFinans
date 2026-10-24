@@ -13,7 +13,7 @@ function arg(ad) {
 (async () => {
   const dir = __dirname;
   const html = path.resolve(arg('--html') || path.join(dir, 'slaytlar.html'));
-  const out = path.resolve(arg('--pdf') || path.join(dir, '..', 'Komite1_Patoloji_Farmakoloji_Hap_Bilgi.pdf'));
+  const out = path.resolve(arg('--pdf') || path.join(dir, '..', 'calisma', 'slaytlar.pdf'));
   const sadeceOlc = process.argv.includes('--olc');
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });

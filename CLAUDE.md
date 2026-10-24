@@ -1,11 +1,11 @@
-# Komite 1 Hap Bilgi — devir notu (yeni oturum buradan başlar)
+# Komite 1 AI Notları — devir notu (yeni oturum buradan başlar)
 
 Bu repo BAİBÜ Tıp Dönem III, I. Kurul (Hastalıkların Biyolojik Temeli) için **Patoloji + Farmakoloji hap bilgi slayt
 PDF'i** üretir. Sınav **30 Ekim 2026**. Her ders bir Python modülüdür; modüllerden HTML üretilir, HTML Playwright ile
 16:9 PDF'e basılır. Son 5 yılın (2021-22 → 2025-26) kurul sorularında geçen bilgiler kırmızı **ÇIKMIŞ** rozetiyle
 işaretlidir. Her dersin sonunda o dersin çıkmış soruları yer alır.
 
-**Durum (15 Eki 2026):** `komite1-hap-bilgi/Komite1_Patoloji_Farmakoloji_Hap_Bilgi.pdf` 501 slayttır.
+**Durum (15 Eki 2026):** `komite1-ai-notlari/Komite1_AI_Notlari_<Ders>.pdf` 501 slayttır.
 - Patoloji: 15 ders, 81 soru.
 - Farmakoloji: 19 ders, 83 soru.
 
@@ -30,7 +30,7 @@ Branch `claude/komite-1-patoloji-ozet-0s5dt7`. Kullanıcı istemedikçe PR açma
 - **Resimler:** Araç, metni çıkmayan sayfaları listeler. Bunlardan yalnız sınavlık tablo ya da sınıflama taşıyanlara
   `--resim N --dpi 70` ile bak. Ders başına en çok 3 resim.
 - **Soru bankası:** Bankayı bütün okuma, soruyu kimliğiyle çek:
-  `grep "2024-25 S31\." komite1-hap-bilgi/sorular/farmakoloji_cikmis.md`
+  `grep "2024-25 S31\." komite1-ai-notlari/sorular/farmakoloji_cikmis.md`
 - **Derleme:** Denerken yalnız ilgili modülü derle (`--sadece`). Tam desteyi en sonda bir kez bas.
 - **Alt ajan:** Birden çok ders birlikte gelirse ders başına bir alt ajan açabilirsin (ucuz model, ör. Sonnet). Ajana
   §1 ve §5'i, PDF metin dosyasının yolunu ve o dersin soru kimliklerini ver. Tek ders için ajan açma.
@@ -40,21 +40,21 @@ Branch `claude/komite-1-patoloji-ozet-0s5dt7`. Kullanıcı istemedikçe PR açma
 ```bash
 git clone https://github.com/mamooo66/CopAdamFinans.git && cd CopAdamFinans
 git checkout claude/komite-1-patoloji-ozet-0s5dt7
-cd komite1-hap-bilgi/kaynak
+cd komite1-ai-notlari/kaynak
 npm install && npx playwright install chromium   # PDF basmak için
 pip install pymupdf                               # PDF → metin ve sayfa resmi
 ```
 - **Gerekenler:** git, Python 3.8+, Node 18+.
 - **Windows:** `python3` yerine `python` yaz. Türkçe çıktı bozulursa `set PYTHONUTF8=1`.
-- **Klasörler:** Kullanıcının PDF'leri `komite1-hap-bilgi/pdf/` altına, ara dosyalar `komite1-hap-bilgi/calisma/`
+- **Klasörler:** Kullanıcının PDF'leri `komite1-ai-notlari/pdf/` altına, ara dosyalar `komite1-ai-notlari/calisma/`
   altına gider. İkisi de gitignore'da, commit edilmez.
 - **Drive:** Ders PDF'lerinin Drive'daki yeri: Komite-1 › PDF › Patoloji | Farmakoloji › 2026-2027(yeni) ›
   <hoca klasörü>. Drive bağlayıcısı büyük PDF'te yalnız ilk ~80 sayfanın metnini verir; yerel dosyayı kullan.
 
 ## 4. Dosyalar
 ```
-komite1-hap-bilgi/
-  Komite1_Patoloji_Farmakoloji_Hap_Bilgi.pdf      çıktı (commit edilir)
+komite1-ai-notlari/
+  Komite1_AI_Notlari_<Ders>.pdf      çıktı (commit edilir)
   sorular/patoloji_cikmis.md, farmakoloji_cikmis.md
       son 5 yılın kurul soruları, tam metin
       kimlik: "2025-26 S23" = kitapçıktaki soru no; "2021-22* H3" = kitapçık yok, hatırlanan soru
@@ -110,7 +110,7 @@ BOLUM = dict(
   - PDF'in terimlerini, sayılarını, listelerini, sınıflamalarını ve sırasını koru.
   - Başlık, teşekkür ve kaynak slaytlarını atla.
 
-## 6. Komutlar (`komite1-hap-bilgi/kaynak/` içinden)
+## 6. Komutlar (`komite1-ai-notlari/kaynak/` içinden)
 ```bash
 python3 araclar/pdf_metin.py ../pdf/DERS.pdf --cikti ../calisma/ders.txt           # metin + metinsiz sayfa listesi
 python3 araclar/pdf_metin.py ../pdf/DERS.pdf --sayfa 76- --cikti ../calisma/son.txt  # yalnız bir aralık
@@ -118,14 +118,14 @@ python3 araclar/pdf_metin.py ../pdf/DERS.pdf --resim 12 --dpi 70 --klasor ../cal
 python3 olustur.py --sadece f20_antianemik --cikti ../calisma/t.html && node pdf.cjs --html ../calisma/t.html --olc
 python3 araclar/denetle.py                                    # soru tekrarı, kayıp soru, rozet-soru tutarlılığı
 python3 araclar/sadakat.py f20_antianemik ../calisma/ders.txt # PDF metniyle örtüşmeyen maddeler (uydurma kontrolü)
-python3 olustur.py && node pdf.cjs                            # tam deste → ../Komite1_Patoloji_Farmakoloji_Hap_Bilgi.pdf
-git add -A komite1-hap-bilgi && git commit -m "…" && git push -u origin claude/komite-1-patoloji-ozet-0s5dt7
+python3 olustur.py && node pdf.cjs                            # tam deste → ../Komite1_AI_Notlari_<Ders>.pdf
+git add -A komite1-ai-notlari && git commit -m "…" && git push -u origin claude/komite-1-patoloji-ozet-0s5dt7
 ```
 - `--olc` çıktısı "tüm slaytlar sığıyor (≥13px)" olmalı. "TAŞIYOR" ya da "13px altı" görürsen slaytı böl ya da kısalt.
 - `--sadece` modülün **dosya adını** alır (`f05_uygulama`), `key`'ini değil.
 - `denetle.py` çıktısı "HİÇBİR YERDE YOK: 0" olmalı ve "TEKRAR" satırı çıkmamalı.
 - Ders ekledikten sonra baştaki sayfalara (kapak, içindekiler, dağılım tablosu, ders ayraçları) bak:
-  `python3 araclar/pdf_metin.py ../Komite1_Patoloji_Farmakoloji_Hap_Bilgi.pdf --resim 1-6 --dpi 50 --klasor ../calisma`
+  `python3 araclar/pdf_metin.py ../Komite1_AI_Notlari_<Ders>.pdf --resim 1-6 --dpi 50 --klasor ../calisma`
   Ders sayısı arttıkça içindekiler ve ayraçtaki ders çipleri taşabilir; ayraçlar sığma ölçümüne girmez. Taşma varsa
   `stil.css`'te `.ders-ayrac .dv-cip` ve `.toc` boyutlarını küçült.
 

@@ -5,7 +5,9 @@ istenirse tek tek sayfa resmi basar. PDF'i doğrudan okumak yerine bunu kullan: 
 Kullanım (kaynak/ klasöründen):
   python3 araclar/pdf_metin.py ../pdf/ders.pdf --cikti ../calisma/ders.txt
   python3 araclar/pdf_metin.py ../pdf/ders.pdf --sayfa 76- --cikti ../calisma/ders_son.txt   (yalnız 76. sayfadan sonrası)
-  python3 araclar/pdf_metin.py ../pdf/ders.pdf --resim 12,20-22 --dpi 70 --klasor ../calisma  (sayfa PNG'leri)
+  python3 araclar/pdf_metin.py ../pdf/ders.pdf --resim 12,20-22 --dpi 90 --klasor ../calisma  (sayfa PNG'leri)
+  python3 araclar/pdf_metin.py ../pdf/ders.pdf --pano 1- --klasor ../calisma   (9'ar sayfalık küçük önizleme panoları:
+      hangi resim sayfasında okunacak yazı/tablo/şema var, hangisi yalnız fotoğraf — ucuzca ayırmak için)
 Sıra: PyMuPDF (pip install pymupdf) → pypdf (pip install pypdf) → poppler (pdftotext / pdftoppm).
 """
 
@@ -90,6 +92,34 @@ def resim_bas(pdf, sayfalar, dpi, klasor):
     return yollar
 
 
+def pano_bas(pdf, sayfalar, klasor, dpi=36, sutun=3, satir=3):
+    """9'ar sayfayı (3x3) tek PNG'de toplar; her küçük resmin köşesine sayfa numarası yazar."""
+    from PIL import Image, ImageDraw
+    import tempfile
+    gecici = tempfile.mkdtemp()
+    kucukler = resim_bas(pdf, sayfalar, dpi, gecici)
+    ad = os.path.splitext(os.path.basename(pdf))[0]
+    os.makedirs(klasor, exist_ok=True)
+    yollar = []
+    adim = sutun * satir
+    for i in range(0, len(kucukler), adim):
+        grup = list(zip(sayfalar[i:i + adim], kucukler[i:i + adim]))
+        resimler = [Image.open(y).convert("RGB") for _, y in grup]
+        w = max(r.width for r in resimler)
+        h = max(r.height for r in resimler)
+        pano = Image.new("RGB", (sutun * w + (sutun + 1) * 6, satir * h + (satir + 1) * 6), "white")
+        ciz = ImageDraw.Draw(pano)
+        for j, ((p, _), r) in enumerate(zip(grup, resimler)):
+            x, y = 6 + (j % sutun) * (w + 6), 6 + (j // sutun) * (h + 6)
+            pano.paste(r, (x, y))
+            ciz.rectangle([x, y, x + 34, y + 16], fill="black")
+            ciz.text((x + 3, y + 2), f"s.{p}", fill="yellow")
+        yol = os.path.join(klasor, f"{ad}_pano_{grup[0][0]}-{grup[-1][0]}.png")
+        pano.save(yol)
+        yollar.append(yol)
+    return yollar
+
+
 def temizle(t):
     t = "\n".join(s.rstrip() for s in t.replace("\r", "").split("\n"))
     return re.sub(r"\n{3,}", "\n\n", t).strip()
@@ -103,11 +133,16 @@ def main():
     ap.add_argument("--sayfa", default="1-", help="ör. 76-  ya da 1-40  ya da 3,5,9 (varsayılan: hepsi)")
     ap.add_argument("--cikti", help="metin dosyası (varsayılan: PDF'in yanında .txt)")
     ap.add_argument("--resim", help="PNG basılacak sayfalar (ör. 12,20-22); metin çıkarılmaz")
-    ap.add_argument("--dpi", type=int, default=70)
+    ap.add_argument("--pano", help="önizleme panosu basılacak sayfalar (ör. 1- ya da 5,9,12-20); 9 sayfa / PNG")
+    ap.add_argument("--dpi", type=int, default=90)
     ap.add_argument("--klasor", help="PNG klasörü (varsayılan: PDF'in klasörü)")
     a = ap.parse_args()
 
     son = sayfa_sayisi(a.pdf)
+    if a.pano:
+        for yol in pano_bas(a.pdf, aralik(a.pano, son), a.klasor or os.path.dirname(os.path.abspath(a.pdf))):
+            print(yol)
+        return
     if a.resim:
         for yol in resim_bas(a.pdf, aralik(a.resim, son), a.dpi, a.klasor or os.path.dirname(os.path.abspath(a.pdf))):
             print(yol)

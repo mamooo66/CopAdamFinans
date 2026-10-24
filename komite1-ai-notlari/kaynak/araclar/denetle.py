@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """Bölüm modüllerini denetler: soru tekrarları, hiçbir yere konmamış sorular, rozet-soru tutarlılığı, slayt yoğunluğu.
 
-Kullanım (kaynak/ klasöründen): python3 araclar/denetle.py
-Soru listesi ../sorular/*_cikmis.md'den okunur; her numaralı soru ya bir bölümde ya da cikmis_*.py BEKLEYEN'de olmalı.
+Kullanım (kaynak/ klasöründen): python3 araclar/denetle.py [ders ...]   (ör. denetle.py pediatri)
+Soru listesi ../sorular/<ders>_cikmis.md'den okunur; her numaralı soru ya bir bölümde ya da cikmis_*.py BEKLEYEN'de olmalı.
 """
 import os
 import re
@@ -11,12 +11,16 @@ import sys
 K = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SORULAR = os.path.join(os.path.dirname(K), "sorular")
 sys.path.insert(0, K)
+import importlib  # noqa: E402
 import icerik  # noqa: E402
-from cikmis_patoloji import BEKLEYEN as BP  # noqa: E402
-try:
-    from cikmis_farmakoloji import BEKLEYEN as BF  # noqa: E402
-except ImportError:
-    BF = {}
+
+
+def _bekleyen(k):
+    try:
+        return importlib.import_module(icerik.CIKMIS[k]).BEKLEYEN
+    except ImportError:
+        return {}
+
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -31,10 +35,12 @@ def tum_sorular(md):
     return ids
 
 
+secim = [icerik.ders_kodu(a) for a in sys.argv[1:]] or [k for k, _ in icerik.DERSLER]
 bolumler = icerik.yukle()
-ders_ids = {"Patoloji": tum_sorular(os.path.join(SORULAR, "patoloji_cikmis.md")),
-            "Farmakoloji": tum_sorular(os.path.join(SORULAR, "farmakoloji_cikmis.md"))}
-for ders, bek in (("Patoloji", BP), ("Farmakoloji", BF)):
+for k in secim:
+    ders, bek = icerik.AD[k], _bekleyen(k)
+    banka = os.path.join(SORULAR, icerik.CIKMIS[k].replace("cikmis_", "") + "_cikmis.md")
+    ids = tum_sorular(banka) if os.path.exists(banka) else []
     bs = [b for b in bolumler if b["ders"] == ders]
     sahip = {}
     print(f"\n######## {ders}: {len(bs)} bölüm")
@@ -58,7 +64,7 @@ for ders, bek in (("Patoloji", BP), ("Farmakoloji", BF)):
     tekrar = {k: v for k, v in sahip.items() if len(v) > 1}
     if tekrar:
         print("TEKRAR:", tekrar)
-    numarali = {(y, n) for (y, t, n) in ders_ids[ders] if t == "S"}
+    numarali = {(y, n) for (y, t, n) in ids if t == "S"}
     atanan = {k for k in sahip if len(k) == 2}
     bek_ids = set()
     for v in bek.values():

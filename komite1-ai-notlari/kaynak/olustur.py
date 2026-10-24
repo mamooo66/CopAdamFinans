@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""İçerik modüllerinden 1280x720 slayt HTML'i üretir (pdf.cjs ile PDF'e basılır).
+"""Komite 1 AI Notları: içerik modüllerinden 1280x720 slayt HTML'i üretir (pdf.cjs ile PDF'e basılır).
 
-Desteye yalnızca bolumler/ klasöründeki modüller (2026-27 PDF'lerinden yazılmış dersler) girer.
-Kullanım: python3 olustur.py [--sadece p02_hasar,f01_giris] [--cikti yol/slaytlar.html]
+Her ders (Patoloji, Pediatri, …) ayrı PDF'tir; PDF'leri bas.py üretir. Desteye yalnızca bolumler/ klasöründeki
+modüller (2026-27 PDF'lerinden yazılmış dersler) girer.
+Kullanım: python3 olustur.py --ders patoloji [--cikti yol.html]   ·   python3 olustur.py --sadece p02_hasar [--cikti yol.html]
 
-Sıra: kapak · kullanım · içindekiler ·
-      her ders için: ders ayracı · soru dağılımı · en çok çıkanlar · bölümler (ayraç, hap bilgi, çıkmış sorular)
+Sıra: kapak · kullanım · içindekiler · ders özeti · soru dağılımı · en çok çıkanlar ·
+      bölümler (ayraç, notlar, çıkmış sorular)
 Dağılım ve en çok çıkanlar sayfaları ancak gösterecek veri varsa eklenir.
 """
 
 import html
+import importlib
 import math
 import os
 import pathlib
@@ -22,23 +24,47 @@ sys.path.insert(0, BURASI)
 
 import icerik  # noqa: E402
 from yardim import YILLAR  # noqa: E402
-from cikmis_patoloji import BEKLEYEN as BEKLEYEN_P  # noqa: E402
 
-try:
-    from cikmis_farmakoloji import BEKLEYEN as BEKLEYEN_F  # noqa: E402
-except ImportError:
-    BEKLEYEN_F = {}
 
-BEKLEYEN = {"Patoloji": BEKLEYEN_P, "Farmakoloji": BEKLEYEN_F}
-SINIF = {"Patoloji": "p", "Farmakoloji": "f"}
-YILLIK = {"Patoloji": "her yıl 22-24 patoloji sorusu", "Farmakoloji": "her yıl 28-30 farmakoloji sorusu"}
-KITAPCIK = [  # (yıl, kaynak, patoloji aralığı, farmakoloji aralığı)
-    ("2025-26", "d3k1 soru kitapçığı A", "S61-82", "S13-42"),
-    ("2024-25", "2024-2025 kitapçığı", "S69-90", "S27-56"),
-    ("2023-24", "“2023 K1 SON” kitapçığı A", "S61-82", "S13-40"),
-    ("2022-23", "Toplu Çıkmışlar › Komite 1", "S60-83", "S11-39"),
-    ("2021-22*", "Toplu Çıkmışlar › Komite 1 (kitapçık yok, hatırlanan sorular)", "hatırlanan", "hatırlanan"),
+def _bekleyen(k):
+    try:
+        return importlib.import_module(icerik.CIKMIS[k]).BEKLEYEN
+    except ImportError:
+        return {}
+
+
+BEKLEYEN = {ad: _bekleyen(k) for k, ad in icerik.DERSLER}
+SINIF = {ad: k for k, ad in icerik.DERSLER}
+KITAPCIK = [  # (yıl, kaynak)
+    ("2025-26", "d3k1 soru kitapçığı A"),
+    ("2024-25", "2024-2025 kitapçığı"),
+    ("2023-24", "“2023 K1 SON” kitapçığı A"),
+    ("2022-23", "Toplu Çıkmışlar › Komite 1"),
+    ("2021-22*", "Toplu Çıkmışlar › Komite 1 (kitapçık yok, hatırlanan sorular)"),
 ]
+ARALIK = {  # ders → yıl → kitapçıktaki soru aralığı
+    "Patoloji": {"2025-26": (61, 82), "2024-25": (69, 90), "2023-24": (61, 82), "2022-23": (60, 83)},
+    "Farmakoloji": {"2025-26": (13, 42), "2024-25": (27, 56), "2023-24": (13, 40), "2022-23": (11, 39)},
+    "Pediatri": {"2025-26": (1, 12), "2024-25": (57, 68), "2023-24": (1, 12), "2022-23": (1, 10)},
+    "Aile Hekimliği": {"2025-26": (49, 54), "2024-25": (1, 6), "2023-24": (49, 54), "2022-23": (48, 53)},
+    "Enfeksiyon Hastalıkları": {"2025-26": (85, 90), "2024-25": (21, 26), "2023-24": (85, 90), "2022-23": (84, 88)},
+    "Dahiliye": {"2025-26": (43, 48), "2024-25": (7, 12), "2023-24": (41, 48), "2022-23": (40, 47)},
+    "Nükleer Tıp": {"2025-26": (83, 84), "2024-25": (13, 14), "2023-24": (83, 84), "2022-23": (89, 90)},
+}
+
+
+def yillik(d):
+    """'her yıl 22-24 patoloji sorusu' gibi; aralık bilinmiyorsa boş."""
+    ns = sorted(b - a + 1 for a, b in ARALIK.get(d, {}).values())
+    if not ns:
+        return ""
+    n = f"{ns[0]}" if ns[0] == ns[-1] else f"{ns[0]}-{ns[-1]}"
+    return f"her yıl {n} {d.replace('İ', 'i').lower()} sorusu"
+
+
+def aralik_metni(d, yil):
+    a = ARALIK.get(d, {}).get(yil.rstrip("*"))
+    return f"S{a[0]}-{a[1]}" if a else ("hatırlanan" if yil.endswith("*") else "—")
 TAM_YIL = {"21-22": "2021-22", "22-23": "2022-23", "23-24": "2023-24", "24-25": "2024-25", "25-26": "2025-26"}
 
 BOLUMLER = []  # olustur() doldurur
@@ -107,7 +133,9 @@ def ders_bolumleri(d):
 def bekleyen(d):
     """PDF'i henüz gelmemiş derslerin (başlık, soru sayısı) listesi."""
     out = []
-    for v in BEKLEYEN[d].values():
+    for k, v in BEKLEYEN[d].items():
+        if k == "programda_yok":  # bu yılın programında dersi olmayan konular: PDF'i hiç gelmeyecek
+            continue
         n = sum(q["n"] for q in v["sorular"] if not q["ref"])
         out.append((v["baslik"], n))
     return out
@@ -194,8 +222,8 @@ def ust_bant(b, ek=""):
 
 
 def alt_bant(sayfa, kaynak="", ders=None):
-    ad = ders or " + ".join(dersler()) or "Hap Bilgi"
-    return (f'<footer class="ftr"><span>Komite 1 Hap Bilgi · {html.escape(ad)} · Dönem III · 2026-27</span>'
+    ad = ders or " + ".join(dersler()) or "Notlar"
+    return (f'<footer class="ftr"><span>Komite 1 AI Notları · {html.escape(ad)} · Dönem III · 2026-27</span>'
             f'<span class="src">{html.escape(kaynak)}</span>'
             f'<span class="pg">{sayfa} / @@TOPLAM@@</span></footer>')
 
@@ -214,17 +242,19 @@ def yil_cipleri(c):
 def kapak():
     ds = dersler()
     adlar = '<span class="ayir"> + </span>'.join(f'<span class="{SINIF[d]}">{buyuk(d)}</span>' for d in ds)
-    kutular = "".join(
-        f'<div><b>{len(ders_bolumleri(d))}</b><span>{d.lower()} dersi<br>bu dönemin PDF\'inden</span></div>' for d in ds)
-    taranan = sum(toplam_soru(b) for b in BOLUMLER) + sum(n for d in ds for _, n in bekleyen(d))
+    n_soru = sum(toplam_soru(b) for b in BOLUMLER)
+    bek = sum(n for d in ds for _, n in bekleyen(d))
+    bek_kutu = (f"<div><b>{bek}</b><span>çıkmış soru, PDF'i<br>henüz gelmemiş derslerde</span></div>" if bek else "")
+    tema = SINIF[ds[0]] if len(ds) == 1 else ""
     ic = f'''
     <div class="kp-desen"></div>
-    <div class="kp-ust">BAİBÜ Tıp Fakültesi · Dönem III · Hastalıkların Biyolojik Temeli Kurulu (I. Kurul)</div>
-    <h1 class="kp-baslik">KOMİTE 1<span class="kp-dersler">{adlar}</span></h1>
-    <div class="kp-alt">Hap Bilgi Slaytları <b>·</b> yalnızca 2026-27 dönemi PDF'lerinden</div>
+    <div class="kp-ust">BAİBÜ Tıp Fakültesi · Dönem III · Hastalıkların Biyolojik Temeli Kurulu (I. Kurul) · 2026-27</div>
+    <h1 class="kp-baslik">KOMİTE 1 <span class="kp-ai">AI NOTLARI</span><span class="kp-dersler">{adlar}</span></h1>
+    <div class="kp-alt">Ders notları <b>·</b> yalnızca 2026-27 dönemi ders PDF'lerinden</div>
     <div class="kp-kutular">
-      {kutular}
-      <div><b>{taranan}</b><span>çıkmış soru tarandı<br>2021-22 → 2025-26</span></div>
+      <div><b>{len(BOLUMLER)}</b><span>ders<br>bu dönemin PDF'inden</span></div>
+      <div><b>{n_soru}</b><span>çıkmış soru<br>2021-22 → 2025-26</span></div>
+      {bek_kutu}
     </div>
     <div class="kp-lejant">
       <span class="ck">ÇIKMIŞ<span class="y">24-25</span></span> sınavda çıkmış bilgi
@@ -233,7 +263,7 @@ def kapak():
     </div>
     <div class="kp-alt2">Yeni PDF geldikçe ilgili ders çıkmışlarıyla birlikte eklenir · Kurul sınavı: <b>30 Ekim 2026 Cuma</b></div>
     '''
-    return slayt(ic, "kapak")
+    return slayt(ic, f"kapak {tema}".strip())
 
 
 def kullanim(sayfa):
@@ -246,22 +276,22 @@ def kullanim(sayfa):
                 if eksikler else "")
     kaynak_li = "".join(
         f"<li><b>{y}</b> {html.escape(k)} — "
-        + " · ".join(f"{d.lower()} {p if d == 'Patoloji' else f}" for d in ds) + "</li>"
-        for y, k, p, f in KITAPCIK)
+        + " · ".join(f"{d.replace('İ', 'i').lower()} {aralik_metni(d, y)}" for d in ds) + "</li>"
+        for y, k in KITAPCIK)
     ic = f'''
     <header class="hdr"><span class="no">i</span><span class="ttl">Nasıl kullanılır? · Kaynaklar</span><span class="sp"></span></header>
     <div class="govde iki" data-max="16">
       <div class="sut">
         <div class="kart"><h3>Kaynak kuralı</h3><ul>
-          <li>Hap bilgiler <b>yalnızca bu dönemin (2026-27) ders PDF'lerinden</b> yazıldı. Eski klasör, geçmiş yılların notları ve kitaplar <b>kullanılmadı</b>.</li>
+          <li>Notlar <b>yalnızca bu dönemin (2026-27) ders PDF'lerinden</b> yazıldı. Eski klasör, geçmiş yılların notları ve kitaplar <b>kullanılmadı</b>.</li>
           {ders_li}
           <li>Çıkmış sorunun cevabı 2026-27 PDF'inde yoksa soru yine gösterilir ve <b>“(PDF'te geçmiyor)”</b> diye işaretlenir.</li>
           <li>PDF'i henüz yüklenmemiş dersler desteye konmadı; çıkmışları hazır bekliyor ({bekleyen_n} soru).</li>
           {eksik_li}
         </ul></div>
         <div class="kart"><h3>Slayt düzeni</h3><ul>
-          <li>Her ders kendi bölümünde: <b>ders ayracı</b> → <b>soru dağılımı</b> → <b>en çok çıkanlar</b> → dersler.</li>
-          <li>Her ders bir <b>ayraç slaytı</b> ile başlar (hoca, 2026 ders tarihi, 5 yıllık soru sayısı); sonra <b>hap bilgi</b>, en sonda o dersin <b>çıkmış soruları</b> (✔ doğru cevap + çeldiriciler).</li>
+          <li>Önce <b>ders özeti</b> → <b>soru dağılımı</b> → <b>en çok çıkanlar</b>, sonra dersler.</li>
+          <li>Her ders bir <b>ayraç slaytı</b> ile başlar (hoca, 2026 ders tarihi, 5 yıllık soru sayısı); sonra <b>notlar</b>, en sonda o dersin <b>çıkmış soruları</b> (✔ doğru cevap + çeldiriciler).</li>
           <li>İçindekiler, dağılım tablosu ve “→ P05” bağlantıları tıklanabilir.</li>
         </ul></div>
       </div>
@@ -314,7 +344,7 @@ def ders_ayrac(d, sayfa, baslangic):
     sirali = sorted(bs, key=lambda b: -toplam_soru(b))
     verimli = ", ".join(f"<b>{md(b['baslik'])}</b> ({toplam_soru(b)})" for b in sirali[:4] if toplam_soru(b))
     bek = bekleyen(d)
-    ozet = [f"Kurul sınavında {YILLIK[d]} çıkıyor; bu destedeki derslerden 5 yılda <b>{t}</b> soru."]
+    ozet = [(f"Kurul sınavında {yillik(d)} çıkıyor; " if yillik(d) else "") + f"bu notlardaki derslerden 5 yılda <b>{t}</b> soru."]
     if verimli:
         ozet.append(f"En çok soru gelen dersler: {verimli}.")
     if bek:
@@ -328,7 +358,7 @@ def ders_ayrac(d, sayfa, baslangic):
                      for b in bs)
     ic = f'''
     <div class="dv-bg">{SINIF[d].upper()}</div>
-    <div class="dv-ust">KOMİTE 1 · DERS</div>
+    <div class="dv-ust">KOMİTE 1 AI NOTLARI · DERS ÖZETİ</div>
     <h1 class="dv-baslik dv-ders">{buyuk(d)}</h1>
     <div class="dv-meta">{len(bs)} ders · 2026-27 PDF'lerinden · {html.escape(", ".join(kisa_hoca(h) for h in hocalar))}</div>
     <div class="dv-istat"><div class="dv-n"><b>{t}</b><span>çıkmış soru<br>son 5 yılda</span></div><div class="dv-yillar">{yil_cipleri(c)}</div></div>
@@ -374,7 +404,7 @@ def dagilim(d, sayfa):
         <tfoot><tr><td></td><td class="db">Toplam</td>{alt}<td class="dt">{sum(ytop.values())}</td></tr></tfoot></table>
       <div class="dg-yan">
         <div class="kart"><h3>Ne anlama geliyor?</h3><ul>
-          <li>Kurul sınavında {YILLIK[d]}.</li>
+          {f"<li>Kurul sınavında {yillik(d)}.</li>" if yillik(d) else ""}
           {f"<li>En verimli dersler: {verimli}.</li>" if verimli else ""}
           {her_yil}
           {bek_li}
@@ -474,9 +504,11 @@ def soru_slayti(b, sorular, sayfa, sira, adet):
 
 
 # ------------------------------------------------------------------ montaj
-def olustur(secili=None, hedef=None):
+def olustur(secili=None, hedef=None, ders=None):
     global BOLUMLER
-    BOLUMLER = icerik.yukle(secili)
+    BOLUMLER = icerik.yukle(secili, ders)
+    if not BOLUMLER:
+        raise SystemExit("bu seçimde modül yok")
 
     # 1. geçiş: sayfa planı
     on = ["kapak", "kullanim"] + (["icindekiler"] if len(BOLUMLER) >= 2 else [])
@@ -537,18 +569,20 @@ def olustur(secili=None, hedef=None):
     with open(os.path.join(BURASI, "sigdir.js"), encoding="utf-8") as f:
         js = f.read()
     sayfa_html = (f'<!doctype html><html lang="tr"><head><meta charset="utf-8">'
-                  f'<title>Komite 1 Hap Bilgi</title><style>{css}</style></head>'
+                  f'<title>Komite 1 AI Notları · {html.escape(" + ".join(dersler()))}</title><style>{css}</style></head>'
                   f'<body>{"".join(s)}<script>{js}</script></body></html>')
     sayfa_html = sayfa_html.replace("@@TOPLAM@@", str(toplam))
     hedef = hedef or os.path.join(BURASI, "slaytlar.html")
     with open(hedef, "w", encoding="utf-8") as f:
         f.write(sayfa_html)
     print(f"{hedef}: {toplam} slayt")
+    return toplam
 
 
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser()
+    ap.add_argument("--ders", help="tek ders: harf ya da ad (p, patoloji, pediatri, aile, enfeksiyon, f, dahiliye, nükleer)")
     ap.add_argument("--sadece", help="virgülle modül adları (ör. p02_hasar,f01_giris)")
     ap.add_argument("--cikti", help="HTML çıktı yolu (varsayılan kaynak/slaytlar.html)")
     a = ap.parse_args()
@@ -558,4 +592,6 @@ if __name__ == "__main__":
     bilinmeyen = [m for m in secili or [] if not os.path.exists(os.path.join(BURASI, "bolumler", m + ".py"))]
     if bilinmeyen:
         sys.exit(f"bolumler/ altında yok: {', '.join(bilinmeyen)} (modülün DOSYA adını ver, ör. p04_inflamasyon)")
-    olustur(secili, a.cikti)
+    if not (secili or a.ders):
+        sys.exit("--ders ya da --sadece ver (bütün PDF'ler için: python3 bas.py)")
+    olustur(secili, a.cikti, icerik.ders_kodu(a.ders) if a.ders else None)

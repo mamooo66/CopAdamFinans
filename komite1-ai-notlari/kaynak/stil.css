@@ -108,8 +108,9 @@ li.c b{color:#45091a}
   background-size:24px 24px;opacity:.6}
 .kapak > *{position:relative}
 .kp-ust{font-size:15px;letter-spacing:.04em;color:#F7B6CF;font-weight:600}
-.kp-baslik{margin:24px 0 0;font-size:100px;line-height:.94;font-weight:900;letter-spacing:-.035em}
-.kp-dersler{display:block;margin-top:12px;font-size:62px;letter-spacing:-.025em;line-height:1}
+.kp-baslik{margin:24px 0 0;font-size:84px;line-height:.94;font-weight:900;letter-spacing:-.035em}
+.kp-ai{color:#FDE047}
+.kp-dersler{display:block;margin-top:16px;font-size:72px;letter-spacing:-.025em;line-height:1}
 .kp-dersler .p{color:#FF8FB8}
 .kp-dersler .f{color:#7FE3EE}
 .kp-dersler .ayir{color:rgba(255,255,255,.45);font-weight:700}
@@ -200,7 +201,7 @@ ul.sb{list-style:none;margin:0;padding:0;columns:2;column-gap:16px;width:100%}
 .ders-ayrac .dv-icerik{margin-top:12px}
 .ders-ayrac .dv-cip{text-decoration:none;font-size:12px;padding:3px 9px}
 
-/* ---------- farmakoloji renkleri ---------- */
+/* ---------- ders renkleri (p: varsayılan mor) ---------- */
 .slide.f .hdr{background:linear-gradient(90deg,#0B4552 0%,#11707E 100%)}
 .slide.f .hdr .no{background:#13A3B8}
 .slide.f .kart h3,.slide.f .kart h3 b{color:#0B5563}
@@ -218,3 +219,105 @@ ul.sb{list-style:none;margin:0;padding:0;columns:2;column-gap:16px;width:100%}
 .dv-eksik{margin-top:12px;max-width:1100px;background:rgba(253,186,116,.16);border:1px solid rgba(253,186,116,.6);border-radius:12px;
   padding:9px 16px;font-size:15.5px;line-height:1.4;color:#FFE7C7}
 .dv-eksik b{color:#FDBA74}
+
+/* ---------- ders renkleri: kapak, içindekiler, slaytlar (olustur.py SINIF harfleri) ---------- */
+.kapak.f{background:radial-gradient(1000px 720px at 86% 8%,#1D8C9C 0%,#0F5462 44%,#062830 100%)}
+.kapak.f .kp-ust{color:#9EE6EF}
+.kp-dersler .f{color:#7FE3EE}
+.toc-bas.f,.toc.f .tn{background:#0B5563}
+.toc.f .tp{color:#0B5563}
+.kapak.c{background:radial-gradient(1000px 720px at 86% 8%,#D9762E 0%,#93420F 44%,#3D1A05 100%)}
+.kapak.c .kp-ust{color:#FFD3A8}
+.kp-dersler .c{color:#FFC08A}
+.toc-bas.c,.toc.c .tn{background:#9A3F0E}
+.toc.c .tp{color:#9A3F0E}
+.slide.c .hdr{background:linear-gradient(90deg,#7C2D0A 0%,#B4501A 100%)}
+.slide.c .hdr .no{background:#F08A3C}
+.slide.c .kart h3,.slide.c .kart h3 b{color:#9A3F0E}
+.slide.c .kart li::before{background:#F5B98A}
+.slide.c .ftr .pg{color:#9A3F0E}
+.slide.c .q{border-left-color:#9A3F0E}
+.slide.c .q .qtag{background:#9A3F0E}
+.slide.c .q.ref{border-left-color:#9AA6B8}
+.slide.c .q.ref .qtag{background:#9AA6B8}
+.slide.c .dtab tfoot td{background:#9A3F0E;border-color:#9A3F0E}
+.slide.c .dtab td.dt{color:#9A3F0E}
+.slide.c .ec .rk{background:#9A3F0E}
+.ayrac.c{background:radial-gradient(900px 620px at 88% 15%,#D9762E 0%,#93420F 46%,#3D1A05 100%)}
+.ayrac.c .dv-ust,.ayrac.c .dv-ozet h4,.ayrac.c .dv-icerik h4{color:#FFD3A8}
+.kapak.a{background:radial-gradient(1000px 720px at 86% 8%,#2E9E5E 0%,#17623A 44%,#072615 100%)}
+.kapak.a .kp-ust{color:#B6F0CC}
+.kp-dersler .a{color:#8EF0B5}
+.toc-bas.a,.toc.a .tn{background:#166534}
+.toc.a .tp{color:#166534}
+.slide.a .hdr{background:linear-gradient(90deg,#14532D 0%,#1F7A45 100%)}
+.slide.a .hdr .no{background:#2EA866}
+.slide.a .kart h3,.slide.a .kart h3 b{color:#166534}
+.slide.a .kart li::before{background:#9ED9B4}
+.slide.a .ftr .pg{color:#166534}
+.slide.a .q{border-left-color:#166534}
+.slide.a .q .qtag{background:#166534}
+.slide.a .q.ref{border-left-color:#9AA6B8}
+.slide.a .q.ref .qtag{background:#9AA6B8}
+.slide.a .dtab tfoot td{background:#166534;border-color:#166534}
+.slide.a .dtab td.dt{color:#166534}
+.slide.a .ec .rk{background:#166534}
+.ayrac.a{background:radial-gradient(900px 620px at 88% 15%,#2E9E5E 0%,#17623A 46%,#072615 100%)}
+.ayrac.a .dv-ust,.ayrac.a .dv-ozet h4,.ayrac.a .dv-icerik h4{color:#B6F0CC}
+.kapak.e{background:radial-gradient(1000px 720px at 86% 8%,#3D63D6 0%,#1E3A8A 44%,#0A1640 100%)}
+.kapak.e .kp-ust{color:#BFD0FF}
+.kp-dersler .e{color:#9DB8FF}
+.toc-bas.e,.toc.e .tn{background:#1E40AF}
+.toc.e .tp{color:#1E40AF}
+.slide.e .hdr{background:linear-gradient(90deg,#1E3A8A 0%,#2F55C0 100%)}
+.slide.e .hdr .no{background:#4F7BE8}
+.slide.e .kart h3,.slide.e .kart h3 b{color:#1E40AF}
+.slide.e .kart li::before{background:#A9BFF5}
+.slide.e .ftr .pg{color:#1E40AF}
+.slide.e .q{border-left-color:#1E40AF}
+.slide.e .q .qtag{background:#1E40AF}
+.slide.e .q.ref{border-left-color:#9AA6B8}
+.slide.e .q.ref .qtag{background:#9AA6B8}
+.slide.e .dtab tfoot td{background:#1E40AF;border-color:#1E40AF}
+.slide.e .dtab td.dt{color:#1E40AF}
+.slide.e .ec .rk{background:#1E40AF}
+.ayrac.e{background:radial-gradient(900px 620px at 88% 15%,#3D63D6 0%,#1E3A8A 46%,#0A1640 100%)}
+.ayrac.e .dv-ust,.ayrac.e .dv-ozet h4,.ayrac.e .dv-icerik h4{color:#BFD0FF}
+.kapak.d{background:radial-gradient(1000px 720px at 86% 8%,#56657C 0%,#273447 44%,#0B0F17 100%)}
+.kapak.d .kp-ust{color:#D5DCE6}
+.kp-dersler .d{color:#E2E8F0}
+.toc-bas.d,.toc.d .tn{background:#243244}
+.toc.d .tp{color:#243244}
+.slide.d .hdr{background:linear-gradient(90deg,#1F2937 0%,#3B4A5E 100%)}
+.slide.d .hdr .no{background:#6B7C93}
+.slide.d .kart h3,.slide.d .kart h3 b{color:#243244}
+.slide.d .kart li::before{background:#C3CCD8}
+.slide.d .ftr .pg{color:#243244}
+.slide.d .q{border-left-color:#243244}
+.slide.d .q .qtag{background:#243244}
+.slide.d .q.ref{border-left-color:#9AA6B8}
+.slide.d .q.ref .qtag{background:#9AA6B8}
+.slide.d .dtab tfoot td{background:#243244;border-color:#243244}
+.slide.d .dtab td.dt{color:#243244}
+.slide.d .ec .rk{background:#243244}
+.ayrac.d{background:radial-gradient(900px 620px at 88% 15%,#56657C 0%,#273447 46%,#0B0F17 100%)}
+.ayrac.d .dv-ust,.ayrac.d .dv-ozet h4,.ayrac.d .dv-icerik h4{color:#D5DCE6}
+.kapak.n{background:radial-gradient(1000px 720px at 86% 8%,#B08A00 0%,#6B5300 44%,#221A00 100%)}
+.kapak.n .kp-ust{color:#FFE58A}
+.kp-dersler .n{color:#FFD84D}
+.toc-bas.n,.toc.n .tn{background:#6B5300}
+.toc.n .tp{color:#6B5300}
+.slide.n .hdr{background:linear-gradient(90deg,#4D3D00 0%,#7A6100 100%)}
+.slide.n .hdr .no{background:#D4A600}
+.slide.n .kart h3,.slide.n .kart h3 b{color:#6B5300}
+.slide.n .kart li::before{background:#F2D675}
+.slide.n .ftr .pg{color:#6B5300}
+.slide.n .q{border-left-color:#6B5300}
+.slide.n .q .qtag{background:#6B5300}
+.slide.n .q.ref{border-left-color:#9AA6B8}
+.slide.n .q.ref .qtag{background:#9AA6B8}
+.slide.n .dtab tfoot td{background:#6B5300;border-color:#6B5300}
+.slide.n .dtab td.dt{color:#6B5300}
+.slide.n .ec .rk{background:#6B5300}
+.ayrac.n{background:radial-gradient(900px 620px at 88% 15%,#B08A00 0%,#6B5300 46%,#221A00 100%)}
+.ayrac.n .dv-ust,.ayrac.n .dv-ozet h4,.ayrac.n .dv-icerik h4{color:#FFE58A}
