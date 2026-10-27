@@ -1,0 +1,20 @@
+{"kod": "F08", "ders": "Doz-Konsantrasyon-Etki İlişkisi", "hoca": "Prof. Dr. Akif Hakan Kurt", "pdf": "5-Doz Konsantrasyon Etki İlişkisi",
+ "basliklar": [
+  {"baslik": "Genel kavramlar: etki, tesir, yanıt", "sayfa": "2", "alt": ["Etki", "Tesir", "Yanıt"]},
+  {"baslik": "I. Doz-konsantrasyon-etki ilişkisi", "sayfa": "3-17", "alt": [
+    "Minimum etkili konsantrasyon (MEK)",
+    {"t": "Plazma konsantrasyonu-zaman eğrisi", "alt": ["ilacın tek doz verilmesi durumunda plazma konsantrasyonu-zaman eğrisi", "i.v. ve oral yoldan ilaç verilişinde plazma konsantrasyonu-zaman grafikleri ve MEK", "kantitatif değerlendirmede üç parametre: Cmaks, tmaks, EAA"]},
+    {"t": "İlacın sabit aralarla yinelenen dozlarda verilmesi", "alt": [
+      "yinelenen dozlarda verilme nedeni",
+      "yinelenen dozlarda plazma konsantrasyonu-zaman eğrisi",
+      "yinelenen ilaç verilişine ait önemli parametreler: kararlı durumdaki konsantrasyonun büyüklüğü; bu konsantrasyona ulaşmak için geçen süre",
+      "oral veya i.m. uygulamada kararlı durumda ortalama ilaç konsantrasyonu (Cssort)",
+      "kararlı durum konsantrasyonuna erişme hızı (yarılanma ömrü)"]},
+    {"t": "Terapötik indeks (güvenlik oranı) ve yükleme dozu", "alt": ["terapötik ilaç izlemi (Cssmin)", "yükleme dozu ve idame dozu", "tek yükleme dozundan sonra yinelenen dozlarda konsantrasyon profili"]},
+    "İlacın i.v. infüzyonla verilmesi durumunda plazma konsantrasyonu"]},
+  {"baslik": "II. Doz-etki ve konsantrasyon-etki ilişkisi", "sayfa": "18-22", "alt": [
+    "Konsantrasyon-etki ilişkisi (in vitro) ve doz-etki ilişkisi (in vivo)",
+    {"t": "Nicel inceleme", "alt": ["kademeli doz-etki ilişkisi", "kuvantal doz-etki ilişkisi"]},
+    "Potens (etki gücü) ve efikasite (etki maksimumu)",
+    "İlacın seçiciliği (selektiflik)"]}
+ ]}

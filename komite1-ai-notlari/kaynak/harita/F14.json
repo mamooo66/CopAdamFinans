@@ -1,0 +1,34 @@
+{"kod": "F14", "ders": "Farmakovijilans", "hoca": "Prof. Dr. Akif Hakan Kurt", "pdf": "6-Farmakovijilans",
+ "basliklar": [
+  {"baslik": "Farmakovijilans ve terminoloji", "sayfa": "1-5", "alt": [
+    "Farmakovijilans (FV): tanım (pharmacon + vigilancia, 1974)",
+    "Advers ilaç reaksiyonu (AİR)",
+    "Advers ilaç olayı",
+    "Ciddi advers reaksiyon"]},
+  {"baslik": "AİR'ın önemi", "sayfa": "6-8", "alt": [
+    "Ölüm nedenleri sıralamasında AİR (Lazarou 1998)",
+    {"t": "AİR nedeniyle hastaneye başvuru yüzdesi", "alt": ["Norveç", "Fransa", "İngiltere"]},
+    "Ülkemize ekstrapolasyon güçlüğü: gelişmekte olan ülkelerin problemleri"]},
+  {"baslik": "Advers etkilerin belirlenmesinde sınırlılıklar", "sayfa": "9-12", "alt": [
+    "Pre-klinik çalışmalar",
+    {"t": "Klinik denemelerin sınırlamaları", "alt": ["kısa süre", "dar popülasyon", "dar endikasyon aralığı", "sınırlı karşılaştırma grupları", "küçük örneklem (1.000–5.000)"]},
+    "Hasta sayısı, AİR için eşik sayı ve olasılık",
+    "İlaç ruhsatlandırması: kalite, efikasi, güvenlik"]},
+  {"baslik": "İlaç faciaları ve FV kilometre taşları", "sayfa": "13-16", "alt": [
+    "İlaç faciaları: pre- ve post-talidomit",
+    {"t": "FV kilometre taşları", "alt": ["sülfonamit eliksiri (1937)", "talidomit epidemisi (1962)"]},
+    "Piyasadan çekilen etken maddeler ve advers etkileri (1997–2001, rofekoksib 2004)",
+    "“Güvenli ilaç” teriminin farklı algılanması"]},
+  {"baslik": "FV veri kaynakları ve spontan bildirim", "sayfa": "17-21", "alt": [
+    {"t": "FV veri kaynakları", "alt": ["pazarlama öncesi denemeler", "spontan bildirim sistemleri", "otomatik veritabanları", "ad hoc veri toplama", "yayınlanan literatür ve ilaç bültenleri", "firma sponsorluğunda çalışmalar", "ilaç kullanım çalışmaları", "farmakoepidemiyolojik metodlar"]},
+    "Spontan bildirim sistemleri",
+    "MedWatch (FDA, 1993) ve başarıları",
+    "MedWatch formu ve Advers (Ters) Etki Bildirim Formu"]},
+  {"baslik": "Piyasadan geri çekilme örneği: rofekoksib", "sayfa": "22-24", "alt": [
+    "Rofekoksib (30 Eylül 2004)",
+    "Endikasyonları (FDA, Mayıs 1999)",
+    "Firmanın açıklamaları"]},
+  {"baslik": "FV her ülke için gereklidir", "sayfa": "25", "alt": ["Hastalık sıklığı ve reçeteleme pratikleri", "İlaç üretim süreci", "Bitkisel ilaçlarla etkileşmeler"]},
+  {"baslik": "Türkiye'de FV çalışmaları", "sayfa": "26-27", "alt": ["1985: TADMER", "1987: DSÖ Uluslararası İlaç İzleme İşbirliği Merkezi üyeliği", "1999: Avrupa FV Toplantısı"]},
+  {"baslik": "Ulusal öncelik ve sonuç", "sayfa": "28-29", "alt": ["Ulusal öncelikli bir konu", "Sonuç: spontan bildirim ve bildirim kalitesi"]}
+ ]}

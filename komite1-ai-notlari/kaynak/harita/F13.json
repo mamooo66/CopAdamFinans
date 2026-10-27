@@ -1,0 +1,116 @@
+{
+ "kod": "F13",
+ "ders": "Antitrombositik ve Fibrinolitik İlaçlar",
+ "hoca": "Prof. Dr. Akif Hakan Kurt",
+ "pdf": "8-Antitrombositik ve Fibrinolitik İlaçlar",
+ "basliklar": [
+  {
+   "baslik": "Trombosit fonksiyonu ve trombus oluşumu",
+   "sayfa": "2-4",
+   "alt": [
+    "Trombositlerin aktivasyonu, adezyon ve agregasyon",
+    "Glikoprotein IIb/IIIa reseptörleri (ligandlar: fibrinojen, von Willebrand faktörü)",
+    "Trombus oluşumu ve klinik önemi",
+    {
+     "t": "Trombosit agregasyonunu indükleyen ve inhibe eden mediyatörler",
+     "alt": [
+      "indükleyenler: trombin, ADP, TXA2, PAF, 5-HT, kollajen, adrenalin, Ca²⁺",
+      "inhibe edenler: NO, PGI2, adenozin, sAMP"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antitrombositik ilaçlar",
+   "sayfa": "5-16",
+   "alt": [
+    {
+     "t": "Antitrombositik ilaç grupları",
+     "alt": [
+      "aspirin",
+      "klopidogrel, tiklopidin",
+      "trombosit GP IIb/IIIa reseptör inhibitörleri",
+      "dipiridamol",
+      "epoprostenol (prostasiklin)"
+     ]
+    },
+    {
+     "t": "Asetilsalisilik asit (aspirin)",
+     "alt": [
+      "düşük ve yüksek dozda etki",
+      "COX-1'i irreversibl inhibisyon mekanizması",
+      "aspirin ve NSAİ ilaçlar arasındaki fark",
+      "endikasyonları ve yan etkileri"
+     ]
+    },
+    {
+     "t": "Klopidogrel ve tiklopidin",
+     "alt": [
+      "ADP reseptörü blokajı",
+      "yan etkileri"
+     ]
+    },
+    {
+     "t": "Trombosit glikoprotein IIb/IIIa reseptör inhibitörleri",
+     "alt": [
+      "absiksimab",
+      "eptifibatid",
+      "tirofiban"
+     ]
+    },
+    "Dipiridamol",
+    "Epoprostenol (prostasiklin)"
+   ]
+  },
+  {
+   "baslik": "Antitrombositik ilaçların endikasyonları",
+   "sayfa": "17",
+   "alt": [
+    "akut MI profilaksisi, akut koroner sendrom",
+    "koroner bypass sonrası greft tıkanmasının önlenmesi",
+    "geçici iskemik nöbetlerin sekonder profilaksisi, unstabil angina",
+    "gebelikte preeklampsi, protez kapakçıkta trombüs, diyaliz boruları"
+   ]
+  },
+  {
+   "baslik": "Fibrinolitik (trombolitik) ilaçlar",
+   "sayfa": "18-23",
+   "alt": [
+    "Fibrinoliz, plazmin ve plazminojen",
+    {
+     "t": "Trombolitik ilaçlar",
+     "alt": [
+      "streptokinaz",
+      "ürokinaz",
+      "alteplaz (rt-PA)",
+      "reteplaz",
+      "tenekteplaz",
+      "anistreplaz"
+     ]
+    },
+    "Streptokinaz",
+    "Ürokinaz",
+    "Alteplaz (rt-PA)"
+   ]
+  },
+  {
+   "baslik": "Fibrinolitik ilaçların endikasyonları",
+   "sayfa": "24",
+   "alt": [
+    "akut MI, akciğer embolisi",
+    "derin ven trombozu (ilk 72 saat)",
+    "periferik arter trombozları, kapak protezi trombozu, unstabil anjina"
+   ]
+  },
+  {
+   "baslik": "Fibrinolitik ilaçların yaptığı kanamaların tedavisi",
+   "sayfa": "25",
+   "alt": [
+    "taze dondurulmuş plazma veya tam kan",
+    "aprotinin",
+    "aminokaproik asit ve traneksamik asit",
+    "desmopressin"
+   ]
+  }
+ ]
+}

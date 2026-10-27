@@ -1,0 +1,46 @@
+{"kod": "F10", "ders": "Reçete Bilgisi", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "5-Reçete Bilgisi",
+ "basliklar": [
+  {"baslik": "İlaç ve reçete: temel kavramlar", "sayfa": "2-4", "alt": [
+    {"t": "Tıpta kullanılan ilaçlar", "alt": ["ilaç ürünleri (müstahzar)", "majistral ve offisinal ilaçlar", "eczanede eczacı denetimi/gözetimi altında sunulur"]},
+    "İlaçların reçete karşılığı sağlanması (1262 ve 6197 sayılı kanunlar)",
+    {"t": "Reçete yazma yetkisi", "alt": ["tıp doktorları", "diş hekimleri (kısıtlı sayıda ilaç)", "veteriner hekimler (veteriner ilaçları)"]},
+    {"t": "Beşeri tıbbi ürünlerin sınıflandırılması", "alt": ["reçeteye tabi ürünler", "reçeteye tabi olmayan ürünler"]}]},
+  {"baslik": "Akılcı ilaç kullanımı ve akılcı tedavi süreci", "sayfa": "5-6", "alt": [
+    "Akılcı ilaç kullanımının tanımı",
+    {"t": "Akılcı tedavi süreci (5 adım)", "alt": [
+      "1. hastanın problemini tanımla", "2. tedavi amaçlarını belirle",
+      "3. ilacın etkililik, güvenlilik, uygunluk ve maliyetini değerlendir",
+      "4. tedaviye başla: reçete, hasta bilgilendirme", "5. tedavinin izlenmesi"]}]},
+  {"baslik": "Reçete yazma kuralları ve mevzuat", "sayfa": "7-8", "alt": [
+    {"t": "Hekimin sahip olması gereken farmakoloji bilgisi", "alt": ["endikasyonlar", "etkileşmeler (ilaç-ilaç, ilaç-besin)", "farmakokinetik özellikler", "dozlar", "toksikolojik özellikler"]},
+    "Sağlıkla ilgili yasal düzenlemeler (mevzuat)",
+    "Bazı ilaçlar yalnız yatan hastaya ya da ilgili uzman hekime yazılabilir; geçerli uzman raporuyla pratisyen reçete tekrarı"]},
+  {"baslik": "Reçetenin hukuki niteliği ve sorumluluk", "sayfa": "9-14", "alt": [
+    "Reçete: imzalı, hekime hukuksal sorumluluk yükleyen resmi belge",
+    "Resmiliği sosyal güvenceyle ilişkili değildir; hekimlik kamu görevidir",
+    "Reçetenin muhatabı eczacıdır; hekim ve eczacının sorumluluğu",
+    "Kanıta dayalı tıp: “Neden bu ilacı?” / “Neden değil?”"]},
+  {"baslik": "Reçetenin bölümleri", "sayfa": "15-30", "alt": [
+    "Boş kağıttan reçete: ad-soyad ve imza şartı",
+    "1) Tarih",
+    {"t": "2) Hekime ait bilgiler", "alt": ["ad, soyad, diploma tescil no, uzmanlık alanı", "kurum, adres, telefon", "imza (ya da kaşe)"]},
+    {"t": "3) Hastaya ait bilgiler", "alt": ["ad, soyad, cinsiyet, yaş, tanı, adres, telefon", "etikete aynen aktarılır"]},
+    {"t": "4) Simge (süperskripsiyon)", "alt": ["R, Rx, Rp (Latince “recipe”: kabul ediniz)"]},
+    {"t": "5) İlacın adı (inskripsiyon)", "alt": ["müstahzar, majistral, ofisinal ilaç", "jenerik isim (DSÖ) ve ticari isim"]},
+    {"t": "6) Ek bilgiler (subskripsiyon)", "alt": ["ambalaj ve verilecek miktar (kutu, şişe, tane)", "“D” (Donne: ver), “B” (Boite: kutu)", "Romen rakamıyla yazılan miktar yazıyla da eklenir"]},
+    {"t": "7) Kullanım tarifi (instrüksiyon)", "alt": ["“S” veya “Sign”: etiketin üzerine yaz", "doz, sıklık, yol, aç/tok, süre", "cihazlı uygulamalarda (inhaler vb.) açık tarif/demonstrasyon"]}]},
+  {"baslik": "Reçete çeşitleri", "sayfa": "31-32", "alt": [
+    "Normal reçete",
+    "Turuncu reçete: hemofili ürünleri (yalnız faktör)",
+    "Mor reçete: faktörler dışındaki kan ürünleri",
+    "Turuncu/mor reçete: dört nüshalı",
+    "Yeşil reçete: bağımlılık yapma/suistimal riski olan psikotrop ilaçlar; üç nüsha, seri numaralı",
+    "Kırmızı reçete: opioid riski olan psikotrop ilaçlar; üç nüsha, seri numaralı"]},
+  {"baslik": "E-reçete uygulamaları", "sayfa": "33-38", "alt": [
+    "E-reçete nedir (MEDULA)",
+    "Beklenen faydalar",
+    {"t": "Manuel reçete için istisnai durumlar", "alt": [
+      "kurum hekimlikleri ve bazı sağlık birimleri", "majistral ilaç içeren reçeteler", "yurt dışından getirtilen ilaçlar",
+      "sosyal güvenlik sözleşmesi kapsamındakiler", "provizyon alınamayan durumlar", "acil hal", "gezici sağlık hizmeti", "evde bakım hizmeti",
+      "sistemlerin çalışmaması"]}]}
+ ]}

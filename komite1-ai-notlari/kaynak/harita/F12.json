@@ -1,0 +1,156 @@
+{
+ "kod": "F12",
+ "ders": "Antikoagülan İlaçlar",
+ "hoca": "Prof. Dr. Akif Hakan Kurt",
+ "pdf": "7-Antikoagülan İlaçlar",
+ "basliklar": [
+  {
+   "baslik": "Antikoagülan ilaçlara giriş",
+   "sayfa": "2-3",
+   "alt": [
+    "Antitrombotik ve antikoagülan ayrımı",
+    {
+     "t": "Pıhtılaşmayı engelleyen 2 grup ilaç",
+     "alt": [
+      "heparin (antitrombin III etkinliğini artırır)",
+      "K vitamini antagonistleri (II, VII, IX, X sentezi)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Heparin",
+   "sayfa": "4-20",
+   "alt": [
+    "Kimyasal yapı ve kaynak",
+    "Etki mekanizması (antitrombin III)",
+    {
+     "t": "Düşük molekül ağırlıklı heparinler (DMAH)",
+     "alt": [
+      "dalteparin",
+      "enoksaparin",
+      "nadroparin",
+      "parnaparin",
+      "tinzaparin",
+      "bemiparin",
+      "reviparin",
+      "sertoparin",
+      "ardeparin"
+     ]
+    },
+    "Anti-faktör Xa / anti-faktör IIa etkinlik oranları",
+    {
+     "t": "Heparin dozunun titre edilmesi",
+     "alt": [
+      "aPTZ",
+      "aKZ",
+      "PZ"
+     ]
+    },
+    "Heparin ünitesi",
+    "Farmakokinetiği",
+    {
+     "t": "Preparatlar ve uygulama şekilleri",
+     "alt": [
+      "heparin sodyum",
+      "heparin kalsiyum",
+      "DMAH"
+     ]
+    },
+    "DMAH'in klinik bakımdan üstünlükleri ve dezavantajları",
+    "Uygulama şekilleri (DVT, post-op proflaksi)",
+    "Heparin rezistansı",
+    "Yan tesirleri",
+    {
+     "t": "Aşırı doz antidotu: protamin sülfat",
+     "alt": [
+      "alternatifler: toluidin mavisi, heksadimetrin"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Sentetik heparin türevleri: fondaparinux",
+   "sayfa": "21-22",
+   "alt": [
+    "Etki mekanizması: antitrombin aracılı faktör Xa inhibisyonu",
+    "Farmakokinetiği",
+    "Endikasyonları"
+   ]
+  },
+  {
+   "baslik": "Diğer parenteral antikoagülanlar",
+   "sayfa": "23-24",
+   "alt": [
+    "lepirudin",
+    "bivalirudin",
+    "argatroban"
+   ]
+  },
+  {
+   "baslik": "Oral antikoagülanlar: varfarin",
+   "sayfa": "25-30",
+   "alt": [
+    "Oral antikoagülanların genel özellikleri",
+    "Varfarin ve kumarin antikoagülanlar (etki mekanizması, teratojenite)",
+    "Farmakokinetik özellikleri (CYP2C9)",
+    {
+     "t": "Etkileşmeler",
+     "alt": [
+      "CYP indükleyenler",
+      "CYP inhibitörleri",
+      "albüminden ayrılma",
+      "geniş spektrumlu antibiyotikler"
+     ]
+    },
+    {
+     "t": "Yan tesirler",
+     "alt": [
+      "spontan kanama",
+      "varfarin sendromu"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Heparin ve oral antikoagülanların klinik farmakolojisi",
+   "sayfa": "31",
+   "alt": [
+    "DVT, akut MI ve koroner sendromlar, romatizmal kapak, atriyum fibrilasyonu",
+    "Kapak protezleri/bypass, iskemik inme, gebelikte tromboemboli (heparin tercih)",
+    "Kardiyopulmoner kateterizasyon, hemodiyaliz, organ transplantasyonu"
+   ]
+  },
+  {
+   "baslik": "Kontrendikasyonlar",
+   "sayfa": "32",
+   "alt": [
+    "kanama eğilimi yaratan lezyon ve hastalıklar",
+    "hemostatik mekanizmanın bozulduğu kan hastalıkları",
+    "ağır HT, peptik ülser",
+    "özofagus varisleri, arteryel anevrizmalar",
+    "PZ bakılamıyorsa, büyük cerrahi girişim"
+   ]
+  },
+  {
+   "baslik": "Yeni nesil oral antikoagülanlar",
+   "sayfa": "33-37",
+   "alt": [
+    {
+     "t": "Direkt trombin inhibitörü",
+     "alt": [
+      "dabigatran"
+     ]
+    },
+    {
+     "t": "Faktör Xa inhibitörleri",
+     "alt": [
+      "apiksaban",
+      "rivaroksaban",
+      "edoksaban"
+     ]
+    }
+   ]
+  }
+ ]
+}
