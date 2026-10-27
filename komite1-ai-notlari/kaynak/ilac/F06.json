@@ -1,0 +1,669 @@
+{
+ "kod": "F06",
+ "ders": "İlaçların Etki Mekanizmaları",
+ "pdf": "2-İlaçların Etkimekanizmaları",
+ "agac": [
+  {
+   "ad": "Reseptör Aracılı Mekanizmalar — Reseptörlerin 4 Ana Ailesi",
+   "alt": [
+    {
+     "ad": "Ligand kapılı iyon kanalları",
+     "not": "yanıt ms (örn. GABAA)",
+     "alt": [
+      {
+       "ad": "Doğrudan iyon kanalına bağlı reseptörler",
+       "not": "reseptör örnekleri (ilaç değil)",
+       "ilaclar": [
+        "Nikotinik ACh reseptörü (nAChR): Na+/K+ geçişi → depolarizasyon",
+        "GABAA reseptörü: Cl- kanalı → hiperpolarizasyon → inhibisyon",
+        "Glutamat reseptörleri (AMPA, NMDA, kainat): Na+/Ca2+ → eksitatör",
+        "5-HT3 reseptörü: katyon kanalı → eksitatör",
+        "Glisin reseptörü: Cl- kanalı → inhibisyon"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "G proteinine bağlı reseptörler (GPCR)",
+     "not": "yanıt sn-dk (örn. β2-AR); membran reseptörü",
+     "alt": [
+      {
+       "ad": "Gs",
+       "not": "adenilat siklaz ↑ → cAMP ↑",
+       "ilaclar": [
+        "β1-adrenerjik",
+        "β2-adrenerjik",
+        "β3-adrenerjik",
+        "D1",
+        "D5",
+        "H2",
+        "Glukagon",
+        "ACTH",
+        "TSH"
+       ]
+      },
+      {
+       "ad": "Gi",
+       "not": "adenilat siklaz ↓ → cAMP ↓",
+       "ilaclar": [
+        "α2-adrenerjik",
+        "M2",
+        "M4",
+        "D2",
+        "D3",
+        "D4",
+        "5-HT1",
+        "Opioid μ/κ/δ"
+       ]
+      },
+      {
+       "ad": "Gq",
+       "not": "fosfolipaz C ↑ → IP3 + DAG ↑ → Ca2+ ↑",
+       "ilaclar": [
+        "α1-adrenerjik",
+        "M1",
+        "M3",
+        "M5",
+        "H1",
+        "V1",
+        "AT1",
+        "5-HT2",
+        "5-HT1C",
+        "Bombesin"
+       ]
+      },
+      {
+       "ad": "G12/13",
+       "not": "Rho/Rac yolakları; hücre iskeleti"
+      },
+      {
+       "ad": "Gt (Gt1, Gt2)",
+       "not": "cGMP'ye spesifik fosfodiesteraz; cGMP ↓",
+       "ilaclar": [
+        "Fotonlar (retina; rodopsin)"
+       ]
+      },
+      {
+       "ad": "Golf",
+       "not": "adenilat siklaz stimülasyonu",
+       "ilaclar": [
+        "Koku (olfaktör epitel)"
+       ]
+      },
+      {
+       "ad": "Go",
+       "not": "henüz belli değil; inhibisyon",
+       "ilaclar": [
+        "Bazı muskarinik reseptörler (beyin)"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Enzimle ilişkili reseptörler",
+     "not": "yanıt dk-saat (örn. insülin reseptörü)",
+     "alt": [
+      {
+       "ad": "Reseptör tirozin kinazlar (RTK)",
+       "not": "MAPK ve PI3K/Akt yolakları",
+       "ilaclar": [
+        "İnsülin reseptörü",
+        "EGFR",
+        "PDGFR",
+        "VEGFR",
+        "FGFR"
+       ]
+      },
+      {
+       "ad": "Reseptör tirozin fosfatazlar (RPTP)",
+       "ilaclar": [
+        "CD45",
+        "RPTPα",
+        "RPTPβ"
+       ]
+      },
+      {
+       "ad": "Reseptör serin/treonin kinazlar",
+       "ilaclar": [
+        "TGF-β reseptörü"
+       ]
+      },
+      {
+       "ad": "Sitokin reseptörleri (JAK/STAT)",
+       "ilaclar": [
+        "İnterlökin reseptörleri",
+        "İnterferon reseptörleri"
+       ]
+      },
+      {
+       "ad": "Non-reseptör tirozin kinazlar",
+       "ilaclar": [
+        "Src ailesi",
+        "JAK",
+        "Abl"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Hücre içi / nükleer reseptörler",
+     "not": "gen transkripsiyonu; yanıt saat-gün",
+     "ilaclar": [
+      "Glukokortikoid reseptörü",
+      "Tiroid hormonu reseptörü",
+      "Retinoid reseptörleri",
+      "Östrojen reseptörü",
+      "Progesteron reseptörü"
+     ]
+    },
+    {
+     "ad": "Diğer membran reseptörleri",
+     "ilaclar": [
+      "Toll-benzeri reseptörler (TLR)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İlaçların Etkilediği Bazı Hedefler: Reseptörler, Agonistleri, Antagonistleri",
+   "alt": [
+    {
+     "ad": "Nikotinik asetilkolin reseptörü",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Asetilkolin",
+        "Nikotin"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Tubokürarin",
+        "α-bungarotoksin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "β adrenerjik reseptör",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Noradrenalin",
+        "İsoproterenol"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Propranolol"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Histamin (H1-reseptörü)",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Histamin"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Mepiramin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Histamin (H2-reseptörü)",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "İmpromidin"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Ranitidin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Opioid (μ-reseptörü)",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Morfin"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Nalokson"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "5-HT2-reseptörü",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Serotonin"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Ketanserin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Dopamin (D2-reseptörü)",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Dopamin",
+        "Bromokriptin"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Klorpromazin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "İnsülin reseptörü",
+     "not": "antagonisti: bilinmiyor",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "İnsülin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Östrojen reseptörü",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Etinilöstradiol"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Tamoksifen"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Progesteron reseptörü",
+     "alt": [
+      {
+       "ad": "Agonistler",
+       "ilaclar": [
+        "Noretindron"
+       ]
+      },
+      {
+       "ad": "Antagonistler",
+       "ilaclar": [
+        "Danazol"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İlaç Agonizmaları İçin Örnekler (birinci ilaç + ikinci ilaç → etki)",
+   "alt": [
+    {
+     "ad": "Aşırı sedasyon",
+     "ilaclar": [
+      "Alkol + Sedatifler"
+     ]
+    },
+    {
+     "ad": "Nefrotoksik etki",
+     "ilaclar": [
+      "Aminoglikozitler + Furosemid"
+     ]
+    },
+    {
+     "ad": "Hiperkalemi",
+     "ilaclar": [
+      "ACE inhibitörleri, süksinilkolin + K koruyucu diüretikler"
+     ]
+    },
+    {
+     "ad": "Nöromusküler blok artışı",
+     "ilaclar": [
+      "Kürar + Aminoglikozitler"
+     ]
+    },
+    {
+     "ad": "Hipoglisemi",
+     "ilaclar": [
+      "Aspirin + Sülfonilüreler",
+      "İnsülin ve oral antidiyabetikler + β-blokerler"
+     ]
+    },
+    {
+     "ad": "Daha fazla analjezi",
+     "ilaclar": [
+      "Aspirin + Parasetamol"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İlaçların Agonistik Etkileri",
+   "alt": [
+    {
+     "ad": "Sinerjizm (1 + 1 > 2)",
+     "ilaclar": [
+      "Ampisilin + Sulbaktam",
+      "Trimetoprim + Sülfametoksazol"
+     ]
+    },
+    {
+     "ad": "Potansiyalizasyon (supra-aditif; 0 + 1 > 1)",
+     "ilaclar": [
+      "Kokain (katekolaminlerin etkisini artırır)"
+     ]
+    },
+    {
+     "ad": "Reseptör düzeyinde potansiyalizasyon",
+     "not": "reseptör sayısı/duyarlılığı artar",
+     "ilaclar": [
+      "Tiroit hormonları (β-adrenerjik reseptör ekspresyonu → katekolaminler)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Reseptör Sonrası Sinyal Basamaklarını Hedefleyen Farmakolojik Ajanlara Örnekler",
+   "ilaclar": [
+    "Pertussis toksini (Gi tipi G proteinlerini inaktive eder)",
+    "Kolera toksini (Gs'nin sürekli aktif kalması)",
+    "Lityum (inozitol monofosfatazı inhibe eder)",
+    "Kafein (ER'den Ca2+ salınımını artırabilir)",
+    "Tapsigargin (SERCA pompasını inhibe eder)",
+    "Forskolin (adenilat siklazı doğrudan uyarır)",
+    "Fasudil (Rho-kinaz / ROCK inhibitörü)"
+   ]
+  },
+  {
+   "ad": "Non-Reseptör Aracılı Mekanizmalar",
+   "alt": [
+    {
+     "ad": "Fiziksel / kimyasal nonspesifik etki",
+     "ilaclar": [
+      "Genel anestezikler",
+      "Antiasitler (HCl'yi nötralize eder)",
+      "MgSO4 (ozmotik laksatif)"
+     ]
+    },
+    {
+     "ad": "Enzim inhibisyonu / aktivasyonu",
+     "ilaclar": [
+      "Aspirin (COX inhibisyonu)",
+      "ACE inhibitörleri",
+      "Statinler (HMG-CoA redüktaz inhibisyonu)",
+      "Neostigmin (AChE inhibisyonu)"
+     ]
+    },
+    {
+     "ad": "Antimetabolit etki",
+     "ilaclar": [
+      "Metotreksat (folat metabolizması ↓)",
+      "Sülfonamidler (PABA ile yarışır)"
+     ]
+    },
+    {
+     "ad": "Transporter / ATPaz etkisi",
+     "ilaclar": [
+      "Omeprazol (H+/K+-ATPaz inhibisyonu)",
+      "Digoksin (Na+/K+-ATPaz inhibisyonu)",
+      "SSRI'lar (SERT inhibisyonu)",
+      "SGLT2 inhibitörleri"
+     ]
+    },
+    {
+     "ad": "İyon kanallarının açılması / blokajı",
+     "ilaclar": [
+      "Lokal anestezikler (Na+ kanalı bloke)",
+      "Kalsiyum kanal blokerleri",
+      "Bazı antiaritmikler",
+      "Kanal açıcı ilaçlar"
+     ]
+    },
+    {
+     "ad": "Yerine koyma (replasman)",
+     "ilaclar": [
+      "L-DOPA (dopamin öncülü)",
+      "İnsülin",
+      "Levotiroksin",
+      "Vitaminler"
+     ]
+    },
+    {
+     "ad": "Endojen maddelerin salıverilmesini değiştirme",
+     "alt": [
+      {
+       "ad": "Salıverilmeyi artıranlar",
+       "ilaclar": [
+        "Efedrin (noradrenalin)",
+        "Amfetamin (monoaminler)"
+       ]
+      },
+      {
+       "ad": "Salıverilmeyi azaltan",
+       "ilaclar": [
+        "Kromolin (mast hücresi mediyatörleri)"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Şelasyon",
+     "ilaclar": [
+      "Kalsiyum disodyum EDTA → Kurşun (Pb)",
+      "Dimerkaprol (BAL) → Arsenik, cıva",
+      "Deferoksamin → Demir (Fe)",
+      "Penisilamin → Bakır (Cu)"
+     ]
+    },
+    {
+     "ad": "Maddeyi bağlayarak etkisizleştirme",
+     "ilaclar": [
+      "İnfliksimab (TNF-α'yı bağlar)",
+      "Omalizumab (IgE'yi bağlar)",
+      "Trastuzumab (HER2'yi hedefler)",
+      "Şelatörler (ağır metal iyonları)"
+     ]
+    },
+    {
+     "ad": "Gen transkripsiyonu ve mRNA ekspresyonunun değiştirilmesi",
+     "ilaclar": [
+      "Glukokortikoidler",
+      "Tiroid hormonları",
+      "Retinoidler",
+      "HDAC inhibitörleri"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Yeni Nesil Biyolojik / Biyobenzer İlaçlar",
+   "not": "sınıf → örnek ilaç",
+   "alt": [
+    {
+     "ad": "Anti-TNF-α",
+     "not": "TNF-α nötralizasyonu",
+     "ilaclar": [
+      "İnfliksimab",
+      "Adalimumab"
+     ]
+    },
+    {
+     "ad": "Anti-IL-6",
+     "not": "IL-6 reseptör blokajı",
+     "ilaclar": [
+      "Tocilizumab"
+     ]
+    },
+    {
+     "ad": "Anti-IL-17",
+     "not": "IL-17A nötralizasyonu",
+     "ilaclar": [
+      "Secukinumab"
+     ]
+    },
+    {
+     "ad": "Anti-IL-12/23",
+     "not": "IL-12/23 sinyalinin inhibisyonu",
+     "ilaclar": [
+      "Ustekinumab"
+     ]
+    },
+    {
+     "ad": "Anti-CD20",
+     "not": "B hücre deplesyonu",
+     "ilaclar": [
+      "Rituksimab"
+     ]
+    },
+    {
+     "ad": "Anti-HER2",
+     "not": "HER2 sinyal inhibisyonu",
+     "ilaclar": [
+      "Trastuzumab"
+     ]
+    },
+    {
+     "ad": "Anti-VEGF",
+     "not": "VEGF nötralizasyonu → anjiyogenez ↓",
+     "ilaclar": [
+      "Bevacizumab"
+     ]
+    },
+    {
+     "ad": "Anti-EGFR",
+     "not": "EGFR blokajı",
+     "ilaclar": [
+      "Cetuximab"
+     ]
+    },
+    {
+     "ad": "Anti-RANKL",
+     "not": "RANKL inhibisyonu → osteoklast ↓",
+     "ilaclar": [
+      "Denosumab"
+     ]
+    },
+    {
+     "ad": "Anti-IgE",
+     "not": "serbest IgE bağlanması",
+     "ilaclar": [
+      "Omalizumab"
+     ]
+    },
+    {
+     "ad": "Anti-C5",
+     "not": "kompleman aktivitesi ↓",
+     "ilaclar": [
+      "Eculizumab"
+     ]
+    },
+    {
+     "ad": "Anti-integrin",
+     "not": "lökositlerin dokuya geçişi ↓",
+     "ilaclar": [
+      "Natalizumab"
+     ]
+    },
+    {
+     "ad": "İnsülin analogları",
+     "not": "insülin reseptörü aktivasyonu",
+     "ilaclar": [
+      "Glargin",
+      "Lispro"
+     ]
+    },
+    {
+     "ad": "Eritropoietinler",
+     "not": "EPO reseptörü aktivasyonu",
+     "ilaclar": [
+      "Epoetin alfa"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Antagonizma Türleri — Örnek İlaçlar",
+   "alt": [
+    {
+     "ad": "Farmakolojik antagonizma",
+     "alt": [
+      {
+       "ad": "Kompetitif antagonist",
+       "not": "EC50 ↑, Emax değişmez; sağa kayar",
+       "ilaclar": [
+        "Atropin (muskarinik reseptör antagonisti)"
+       ]
+      },
+      {
+       "ad": "İrreversibl / nonkompetitif antagonist",
+       "not": "Emax ↓",
+       "ilaclar": [
+        "Fenoksibenzamin (α-adrenerjik reseptörleri)"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Fizyolojik antagonist",
+     "not": "farklı reseptörler, zıt etkiler",
+     "ilaclar": [
+      "Adrenalin (β2 → bronkodilatasyon)",
+      "Asetilkolin (M3 → bronkokonstriksiyon)"
+     ]
+    },
+    {
+     "ad": "Kimyasal antagonist",
+     "not": "doğrudan kimyasal etkileşimle nötralizasyon",
+     "ilaclar": [
+      "Protamin (heparini nötralize eder)",
+      "EDTA (metal iyonlarını bağlar)",
+      "Dimerkaprol (ağır metalleri bağlar)"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "kod": "F07",
+ "ders": "İlaç Etkisini Değiştiren Faktörler",
+ "pdf": "3-İlaçların Etkilerini Değiştiren Faktörler",
+ "agac": [
+  {
+   "ad": "Böbrek Yetmezliğinde Etkinliği Artan İlaçlar",
+   "not": "renal itrah hızı değişmeden böbreklerden atılanlar",
+   "ilaclar": [
+    "Probenesid",
+    "Aminoglikozitler",
+    "Fenobarbital",
+    "Fenilbutazon",
+    "Digoksin",
+    "Tetrasiklinler (minosiklin ve doksisiklin hariç)"
+   ]
+  },
+  {
+   "ad": "Karaciğer Hastalıklarında",
+   "alt": [
+    {
+     "ad": "Karaciğerde yüksek oranda eliminasyona uğrayanlar (etki süresi uzar)",
+     "not": "yağda çözünürlüğü yüksek",
+     "ilaclar": [
+      "Lidokain",
+      "Morfin",
+      "Meperidin"
+     ]
+    },
+    {
+     "ad": "Aktif şekle dönüşümü azalan ön-ilaçlar (etkileri azalır)",
+     "ilaclar": [
+      "Kortizon",
+      "Prednizon",
+      "Primidon"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Çevresel Faktörler (Çevre Kirlenmesine Neden Olan Maddeler)",
+   "alt": [
+    {
+     "ad": "Mikrozomal enzimleri indükleyenler",
+     "ilaclar": [
+      "Poliklorlu bifeniller",
+      "DDT ve organik klorlu insektisidler",
+      "Polisiklik aromatik hidrokarbonlar"
+     ]
+    },
+    {
+     "ad": "Sitokrom P450 enzimlerini inhibe edenler",
+     "ilaclar": [
+      "Sigara dumanı",
+      "Karbonmonoksid"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Diyet — İlaç Etkileşimleri",
+   "alt": [
+    {
+     "ad": "Greyfurt suyu (CYP3A4 inhibisyonu → toksisite artar)",
+     "not": "belirli flavanoidler",
+     "ilaclar": [
+      "Terfenadin",
+      "Astemizol",
+      "Atorvastatin"
+     ]
+    },
+    {
+     "ad": "Sütlü besinlerden gelen Ca++ ilaçları bağlar",
+     "ilaclar": [
+      "Tetrasiklinler"
+     ]
+    },
+    {
+     "ad": "K vitamini içeren yeşil sebzeler (brokoli, ıspanak vb)",
+     "ilaclar": [
+      "Varfarin (oral antikoagülan)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Kiralite — Enantiyomerlerin Farklı Etkileri",
+   "alt": [
+    {
+     "ad": "Antitüssif",
+     "ilaclar": [
+      "Dekstropropoksifen"
+     ]
+    },
+    {
+     "ad": "Morfin benzeri analjezik",
+     "ilaclar": [
+      "Levopropoksifen"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Tolerans",
+   "alt": [
+    {
+     "ad": "Tolerans örneği",
+     "ilaclar": [
+      "Opioid analjezikler"
+     ]
+    },
+    {
+     "ad": "Çapraz tolerans",
+     "not": "alkoliklerde uyku ilaçlarına tolerans",
+     "ilaclar": [
+      "Alkol",
+      "Uyku ilaçları"
+     ]
+    },
+    {
+     "ad": "Biyokimyasal (farmakokinetik) tolerans — otoindüksiyon",
+     "ilaclar": [
+      "Alkol",
+      "Barbitüratlar",
+      "Karbamazepin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Taşiflaksi (Akut Tolerans) Gelişen İlaçlar",
+   "ilaclar": [
+    "Efedrin",
+    "Amfetamin",
+    "Tiramin",
+    "Nikotin",
+    "Vazopressin",
+    "5-HT3 reseptör agonistleri"
+   ]
+  },
+  {
+   "ad": "Desensitizasyon Mekanizmaları — Örnek Reseptörler",
+   "not": "reseptör örnekleri (ilaç değil)",
+   "alt": [
+    {
+     "ad": "Reseptör konformasyonunun bozulması",
+     "ilaclar": [
+      "Nikotinik reseptörler"
+     ]
+    },
+    {
+     "ad": "Reseptör molekülünün kovalent modifikasyonu",
+     "ilaclar": [
+      "β-adrenerjik reseptörler"
+     ]
+    },
+    {
+     "ad": "Reseptörlerin G proteini ile kenetlenmesinin bozulması",
+     "ilaclar": [
+      "Opioid reseptörler"
+     ]
+    }
+   ]
+  }
+ ]
+}

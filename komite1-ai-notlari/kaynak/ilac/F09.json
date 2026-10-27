@@ -1,0 +1,324 @@
+{
+ "kod": "F09",
+ "ders": "İlaç-İlaç Etkileşimleri",
+ "pdf": "4-ilaç-ilaç etkileşimleri end",
+ "agac": [
+  {
+   "ad": "Metabolizma Düzeyinde Etkileşme (CYP enzimleri üzerinden)",
+   "alt": [
+    {
+     "ad": "Klinik örnekler",
+     "alt": [
+      {
+       "ad": "Enzim inhibisyonu → metabolizma ↓ → ilaç düzeyi ↑ → toksisite ↑",
+       "ilaclar": [
+        "Kinidin (CYP2D6 inhibitörü)",
+        "Eritromisin (CYP3A4 substratı + inhibitörü)"
+       ]
+      },
+      {
+       "ad": "Enzim indüksiyonu → metabolizma ↑ → ilaç düzeyi ↓ → etkinlik ↓",
+       "ilaclar": [
+        "Rifampisin (güçlü enzim indükleyicisi)"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "İndükleyenler",
+     "ilaclar": [
+      "Rifampisin",
+      "St John's wort"
+     ]
+    },
+    {
+     "ad": "İnhibe edenler",
+     "ilaclar": [
+      "Ketokonazol",
+      "İtrakonazol",
+      "Flukonazol",
+      "Eritromisin vb. makrolidler",
+      "Fluvoksamin",
+      "Fluoksetin",
+      "Sertralin",
+      "Nefazodone",
+      "Kalsiyum kanal blokerleri (Verapamil)",
+      "Omeprazol",
+      "Greyfurt suyu"
+     ]
+    },
+    {
+     "ad": "İndükleyenler listesinin hemen ardından yazılanlar",
+     "not": "Drive metni; slayt sütunu belirsiz",
+     "ilaclar": [
+      "Siklosporin",
+      "Takrolimus"
+     ]
+    },
+    {
+     "ad": "İnhibe edenler listesinin ardından yazılanlar",
+     "not": "Drive metni; slayt sütunu belirsiz",
+     "ilaclar": [
+      "Terfenadin",
+      "Siklosporin",
+      "Astemizol",
+      "Digoksin",
+      "Midazolam",
+      "Sakinavir"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İtrah Düzeyinde Etkileşme",
+   "alt": [
+    {
+     "ad": "Katyon transport sistemi",
+     "not": "sütun ayrımı slayt sırasından çıkarıldı",
+     "ilaclar": [
+      "Prokainamid",
+      "Sisplatin",
+      "Simetidin",
+      "Tetraetil amonyum"
+     ]
+    },
+    {
+     "ad": "Anyon transport sistemi",
+     "not": "sütun ayrımı slayt sırasından çıkarıldı",
+     "ilaclar": [
+      "Penisilin G",
+      "Probenesid",
+      "Siprofloksasin",
+      "Sefalosporinler",
+      "Riboflavin",
+      "Para-aminohippurat"
+     ]
+    },
+    {
+     "ad": "Yarışan çiftler",
+     "ilaclar": [
+      "Tetraetil amonyum × Sisplatin",
+      "Probenesid × Penisilin-Sefalosporin"
+     ]
+    },
+    {
+     "ad": "P-glikoprotein pompası ile tübüler sekresyona uğrayan",
+     "ilaclar": [
+      "Digoksin"
+     ]
+    },
+    {
+     "ad": "Zayıf asidik ilaçlar",
+     "not": "idrar asit → itrah ↓; idrar bazik → itrah ↑",
+     "ilaclar": [
+      "Varfarin vb. antikoagülanlar",
+      "Salisilat",
+      "Fenobarbital",
+      "Sulfadiazin",
+      "Sulfamerazin",
+      "Tolbutamid",
+      "Nitrofurantoin",
+      "Nalidiksik asid",
+      "Tetrasiklin"
+     ]
+    },
+    {
+     "ad": "Zayıf bazik ilaçlar",
+     "not": "idrar asit → itrah ↑; idrar bazik → itrah ↓",
+     "ilaclar": [
+      "Amfetaminler",
+      "Efedrin",
+      "Fenitoin",
+      "Klorpromazin",
+      "Amitriptilin",
+      "İmipramin",
+      "Meperidin",
+      "Kinin",
+      "Kinidin",
+      "Teofilin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Farmasötik Etkileşim Örneği",
+   "ilaclar": [
+    "Sodyum tiyopental + Vekuronyum (i.v. set içinde çökelti)"
+   ]
+  },
+  {
+   "ad": "Etkileşim Sınıfları (I–VI) ve Örnekleri",
+   "alt": [
+    {
+     "ad": "Sınıf I — Kontrendikedir",
+     "ilaclar": [
+      "Sildenafil + Nitrat"
+     ]
+    },
+    {
+     "ad": "Sınıf II — Mümkünse birlikte kullanılmamalı",
+     "ilaclar": [
+      "Statin + Gemfibrozil"
+     ]
+    },
+    {
+     "ad": "Sınıf III — Aynı sınıftaki tüm ilaçlar için geçerli değil",
+     "ilaclar": [
+      "Makrolid + Statin"
+     ]
+    },
+    {
+     "ad": "Sınıf IV — Serum düzeyi/laboratuvar izlemi gerekebilir",
+     "ilaclar": [
+      "Digoksin + Loop diüretik"
+     ]
+    },
+    {
+     "ad": "Sınıf V — İlaçlardan birinin düzeyi artabilir veya azalabilir",
+     "ilaclar": [
+      "Verapamil + Beta-bloker"
+     ]
+    },
+    {
+     "ad": "Sınıf VI — Diğer ilacın başlanması/kesilmesiyle etkileşim",
+     "ilaclar": [
+      "Varfarin + Tiroid ilaçları"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Klinik Etkileşim Örnekleri (mekanizma / klinik yaklaşım tablosu)",
+   "alt": [
+    {
+     "ad": "Birlikte kullanılmaz / kontrendike",
+     "ilaclar": [
+      "Sildenafil + Nitrat",
+      "Ritonavir + Simvastatin"
+     ]
+    },
+    {
+     "ad": "Kaçınılmalı",
+     "ilaclar": [
+      "Simvastatin + Gemfibrozil",
+      "Simvastatin + Güçlü CYP3A4 inhibitörü"
+     ]
+    },
+    {
+     "ad": "Doz/tedavi düzenlenmeli",
+     "ilaclar": [
+      "Ritonavir + Sildenafil"
+     ]
+    },
+    {
+     "ad": "İzlem gerekli",
+     "ilaclar": [
+      "Varfarin + Amiodaron",
+      "Digoksin + Amiodaron",
+      "ACEİ/ARB + K⁺ tutucu diüretik"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "En Önemli 10 İlaç-İlaç Etkileşimi",
+   "ilaclar": [
+    "Sildenafil + Nitrat",
+    "Opioid + Benzodiazepin",
+    "Metotreksat + Trimetoprim",
+    "Varfarin + NSAİİ",
+    "Varfarin + Amiodaron",
+    "Digoksin + Amiodaron",
+    "Simvastatin + Gemfibrozil",
+    "SSRI/SNRI + MAO İnhibitörü",
+    "ACEİ/ARB + Spironolakton",
+    "Lityum + NSAİİ"
+   ]
+  },
+  {
+   "ad": "Malpraktis Açısından Yüksek Riskli 10 İlaç Etkileşimi",
+   "ilaclar": [
+    "Nitrat + Sildenafil",
+    "Opioid + Benzodiazepin",
+    "Metotreksat + Trimetoprim/Sulfametoksazol",
+    "Varfarin + NSAİİ",
+    "Varfarin + Amiodaron",
+    "Digoksin + Amiodaron",
+    "Simvastatin + Gemfibrozil",
+    "MAO İnhibitörü + SSRI/SNRI",
+    "ACEİ/ARB + Spironolakton",
+    "Lityum + NSAİİ"
+   ]
+  },
+  {
+   "ad": "En Tehlikeli 10 İlaç Etkileşimi",
+   "ilaclar": [
+    "Warfarin + NSAİ (Asetilsalisilik Asit, Parasetamol, Metamizol Sodyum)",
+    "Warfarin + Sülfonamid",
+    "Warfarin + Makrolid Antibiyotikler",
+    "Warfarin + Kinolon Grubu Antibiyotikler",
+    "Warfarin + Fenitoin",
+    "ACE İnhibitörü + Potasyum Preparatı",
+    "ACE İnhibitörü + Spironolakton",
+    "Digoksin + Amiodaron",
+    "Digoksin + Verapamil",
+    "Teofilin + Kinolon Antibiyotik"
+   ]
+  },
+  {
+   "ad": "Terapötik Aralığı Dar olan İlaçlar",
+   "alt": [
+    {
+     "ad": "Oral antikoagülanlar",
+     "ilaclar": [
+      "Warfarin"
+     ]
+    },
+    {
+     "ad": "Antikanser ilaçlar",
+     "ilaclar": [
+      "5-Florourasil"
+     ]
+    },
+    {
+     "ad": "İmmünsupresif ilaçlar",
+     "ilaclar": [
+      "Siklosporin"
+     ]
+    },
+    {
+     "ad": "Antiaritmik ilaçlar",
+     "ilaclar": [
+      "Kinidin"
+     ]
+    },
+    {
+     "ad": "Dijital glikozidleri",
+     "ilaclar": [
+      "Digoksin"
+     ]
+    },
+    {
+     "ad": "Antikonvülzanlar",
+     "ilaclar": [
+      "Fenitoin"
+     ]
+    },
+    {
+     "ad": "Oral hipoglisemik ajanlar",
+     "ilaclar": [
+      "Gliburid"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Dar Terapötik İndeksli İlaçlar (kan düzeyleri sıkı takip edilmeli)",
+   "ilaclar": [
+    "Digoksin",
+    "Teofilin",
+    "Varfarin"
+   ]
+  }
+ ]
+}

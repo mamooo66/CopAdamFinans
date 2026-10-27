@@ -1,0 +1,350 @@
+{
+ "kod": "F05",
+ "ders": "İlaç Uygulama Yolları ve Farmasötik Biçimleri",
+ "pdf": "1-İlaç Uygulama Yolları",
+ "agac": [
+  {
+   "ad": "Lokal Uygulama Yolları — uygulanan ilaçlar",
+   "alt": [
+    {
+     "ad": "Deriye uygulama (epidermal / perkütan)",
+     "alt": [
+      {
+       "ad": "Yağda çözünen, çok kolay emilen ilaçlar",
+       "ilaclar": [
+        "Organik fosfatlar",
+        "Nikotin"
+       ]
+      },
+      {
+       "ad": "Topikal uygulamada sistemik etki görülebilen",
+       "ilaclar": [
+        "Kortikosteroidler"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Deri içine (intrakütan) uygulama",
+     "not": "hacim 0.1 ml'yi geçmemeli",
+     "ilaclar": [
+      "Allerji testleri / cilt testleri için ilaç çözeltisi veya serumlar",
+      "Lokal anestezikler"
+     ]
+    },
+    {
+     "ad": "Göze uygulama",
+     "alt": [
+      {
+       "ad": "Gözün iç köşeleri kapatılarak uygulanır (sistemik etkiyi önlemek)",
+       "ilaclar": [
+        "Atropin",
+        "Timolol"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "İntranazal uygulama",
+     "alt": [
+      {
+       "ad": "Lokal etki (damla / sprey)",
+       "ilaclar": [
+        "Dekonjestan",
+        "Antihistaminik",
+        "Kortikosteroidler"
+       ]
+      },
+      {
+       "ad": "Sistemik etki (sprey; ilk geçiş yok)",
+       "ilaclar": [
+        "Vazopresin",
+        "Kalsitonin",
+        "Oksitosin ve bunların türevleri"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Kulak içine uygulama (damla)",
+     "ilaclar": [
+      "Antihistaminikler",
+      "Glukokortikoidler",
+      "Antibiyotikler"
+     ]
+    },
+    {
+     "ad": "Mide-barsak kanalına (absorbe olmadan etki)",
+     "ilaclar": [
+      "Antiasitler",
+      "Laksatifler"
+     ]
+    },
+    {
+     "ad": "İntratekal uygulama",
+     "not": "subaraknoid aralık, 3.-4. lomber vertebralar",
+     "ilaclar": [
+      "Lokal anestezik solüsyonlar (spinal anestezi)",
+      "Antineoplastik ilaçlar (metotreksat)",
+      "Bazı antibakteriyel ilaçlar",
+      "Bazı antifungal ilaçlar"
+     ]
+    },
+    {
+     "ad": "İntrakardiyak uygulama (kardiyak resusitasyon)",
+     "ilaclar": [
+      "Adrenalin gibi stimülan ilaçlar",
+      "Atropin"
+     ]
+    },
+    {
+     "ad": "İntraartiküler uygulama",
+     "not": "sistemik yan etkiler azalır",
+     "ilaclar": [
+      "Glukokortikoidler",
+      "Kortikosteroid solüsyon ve süspansiyonları",
+      "Antibakteriyel ilaçlar"
+     ]
+    },
+    {
+     "ad": "İntrauterin uygulama",
+     "ilaclar": [
+      "Oksitosin (miyometriyuma)",
+      "Oksitosik prostaglandinler (serviks içine; tıbbi abortus)",
+      "Rahim içi araçlar (RİA)"
+     ]
+    },
+    {
+     "ad": "İntravajinal uygulama",
+     "not": "vajinal tablet, fitil, ovül, krem, jel, köpük",
+     "ilaclar": [
+      "Spermisid ilaçlar"
+     ]
+    },
+    {
+     "ad": "Rektum veya kolon içine uygulama",
+     "not": "supozituvar, enema, lavman, merhem",
+     "ilaclar": [
+      "Parasetamol supozituvarı (bebeklere; sistemik etki)"
+     ]
+    },
+    {
+     "ad": "Lezyon içine uygulama (kist hidatik)",
+     "ilaclar": [
+      "Hipertonik tuz solüsyonu",
+      "Formaldehid"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Sistemik Etki İçin Uygulama Yerleri",
+   "alt": [
+    {
+     "ad": "Parenteral Uygulama",
+     "alt": [
+      {
+       "ad": "İntramüsküler (i.m.) enjeksiyon",
+       "alt": [
+        {
+         "ad": "Absorpsiyon süresi uzatılanlar",
+         "ilaclar": [
+          "Prokain Penisilin G (suda az çözünen)",
+          "Yavaş hidroliz edilen yağ asidi esterleri",
+          "Gliserin gibi viskoz taşıyıcılı preparatlar"
+         ]
+        },
+        {
+         "ad": "Komplikasyonlara örnek",
+         "ilaclar": [
+          "Benzil Penisilin G (ağrı)",
+          "Demir (pigmentasyon)"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Subkütan (s.c.) enjeksiyon",
+       "alt": [
+        {
+         "ad": "Pellet veya kristalize şekliyle uzun etki",
+         "ilaclar": [
+          "İnsülin"
+         ]
+        },
+        {
+         "ad": "Absorpsiyonu yavaşlatan vazokonstriktör katılanlar",
+         "ilaclar": [
+          "Adrenalin",
+          "Lokal anestezikler"
+         ]
+        },
+        {
+         "ad": "Absorpsiyonu artıran katkılar",
+         "ilaclar": [
+          "Vazodilatör madde",
+          "Hiyaluronidaz"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "İntraarteriyel (i.a.) enjeksiyon",
+       "ilaclar": [
+        "Radyoopak madde (anjiyografi)",
+        "Kanser kemoterapisi (tümörlü organın arteri)"
+       ]
+      },
+      {
+       "ad": "İnfüzyon pompaları (ayakta tedavi)",
+       "ilaclar": [
+        "Antibiyotikler",
+        "Antineoplastikler"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Enteral Uygulama",
+     "alt": [
+      {
+       "ad": "Sublingual ve bukkal uygulama",
+       "not": "presistemik eliminasyona fazla uğrayanlar",
+       "ilaclar": [
+        "Nifedipin",
+        "İzosorbit dinitrat",
+        "Bazı ergot alkaloidleri",
+        "Bazı steroid hormonlar (metiltestosteron)",
+        "Piroksikam"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Transdermal Uygulama",
+     "alt": [
+      {
+       "ad": "Merhem",
+       "ilaclar": [
+        "Nitrogliserin"
+       ]
+      },
+      {
+       "ad": "TTS (flaster; transdermal terapötik sistem)",
+       "not": "lipofilik, küçük dozla etkili ilaçlar",
+       "ilaclar": [
+        "Skopolamin",
+        "Nitrogliserin",
+        "Klonidin",
+        "Östrojen",
+        "Estradiol",
+        "Testosteron",
+        "Fentanil"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "İnhalasyon Yolu ile Uygulama",
+     "alt": [
+      {
+       "ad": "İnhalasyonla uygulananlar",
+       "ilaclar": [
+        "Genel anestezikler (azot protoksit; gaz)",
+        "Sevofluran (buhar)",
+        "Astım ve KOAH ilaçları"
+       ]
+      },
+      {
+       "ad": "İnhaler / kapsül içindeki ilaç türleri",
+       "ilaclar": [
+        "Kortikosteroid",
+        "Bronkodilatör",
+        "Kortikosteroid + bronkodilatör karışımı"
+       ]
+      },
+      {
+       "ad": "Endotrakeal uygulama",
+       "not": "bebeklerde Respiratuvar Distres Sendromu",
+       "ilaclar": [
+        "Surfaktanlar"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İlaçların Farmasötik Şekilleri (s.4 şeması)",
+   "not": "ilaç değil; farmasötik şekil sınıflaması",
+   "alt": [
+    {
+     "ad": "Katı farmasötik şekiller",
+     "alt": [
+      {
+       "ad": "Ağızdan kullanılanlar",
+       "ilaclar": [
+        "Tablet (Komprime)",
+        "Draje",
+        "Pilül",
+        "Kapsül",
+        "Kaşe",
+        "Toz",
+        "Paket"
+       ]
+      },
+      {
+       "ad": "Diğer yollardan kullanılanlar",
+       "ilaclar": [
+        "Supozituvar",
+        "Ovül",
+        "Transdermal terapötik sistem"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Sıvı farmasötik şekiller",
+     "ilaclar": [
+      "Solüsyon",
+      "Enjeksiyonluk solüsyon",
+      "Süspansiyon",
+      "Emülsiyon",
+      "Şurup",
+      "Posyon",
+      "Damla",
+      "Lavman",
+      "Merhem",
+      "Aerosol"
+     ]
+    },
+    {
+     "ad": "Lokal uygulanabilen farmasötik şekiller (s.12)",
+     "ilaclar": [
+      "Merhem",
+      "Krem",
+      "Pomad",
+      "Toz (Pudra)",
+      "Çözelti",
+      "Süspansiyon",
+      "Losyon"
+     ]
+    },
+    {
+     "ad": "Oral uygulamadaki farmasötik şekiller (s.69)",
+     "not": "absorpsiyon: çözelti>emülsiyon>süspansiyon>kapsül>tablet",
+     "ilaclar": [
+      "Tablet",
+      "Kapsül",
+      "Draje",
+      "Enterik kaplı tablet",
+      "Çiğneme tableti",
+      "Granül",
+      "Şase",
+      "Şurup"
+     ]
+    }
+   ]
+  }
+ ]
+}

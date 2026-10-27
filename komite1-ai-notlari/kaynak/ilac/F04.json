@@ -1,0 +1,241 @@
+{
+ "kod": "F04",
+ "ders": "İlaçların Eliminasyonu",
+ "pdf": "4-İlaçların Eliminasyonu",
+ "agac": [
+  {
+   "ad": "Böbreklerden İtrah",
+   "alt": [
+    {
+     "ad": "Tablo 6.1 — Tübülüslerden Salgılanma Suretiyle İtrah Edilen İlaçlar",
+     "not": "proksimal tübülüs; anyonik ve katyonik taşıyıcı",
+     "alt": [
+      {
+       "ad": "Asidik ilaçlar",
+       "ilaclar": [
+        "Asetazolamid",
+        "p-Aminohipürik asid",
+        "İlaçların glükuronik asid konjügatları",
+        "İlaçların sülfat konjügatları",
+        "Penisilinler",
+        "Sefalosporinler",
+        "Salisilatlar",
+        "Furosemid",
+        "Tiazid diüretikler",
+        "İlaçların glisin konjügatları",
+        "İndometasin",
+        "Nitrofurantoin",
+        "Probenesid",
+        "Benzbromaron"
+       ]
+      },
+      {
+       "ad": "Bazik ilaçlar",
+       "ilaclar": [
+        "Amilorid",
+        "Morfin",
+        "Meperidin",
+        "Dihidrokodein",
+        "Kinin",
+        "Kinidin",
+        "Kuvaterner amonyum türevleri (neostigmin, d-tübokürarin vb.)",
+        "Simetidin",
+        "Dopamin",
+        "Serotonin",
+        "Histamin",
+        "N-metilhistamin",
+        "Guanidin türevleri",
+        "Prokain",
+        "Prokainamid",
+        "Tiamin",
+        "Triamteren"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Aynı taşıyıcı için yarışan ilaçlar",
+     "not": "birbirinin atılımını azaltır",
+     "ilaclar": [
+      "Probenesid → penisilinlerin / sefalosporinlerin atılımını azaltır"
+     ]
+    },
+    {
+     "ad": "P-glikoprotein (MDR-1) ile tübüler salgılananlar",
+     "ilaclar": [
+      "Kinidin",
+      "Digoksin",
+      "Kolşisin",
+      "Bazı kanser ilaçları"
+     ]
+    },
+    {
+     "ad": "Renal plazma akım hızını saptamada kullanılanlar",
+     "not": "yalnızca tübüler salgılanma",
+     "ilaclar": [
+      "P-aminohipürik asid",
+      "Penisilin G"
+     ]
+    },
+    {
+     "ad": "GF hızını saptamada kullanılan",
+     "not": "yalnızca GF ile atılır",
+     "ilaclar": [
+      "İnülin"
+     ]
+    },
+    {
+     "ad": "Salisilat zehirlenmesinde idrar pH'sı ayarı",
+     "not": "tübüler reabsorpsiyonu azaltır",
+     "ilaclar": [
+      "Sodyum bikarbonat (bazikleştirir)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Karaciğerden Safra İçine İtrah",
+   "alt": [
+    {
+     "ad": "Aktif transportla safraya geçenler",
+     "ilaclar": [
+      "Tetrasiklinler",
+      "Eritromisin estolat"
+     ]
+    },
+    {
+     "ad": "Fazla iyonize olduğu için hızlı itrah edilenler",
+     "ilaclar": [
+      "d-Tübokürarin",
+      "Bromsulfoftalein"
+     ]
+    },
+    {
+     "ad": "KC hücre membranında aktif transport taşıyıcıları (4 sistem)",
+     "alt": [
+      {
+       "ad": "Organik asidler için",
+       "not": "karboksilik, glukuronik, sülfonik asid türevleri"
+      },
+      {
+       "ad": "Organik bazlar için",
+       "ilaclar": [
+        "Eritromisin",
+        "Kuvaterner amonyum bileşikleri"
+       ]
+      },
+      {
+       "ad": "Nötral organik bileşikler için",
+       "ilaclar": [
+        "Glikozitler",
+        "Steroitler"
+       ]
+      },
+      {
+       "ad": "P-glikoprotein",
+       "not": "ilaçları hücre içinden lümene atar"
+      }
+     ]
+    },
+    {
+     "ad": "Presistemik eliminasyonu yüksek bazı ilaçlar",
+     "not": "ilk geçiş (first pass)",
+     "ilaclar": [
+      "Aspirin",
+      "Propranolol",
+      "Verapamil",
+      "Morfin",
+      "İmipramin"
+     ]
+    },
+    {
+     "ad": "Yaşlanma ile hepatik eliminasyonu azalan ilaçlar",
+     "ilaclar": [
+      "İmipramin",
+      "Barbitüratlar",
+      "Meperidin",
+      "Propranolol",
+      "Kinidin",
+      "Kinin",
+      "Teofilin",
+      "Diazepam"
+     ]
+    },
+    {
+     "ad": "Yaşlanma ile hepatik eliminasyonu artan ilaçlar",
+     "ilaclar": [
+      "Etanol",
+      "İzoniazid",
+      "Lidokain",
+      "Lorazepam",
+      "Salisilat",
+      "Varfarin",
+      "Nitrazepam"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Akciğerlerden İtrah",
+   "not": "gazlar ve uçucu sıvılar",
+   "ilaclar": [
+    "Halotan",
+    "Azot protoksid"
+   ]
+  },
+  {
+   "ad": "Salya (Tükrük) İçinde İtrah",
+   "ilaclar": [
+    "İyodürler",
+    "Bromürler",
+    "Lityum"
+   ]
+  },
+  {
+   "ad": "Süt İçinde İtrah (örnekler)",
+   "not": "bazik ilaçlar iyon tuzağı ile sütte toplanır",
+   "ilaclar": [
+    "Kloramfenikol",
+    "Alkol",
+    "Lityum",
+    "Barbitürat",
+    "Opiatlar",
+    "Sülfonamidler"
+   ]
+  },
+  {
+   "ad": "Tablo 6.2 — Emziren Kadınlarda Kontrendike Olan İlaçlar",
+   "not": "ilaç → bebekteki sakıncası",
+   "ilaclar": [
+    "Altın bileşikleri → aşırı duyarlık, hematolojik ve renal toksisite",
+    "Amiodaron → tiroid bozukluğu olasılığı",
+    "Antineoplastik ilaçlar → kemik iliği depresyonu",
+    "Kloramfenikol → kemik iliği depresyonu olasılığı",
+    "Doksepin → solunum depresyonu (günde 75 mg veya daha fazla)",
+    "Ergotamin → ergotizm olasılığı",
+    "İndometasin → konvülsiyon yapabilir",
+    "İyodürler (öksürük ilaçları dahil) → tiroid bozukluğu olasılığı",
+    "Lityum → hipotermi ve \"floppy baby\" sendromu",
+    "Estrojenler (yüksek doz) → erkek bebekte feminizasyon",
+    "Penisilamin → hematolojik ve renal toksisite olasılığı",
+    "Fenindion → hemorajik hastalık (hematom)",
+    "Tetrasiklinler → dişlerde diskolorasyon olasılığı",
+    "Vitamin A ve D (yüksek doz) → A ve D hipervitaminozu olasılığı"
+   ]
+  },
+  {
+   "ad": "Yapay İtrah Yöntemleri",
+   "alt": [
+    {
+     "ad": "Hemodiyaliz kullanılabilen zehirlenmeler",
+     "not": "ABY ve KBY'de de kullanılır",
+     "ilaclar": [
+      "Alkol",
+      "Metanol",
+      "Aspirin"
+     ]
+    }
+   ]
+  }
+ ]
+}

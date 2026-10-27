@@ -1,0 +1,821 @@
+{
+ "kod": "F03",
+ "ders": "İlaçların Metabolizması (Biyotransformasyon)",
+ "pdf": "3-İlaçların Metabolizması",
+ "agac": [
+  {
+   "ad": "Biyoaktivasyon (giriş slaytları)",
+   "alt": [
+    {
+     "ad": "Daha etkili bileşiğe dönüşenler",
+     "ilaclar": [
+      "Kodein → Morfin"
+     ]
+    },
+    {
+     "ad": "Daha toksik bileşiğe dönüşenler",
+     "ilaclar": [
+      "Metil alkol → Formaldehid ve formik asid",
+      "Asetaminofen → N-Asetil-p-benzokinonimin"
+     ]
+    },
+    {
+     "ad": "Ön-ilaç (inaktif prekürsör, prodrug)",
+     "not": "lokal etkisiz; KC'de etkin forma dönüşür",
+     "ilaclar": [
+      "Kortizon → Hidrokortizon",
+      "Prednizon → Prednizolon",
+      "Karotenler (provitamin-A) → A vitamini",
+      "Bakampisilin → Ampisilin",
+      "Enalapril → Enalaprilat"
+     ]
+    },
+    {
+     "ad": "Maksatlı olarak ön-ilaç yapma nedenleri",
+     "alt": [
+      {
+       "ad": "GİS absorpsiyonunu artırmak",
+       "ilaclar": [
+        "ADE inhibitörleri (daha lipofilik ön-ilaç)"
+       ]
+      },
+      {
+       "ad": "Uygulama yerinden absorpsiyonu yavaşlatmak",
+       "ilaclar": [
+        "Bazı steroid hormonlar ve flufenazinin enantat, dekanoat, sipiyonat vb. esterleri"
+       ]
+      },
+      {
+       "ad": "Po alımda acı tat gibi hoşa gitmeyen nitelikleri maskelemek",
+       "ilaclar": [
+        "Sülfizoksazol asetil",
+        "Kloramfenikol palmitat"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Tablo 5.1 — Biyotransformasyon Sonucu Etkinliğin Değişmesine Ait Örnekler",
+   "alt": [
+    {
+     "ad": "A) Ön-ilaçlar (biyotransformasyon sonucu etkin hale geçen ilaçlar)",
+     "not": "ön-ilaç → etkin metabolit",
+     "ilaclar": [
+      "Kloralhidrat → Trikloretanol",
+      "Amitriptilin → Nortriptilin",
+      "Kortizon, Prednizon → Hidrokortizon, Prednizolon",
+      "Bakampisilin → Ampisilin",
+      "Enalapril, Ramipril, Silazapril vb. → Enalaprilat, Ramiprilat, Silazaprilat vb.",
+      "Hint yağı → Risinoleik asid",
+      "Lovastatin → Mevilonik asid",
+      "Vitamin D3 → 1,25-Dihidroksikolekalsiferol",
+      "Sefuroksim aksetil → Sefuroksim",
+      "Klofibrat → Klofibrik asid"
+     ]
+    },
+    {
+     "ad": "B) Gerek kendisi ve gerekse metaboliti etkin olan ilaçlar",
+     "not": "(F) metabolit>ana ilaç; (E) eşit; (A) daha az",
+     "ilaclar": [
+      "Aspirin → Salisilik asid (A)",
+      "Meperidin → Normeperidin (A)",
+      "İmipramin → Desmetilimipramin (F)",
+      "Klorpromazin → 7-Hidroksiklorpromazin (A)",
+      "Diazepam → Desmetildiazepam (E)",
+      "Kodein → Morfin (F)",
+      "Dijitoksin → Digoksin (E)",
+      "Losartan → EXP3174 (F)",
+      "Prokainamid → N-Asetilprokainamid (E)",
+      "Lidokain → De-etillidokain (A)",
+      "Nitrogliserin → Nitrik oksid (F)",
+      "Nitroprusiat → Nitrik oksid (F)",
+      "Propranolol → 4-Hidroksipropranolol (E)"
+     ]
+    },
+    {
+     "ad": "C) İlaçların etkisiz ürünlere dönüşümüne ait örnekler",
+     "not": "ilaç → etkin olmayan metabolit",
+     "ilaclar": [
+      "İlaçların çoğu → Konjügasyon metabolitleri (örn. glükuronatları, N-asetil türevleri vb.)",
+      "Ester yapısındaki ilaçların çoğu → Hidrolitik metabolitler",
+      "Fenitoin → Parahidroksifenitoin",
+      "Katekolaminler → VMA, HVA",
+      "Barbitüratlar → Yan zincirden oksidlenmiş metabolitler"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Tablo 5.2 — Toksik Metabolitlere Dönüşme Örnekleri",
+   "not": "ilaç → toksik metabolit: toksik etki",
+   "ilaclar": [
+    "Asetaminofen → N-Asetil-p-benzokinonimin (NAPQ): hepatotoksisite",
+    "Dapson → N-Hidroksidapson: methemoglobinemi",
+    "Glutetimid → 4-Hidroksiglutetimid: koma (aşırı dozda)",
+    "İzoniazid → Monoasetilhidrazin: hepatit",
+    "Kloroform → Fosgen: hepatotoksisite, nefrotoksisite",
+    "Lidokain → Glisilheksilidid: mental depresyon, başağrısı",
+    "Metoksifluran → Fluorür: nefrotoksisite",
+    "Metilalkol → Formaldehid + formik asid: körlük ve asidoz"
+   ]
+  },
+  {
+   "ad": "Çok Az Sayıda İlaç Vücutta Değişmeden Atılır",
+   "ilaclar": [
+    "Azot protoksid",
+    "Asetazolamid",
+    "Amilorid",
+    "Furosemid",
+    "Aminokaproik asid",
+    "Kromoglikat",
+    "Pentolinium"
+   ]
+  },
+  {
+   "ad": "Enzimatik-Olmayan Biyotransformasyon",
+   "ilaclar": [
+    "Penisilin G (mide asid ortamında kısmen parçalanır)",
+    "Atrokuryum (kan pH'sında parçalanır)"
+   ]
+  },
+  {
+   "ad": "I. Faz Reaksiyonları (oksidasyon, redüksiyon, kopma)",
+   "alt": [
+    {
+     "ad": "Oksidasyon — Sitokrom P450 (CYP) enzimlerinin yaptığı olaylar",
+     "alt": [
+      {
+       "ad": "Aromatik halka hidroksilasyonu",
+       "not": "CYP1A ailesi, aril hidrokarbon hidroksilaz (AHH)",
+       "ilaclar": [
+        "Aromatik hidrokarbonlar",
+        "Steroid hormonlar",
+        "Benzen türevleri"
+       ]
+      },
+      {
+       "ad": "Alifatik hidroksilasyon (yan zincir oksidlenmesi)",
+       "ilaclar": [
+        "Barbitüratlar"
+       ]
+      },
+      {
+       "ad": "Diğer hidroksilasyonlar (mikrozomal oksidazlar)",
+       "ilaclar": [
+        "Piridin",
+        "Kumarin",
+        "Kinolin"
+       ]
+      },
+      {
+       "ad": "N-, O-, S-dealkilasyon",
+       "ilaclar": [
+        "Kodein (O-demetilasyonla → morfin)",
+        "Kafein (N-demetilasyonla kısmen → teofilin)"
+       ]
+      },
+      {
+       "ad": "Desülfürasyon",
+       "ilaclar": [
+        "Tiopental → Pentobarbital",
+        "Paration → Paraokson"
+       ]
+      },
+      {
+       "ad": "S-oksidasyon (sülfoksid oluşumu)",
+       "ilaclar": [
+        "Klorpromazin ve diğer fenotiazinler"
+       ]
+      },
+      {
+       "ad": "N-oksidasyon ve N-hidroksilasyon",
+       "ilaclar": [
+        "Sekonder ve aromatik aminler",
+        "Anilin → Fenilhidroksilamin",
+        "Nitrobenzen → Benzen"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "İndirgenme (redüksiyon)",
+     "ilaclar": [
+      "Kloral hidrat → Trikloretanol",
+      "Prontosil → Sülfonamid",
+      "Kloramfenikol (nitro grubu; inaktivasyon)"
+     ]
+    },
+    {
+     "ad": "Kopma",
+     "alt": [
+      {
+       "ad": "Hidroliz — esterazlar",
+       "ilaclar": [
+        "Asetilkolin",
+        "Süksinilkolin",
+        "Prokain",
+        "Aspirin"
+       ]
+      },
+      {
+       "ad": "Hidroliz — peptidazlar",
+       "ilaclar": [
+        "Proinsülin"
+       ]
+      },
+      {
+       "ad": "Hidroliz — amidazlar",
+       "ilaclar": [
+        "Prokainamid",
+        "İndometazin",
+        "Lidokain"
+       ]
+      },
+      {
+       "ad": "Dekarboksilasyon",
+       "ilaclar": [
+        "5-Hidroksitriptofan",
+        "Histidin",
+        "L-Dopa"
+       ]
+      },
+      {
+       "ad": "Glikozidlerin hidrolizi (beta-glukuronidaz)",
+       "ilaclar": [
+        "Dijital glikozidleri"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "II. Faz Reaksiyonları — Konjugasyon (8 çeşit)",
+   "alt": [
+    {
+     "ad": "1. Glukuronik asidle birleşme",
+     "not": "UDP-glukuronil transferaz; mikrozomal",
+     "ilaclar": [
+      "Kloramfenikol",
+      "Salisilik asid",
+      "Morfin"
+     ]
+    },
+    {
+     "ad": "2. N-metilasyon",
+     "not": "N-metil transferaz",
+     "ilaclar": [
+      "Noradrenalin → Adrenalin"
+     ]
+    },
+    {
+     "ad": "3. O-metilasyon",
+     "not": "O-metil transferaz (COMT)",
+     "ilaclar": [
+      "Adrenalin",
+      "Noradrenalin"
+     ]
+    },
+    {
+     "ad": "4. N-asetilasyon",
+     "not": "NAT; yavaş asetilleyiciler",
+     "ilaclar": [
+      "Histamin",
+      "İzoniazid",
+      "Sülfonamidler"
+     ]
+    },
+    {
+     "ad": "5. Sülfat ile konjugasyon (sülfatasyon)",
+     "not": "sülfotransferaz",
+     "ilaclar": [
+      "Sülfonamidler",
+      "Östrojenler",
+      "Asetaminofen"
+     ]
+    },
+    {
+     "ad": "6. Glutatyon ile konjugasyon",
+     "not": "glutatyon-S-transferaz",
+     "ilaclar": [
+      "Aromatik hidrokarbonlar",
+      "Aromatik nitro bileşikleri"
+     ]
+    },
+    {
+     "ad": "7. Amino asidle konjugasyon (glisin veya glutamin)",
+     "ilaclar": [
+      "Benzoik asid → Hipürik asid"
+     ]
+    },
+    {
+     "ad": "8. Diğer konjugasyonlar",
+     "ilaclar": [
+      "Purin ve pirimidin analoğu ilaçlar → ribonukleozid/ribonukleotid"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Tablo 5.3 — Önemli Sitokrom P450 Enzimlerinin Substratları",
+   "alt": [
+    {
+     "ad": "CYP1A2",
+     "alt": [
+      {
+       "ad": "Antidepresanlar",
+       "ilaclar": [
+        "İmipramin",
+        "Klomipramin"
+       ]
+      },
+      {
+       "ad": "Ksantinler",
+       "ilaclar": [
+        "Kafein",
+        "Teofilin"
+       ]
+      },
+      {
+       "ad": "Polisiklik aromatik hidrokarbonlar"
+      }
+     ],
+     "ilaclar": [
+      "Parasetamol",
+      "Propranolol",
+      "Varfarin"
+     ]
+    },
+    {
+     "ad": "CYP2C9",
+     "alt": [
+      {
+       "ad": "Oral antidiyabetikler",
+       "ilaclar": [
+        "Glipizid",
+        "Glibenklamid",
+        "Tolbutamid"
+       ]
+      },
+      {
+       "ad": "Non-steroidal antiinflamatuvar analjezikler",
+       "ilaclar": [
+        "Diklofenak",
+        "Flurbiprofen",
+        "İbuprofen",
+        "İndometasin",
+        "Naproksen",
+        "Piroksikam"
+       ]
+      }
+     ],
+     "ilaclar": [
+      "Fenitoin",
+      "Fluvastatin",
+      "Lozartan",
+      "İrbesartan",
+      "Varfarin"
+     ]
+    },
+    {
+     "ad": "CYP2C19",
+     "alt": [
+      {
+       "ad": "Antidepresanlar",
+       "ilaclar": [
+        "Amitriptilin",
+        "İmipramin",
+        "Klomipramin"
+       ]
+      },
+      {
+       "ad": "Proton pompası inhibitörleri",
+       "ilaclar": [
+        "Lansoprazol",
+        "Omeprazol"
+       ]
+      }
+     ],
+     "ilaclar": [
+      "Diazepam",
+      "Propranolol"
+     ]
+    },
+    {
+     "ad": "CYP2D6",
+     "not": "ilaçların yaklaşık %25'i",
+     "alt": [
+      {
+       "ad": "Trisiklik antiaritmikler",
+       "ilaclar": [
+        "Meksiletin",
+        "Propafenon"
+       ]
+      },
+      {
+       "ad": "Çeşitli antidepresanlar",
+       "ilaclar": [
+        "Amitriptilin",
+        "Fluoksetin",
+        "Fluvoksamin",
+        "İmipramin",
+        "Klomipramin",
+        "Maprotilin",
+        "Trazodon",
+        "Venlafaksin"
+       ]
+      },
+      {
+       "ad": "Beta-blokörler",
+       "ilaclar": [
+        "Metoprolol",
+        "Propranolol",
+        "Timolol"
+       ]
+      },
+      {
+       "ad": "Nöroleptikler",
+       "ilaclar": [
+        "Haloperidol",
+        "Tioridazin"
+       ]
+      },
+      {
+       "ad": "Opioid analjezikler",
+       "ilaclar": [
+        "Dekstrometorfan",
+        "Kodein",
+        "Tramadol"
+       ]
+      }
+     ],
+     "ilaclar": [
+      "Nikotin"
+     ]
+    },
+    {
+     "ad": "CYP3A4",
+     "not": "ilaçların %55-60'ının oksidasyonu",
+     "alt": [
+      {
+       "ad": "Antiandrojenler",
+       "ilaclar": [
+        "Finasterid",
+        "Flutamid"
+       ]
+      },
+      {
+       "ad": "Antiaritmikler",
+       "ilaclar": [
+        "Amiodaron",
+        "Dizopiramid",
+        "Kinidin",
+        "Lidokain"
+       ]
+      },
+      {
+       "ad": "Antihistaminikler",
+       "ilaclar": [
+        "Astemizol",
+        "Loratadin",
+        "Terfenadin"
+       ]
+      },
+      {
+       "ad": "Antineoplastikler",
+       "ilaclar": [
+        "Siklofosfamid",
+        "Doksorubisin",
+        "Etopozid",
+        "İfosfamid",
+        "Paklitaksel",
+        "Vinblastin",
+        "Vinkristin"
+       ]
+      },
+      {
+       "ad": "Azol antifungaller",
+       "ilaclar": [
+        "İtrakonazol",
+        "Ketokonazol",
+        "Mikonazol"
+       ]
+      },
+      {
+       "ad": "Benzodiazepinler",
+       "ilaclar": [
+        "Alprazolam",
+        "Diazepam",
+        "Midazolam",
+        "Triazolam"
+       ]
+      },
+      {
+       "ad": "Eritromisinler",
+       "ilaclar": [
+        "Eritromisin",
+        "Klaritromisin"
+       ]
+      },
+      {
+       "ad": "Ergot bileşikleri",
+       "ilaclar": [
+        "Bromokriptin",
+        "Ergotamin"
+       ]
+      },
+      {
+       "ad": "Glukokortikoidler",
+       "ilaclar": [
+        "Deksametazon",
+        "Metilprednizolon",
+        "Prednizolon",
+        "Prednizon"
+       ]
+      },
+      {
+       "ad": "Hipolipidemik ilaçlar",
+       "ilaclar": [
+        "Atorvastatin",
+        "Lovastatin",
+        "Simvastatin"
+       ]
+      },
+      {
+       "ad": "Kalsiyum kanal blokörleri",
+       "ilaclar": [
+        "Amlodipin",
+        "Nimodipin",
+        "Nifedipin",
+        "Nikardipin",
+        "Nitrendipin",
+        "Nizoldipin",
+        "Verapamil"
+       ]
+      },
+      {
+       "ad": "Opioid analjezikler",
+       "ilaclar": [
+        "Alfentanil",
+        "Fentanil"
+       ]
+      },
+      {
+       "ad": "HİV proteaz inhibitörleri",
+       "ilaclar": [
+        "İndinavir ve diğer HİV proteaz inhibitörleri"
+       ]
+      }
+     ],
+     "ilaclar": [
+      "Dapson",
+      "Etinil estradiol",
+      "Glitazonlar",
+      "Karbamazepin",
+      "Kinin",
+      "Kinidin",
+      "Losartan",
+      "Nefazodon",
+      "Buspiron",
+      "Siklosporin",
+      "Sisaprid",
+      "Tamoksifen",
+      "Testosteron",
+      "Varfarin",
+      "Zolpidem"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Tablo 5.5 — CYP450 Enzimlerini İndükleyen ve İnhibe Eden İlaçlar",
+   "alt": [
+    {
+     "ad": "CYP1A2",
+     "alt": [
+      {
+       "ad": "İndükleyiciler",
+       "ilaclar": [
+        "Sigara dumanı",
+        "Kömürde kızarmış et ve polisiklik aromatik hidrokarbonlar",
+        "Fenitoin"
+       ]
+      },
+      {
+       "ad": "İnhibe ediciler",
+       "ilaclar": [
+        "Enoksasin",
+        "Etinil estradiol",
+        "Fluvoksamin",
+        "Simetidin",
+        "Siprofloksasin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "CYP2C9",
+     "alt": [
+      {
+       "ad": "İndükleyiciler",
+       "ilaclar": [
+        "Barbitüratlar",
+        "Fenitoin",
+        "Karbamazepin",
+        "Rifampisin"
+       ]
+      },
+      {
+       "ad": "İnhibe ediciler",
+       "ilaclar": [
+        "Amiodaron",
+        "Disulfiram",
+        "Fenitoin",
+        "Flukonazol",
+        "Fluoksetin",
+        "Fluvoksamin",
+        "İzoniazid",
+        "İtrakonazol",
+        "Ketokonazol",
+        "Ko-trimoksazol",
+        "Metronidazol",
+        "Simetidin",
+        "Sulfafenazol",
+        "Tiklopidin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "CYP2C19",
+     "alt": [
+      {
+       "ad": "İndükleyiciler",
+       "not": "indüklenebilir değildir"
+      },
+      {
+       "ad": "İnhibe ediciler",
+       "ilaclar": [
+        "Flukonazol",
+        "Fluoksetin",
+        "Fluvoksamin",
+        "Omeprazol",
+        "Tiklopidin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "CYP2D6",
+     "alt": [
+      {
+       "ad": "İndükleyiciler",
+       "not": "indüklenebilir değildir"
+      },
+      {
+       "ad": "İnhibe ediciler",
+       "alt": [
+        {
+         "ad": "Antidepresanlar",
+         "ilaclar": [
+          "Fluoksetin",
+          "Paroksetin",
+          "Sertralin"
+         ]
+        },
+        {
+         "ad": "Nöroleptikler",
+         "ilaclar": [
+          "Haloperidol",
+          "Tioridazin"
+         ]
+        },
+        {
+         "ad": "Klasik antihistaminikler",
+         "ilaclar": [
+          "Difenhidramin",
+          "Klorfeniramin",
+          "Klemastin",
+          "Hidroksizin",
+          "Prometazin",
+          "Tripelenamin"
+         ]
+        }
+       ],
+       "ilaclar": [
+        "Amiodaron",
+        "Kinidin",
+        "Mibefradil",
+        "Simetidin",
+        "Terbinafin",
+        "Metoksalen"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "CYP3A4",
+     "alt": [
+      {
+       "ad": "İndükleyiciler",
+       "ilaclar": [
+        "Aminoglutetimid",
+        "Barbitüratlar",
+        "Deksametazon ve diğer bazı kortikosteroidler",
+        "Fenitoin",
+        "Griseofulvin",
+        "Karbamazepin",
+        "Pioglitazon",
+        "Rifampisin",
+        "Rifabutin"
+       ]
+      },
+      {
+       "ad": "İnhibe ediciler",
+       "alt": [
+        {
+         "ad": "Antidepresanlar",
+         "ilaclar": [
+          "Fluvoksamin",
+          "Nefazodon"
+         ]
+        },
+        {
+         "ad": "Azol antifungaller",
+         "not": "flukonazol daha az olmak üzere",
+         "ilaclar": [
+          "İtrakonazol",
+          "Ketokonazol",
+          "Mikonazol",
+          "Oksikonazol",
+          "Flukonazol"
+         ]
+        },
+        {
+         "ad": "Eritromisinler",
+         "ilaclar": [
+          "Eritromisin",
+          "Klaritromisin",
+          "Troleandomisin"
+         ]
+        },
+        {
+         "ad": "Bazı kortikosteroidler",
+         "ilaclar": [
+          "Metilprednizolon",
+          "Prednizolon",
+          "Prednizon"
+         ]
+        },
+        {
+         "ad": "Kalsiyum kanal blokörleri",
+         "not": "dihidropiridinler dahil",
+         "ilaclar": [
+          "Nifedipin",
+          "Nikardipin",
+          "Diltiazem",
+          "Verapamil"
+         ]
+        }
+       ],
+       "ilaclar": [
+        "Danazol",
+        "Etinil estradiol",
+        "Greyfrut suyu",
+        "Kırmızı şarap",
+        "İzoniazid",
+        "Kinin",
+        "Norfloksasin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Oto-İndüksiyon ve İntihar (Suicide) Tipi İnhibitörler",
+   "alt": [
+    {
+     "ad": "Oto-indüksiyon yapanlar",
+     "not": "kendilerini yıkan enzimi indüklerler",
+     "ilaclar": [
+      "Karbamazepin",
+      "Barbitüratlar",
+      "Alkol"
+     ]
+    },
+    {
+     "ad": "İntihar tipi inhibitörler",
+     "not": "enzimi irreversibl inaktive ederler",
+     "ilaclar": [
+      "Etinil estradiol",
+      "Kloramfenikol",
+      "Sekobarbital"
+     ]
+    }
+   ]
+  }
+ ]
+}

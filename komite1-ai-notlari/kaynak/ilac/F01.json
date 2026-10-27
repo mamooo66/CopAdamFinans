@@ -1,0 +1,149 @@
+{
+ "kod": "F01",
+ "ders": "Farmakolojiye Giriş ve Absorpsiyon",
+ "pdf": "Farmakolojiye Giriş (A. H. Kurt) — f01_giris.pdf",
+ "agac": [
+  {
+   "ad": "Biyoteknolojik İlaç Örnekleri",
+   "not": "biyoteknolojik yöntemlerle elde edilen ilaçlar",
+   "alt": [
+    {
+     "ad": "Antineoplastik ilaçlar",
+     "ilaclar": [
+      "Monoklonal antikorlar (MAB) vs"
+     ]
+    },
+    {
+     "ad": "Oftalmolojikler",
+     "ilaclar": [
+      "Bevasizumab (MAB)"
+     ]
+    }
+   ],
+   "ilaclar": [
+    "İnsülin ve analogları",
+    "Antianemik ilaçlar",
+    "Antitrombotik ilaçlar",
+    "İmmünomodülatörler",
+    "Hipofiz, hipotalamus hormonları (GH vd)",
+    "Sindirim sistem ve metabolizma ürünleri",
+    "Vitamin K ve diğer hemostatikler",
+    "Seks hormonları",
+    "KOAH tedavisinde kullanılan ilaçlar",
+    "Bağışık serumlar ve immunoglobulinler"
+   ]
+  },
+  {
+   "ad": "İlaçların Sınıflandırılması",
+   "alt": [
+    {
+     "ad": "Kimyasal yapıya göre",
+     "ilaclar": [
+      "Kolinesterler",
+      "Katekolaminler"
+     ]
+    },
+    {
+     "ad": "Etki yerine göre",
+     "ilaclar": [
+      "Kalp glikozidleri",
+      "Otonomik ilaçlar"
+     ]
+    },
+    {
+     "ad": "Kullanım amaçlarına göre",
+     "ilaclar": [
+      "Antihipertansif ilaçlar",
+      "Analjezikler"
+     ]
+    },
+    {
+     "ad": "Bitkisel kaynaklarına göre",
+     "ilaclar": [
+      "Opium alkaloidleri",
+      "Belladonn alkaloidleri"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İlaç Adları",
+   "alt": [
+    {
+     "ad": "Genel ad (jenerik ad)",
+     "not": "etkin maddenin adı",
+     "ilaclar": [
+      "Amoksisilin",
+      "Kodein",
+      "Asetilsalisilik asid"
+     ]
+    },
+    {
+     "ad": "Müstahzar adı (ticari ad)",
+     "not": "ilacı bulan firmanın ürünü",
+     "ilaclar": [
+      "Aspirin",
+      "Rocephin",
+      "Vermidon",
+      "Duocid"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Absorpsiyonu yavaşlatılarak uzun etki sağlanan hazırlıklar",
+   "alt": [
+    {
+     "ad": "Molekül büyütülerek (i.m. hormon uygulaması)",
+     "ilaclar": [
+      "Testosteron sipiyonat",
+      "Medroksiprogesteron asetat"
+     ]
+    },
+    {
+     "ad": "Suda çözünmeyen esterler (genellikle kas içine)",
+     "ilaclar": [
+      "Prokain penisilin",
+      "Steroid hormon esterleri"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İlacın farmakolojik özelliğinin absorpsiyona etkisi",
+   "alt": [
+    {
+     "ad": "Vazokonstriktörler",
+     "not": "uygulama yerinde kan akımını azaltır",
+     "ilaclar": [
+      "Lokal anesteziklere katılan vazokonstriktörler"
+     ]
+    },
+    {
+     "ad": "Vazodilatörler",
+     "not": "kan akımını artırır"
+    },
+    {
+     "ad": "Beta blokörler",
+     "not": "kalp debisi ve perfüzyon azalır; absorpsiyon olumsuz"
+    }
+   ]
+  },
+  {
+   "ad": "Aktif transport veya kolaylaştırılmış difüzyonla absorbe olanlar",
+   "not": "ishalde emilimi çok azalır",
+   "ilaclar": [
+    "Demir",
+    "Tiamin",
+    "Vitamin B12"
+   ]
+  },
+  {
+   "ad": "Barsak epitelindeki P-glikoprotein substratı",
+   "not": "lümene atılır, absorpsiyon azalır",
+   "ilaclar": [
+    "Siklosporin"
+   ]
+  }
+ ]
+}

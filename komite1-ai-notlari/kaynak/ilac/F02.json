@@ -1,0 +1,289 @@
+{
+ "kod": "F02",
+ "ders": "İlaçların Dağılımı",
+ "pdf": "2-İlaçların Dağılımı",
+ "agac": [
+  {
+   "ad": "Kompartmanlara Göre Dağılan İlaçlar",
+   "alt": [
+    {
+     "ad": "Sadece plazmada dağılan ilaçlar",
+     "ilaclar": [
+      "Dekstranlar (yüksek mol. ağırlıklı polisakkaritler)",
+      "Heparin",
+      "Varfarin",
+      "Süramin",
+      "Evans mavisi"
+     ]
+    },
+    {
+     "ad": "Bütün sıvı kompartmanlarına dağılan ilaçlar",
+     "not": "küçük, iyonize olmayan, plazma proteinine az bağlanan",
+     "ilaclar": [
+      "Alkol",
+      "Antipirin",
+      "Üre"
+     ]
+    },
+    {
+     "ad": "Sadece ekstraselüler sıvı kompartmanında dağılan ilaçlar",
+     "not": "hidrofilik; hücre içine giremez",
+     "ilaclar": [
+      "Tübokürarin",
+      "Gentamisin",
+      "Karbenisilin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Kompartman Hacmi Ölçüm Yöntemleri",
+   "alt": [
+    {
+     "ad": "Plazma hacmi",
+     "ilaclar": [
+      "Evans mavisi",
+      "Radyoaktif albümin"
+     ]
+    },
+    {
+     "ad": "Ekstraselüler sıvı hacmi",
+     "ilaclar": [
+      "İnülin"
+     ]
+    },
+    {
+     "ad": "İntraselüler sıvı hacmi",
+     "ilaclar": [
+      "Aminopirin",
+      "Tritium oksid",
+      "Döteryum oksid"
+     ]
+    },
+    {
+     "ad": "Total vücut sıvısı hacmi",
+     "not": "insanda i.v. 1 g",
+     "ilaclar": [
+      "Antipirin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Plazma Proteinlerine Göre Bağlanan İlaçlara Örnekler",
+   "alt": [
+    {
+     "ad": "Albümin",
+     "not": "özellikle asidik ilaçlar yüksek oranda bağlanır"
+    },
+    {
+     "ad": "α1-asid glikoproteine bağlananlar",
+     "not": "bazik ilaçların başlıca proteini; akut faz proteini",
+     "ilaclar": [
+      "Dipiridamol",
+      "Kinidin",
+      "Propranolol",
+      "Prazosin",
+      "Lidokain",
+      "Verapamil",
+      "Pindolol",
+      "İmipramin",
+      "Klorpromazin"
+     ]
+    },
+    {
+     "ad": "Lipoproteinlere bağlananlar",
+     "ilaclar": [
+      "Sikloserin (DDL)",
+      "İmipramin",
+      "Kinidin",
+      "Klorpromazin",
+      "Tetrasiklin"
+     ]
+    },
+    {
+     "ad": "Gama-globülinlere bağlananlar",
+     "ilaclar": [
+      "Tubokürarin",
+      "Pankuronyum",
+      "Morfin",
+      "Kodein"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Bazı İlaçların Kan Proteinlerine Bağlanma Yüzdeleri",
+   "alt": [
+    {
+     "ad": "Güçlü bağlananlar",
+     "not": "%81-99",
+     "ilaclar": [
+      "Dikomarol",
+      "Varfarin",
+      "Fenilbutazon",
+      "Naproksen",
+      "Furosemid",
+      "Tolbutamid",
+      "İndometasin",
+      "İmipramin",
+      "Klotiazid",
+      "Probenesid",
+      "Rifampisin",
+      "Salisilik asid"
+     ]
+    },
+    {
+     "ad": "Orta derecede bağlananlar",
+     "not": "%35-75",
+     "ilaclar": [
+      "Kinidin",
+      "Kloramfenikol",
+      "Metotreksat",
+      "Aspirin",
+      "Teofilin",
+      "Penisilin G",
+      "Sülfadiazin",
+      "Streptomisin"
+     ]
+    },
+    {
+     "ad": "Zayıf bağlananlar",
+     "not": "%0-35",
+     "ilaclar": [
+      "Morfin",
+      "Oksitetrasiklin",
+      "Digoksin",
+      "Tetrasiklin",
+      "Amfetamin",
+      "Ampisilin",
+      "Gentamisin",
+      "Parasetamol",
+      "İzoniazid",
+      "Allopurinol"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Bağlanma bölgeleri terapötik konsantrasyonda önemli ölçüde doyurulan ilaçlar",
+   "not": "doz artışı serbest fraksiyonu fazlaca artırır (%50-60)",
+   "ilaclar": [
+    "Aspirin",
+    "Dizopiramid",
+    "Kinidin",
+    "Prednizolon"
+   ]
+  },
+  {
+   "ad": "Kan-Beyin Engeli Permeabilitesini Etkileyen Etkenler",
+   "alt": [
+    {
+     "ad": "Permeabiliteyi artıranlar",
+     "ilaclar": [
+      "Beyin arteri içine hipertonik solüsyonlar",
+      "Yüksek konsantrasyonda alkol",
+      "Sitotoksik ilaçlar"
+     ]
+    },
+    {
+     "ad": "Artmış permeabiliteyi azaltanlar",
+     "ilaclar": [
+      "Glukokortikoidler"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Sekestrasyon Örnekleri",
+   "alt": [
+    {
+     "ad": "Akciğerlerde",
+     "ilaclar": [
+      "İmipramin",
+      "SSRI'lar"
+     ]
+    },
+    {
+     "ad": "Kemik ve dişlerde (Ca ile şelasyon)",
+     "ilaclar": [
+      "Tetrasiklinler"
+     ]
+    },
+    {
+     "ad": "Kalp, böbrek, çizgili kas, yağ dokusu, karaciğer",
+     "ilaclar": [
+      "Kalp glikozidleri"
+     ]
+    },
+    {
+     "ad": "Tiroid bezinde",
+     "ilaclar": [
+      "İyod ve iyodürler"
+     ]
+    },
+    {
+     "ad": "Dokulara bağlanma nedeniyle etkisi geç başlayan",
+     "not": "yükleme dozu gerekebilir",
+     "ilaclar": [
+      "Amiodaron"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Redistribüsyon",
+   "not": "fazla liposolübl; beyin → yağ/kas dokusu",
+   "ilaclar": [
+    "Genel anestezikler",
+    "Tiopental"
+   ]
+  },
+  {
+   "ad": "İyon Tuzağı",
+   "alt": [
+    {
+     "ad": "Bazik ilaçlar mide suyunda toplanır",
+     "ilaclar": [
+      "Morfin",
+      "Heroin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Plasentadan fetusa kolay geçenler",
+   "not": "doğum eyleminde fetusta solunum depresyonu",
+   "ilaclar": [
+    "Genel anestezikler",
+    "Opioid analjezikler"
+   ]
+  },
+  {
+   "ad": "Sanal Dağılım Hacmi (Vd) Karşılaştırması",
+   "alt": [
+    {
+     "ad": "Dokularda sekestre (Vd çok büyük)",
+     "not": "~600 L",
+     "ilaclar": [
+      "Digoksin"
+     ]
+    },
+    {
+     "ad": "Yüksek protein bağlanması (Vd küçük)",
+     "not": "~7-10 L",
+     "ilaclar": [
+      "Furosemid"
+     ]
+    },
+    {
+     "ad": "Ekstraselüler dağılım",
+     "not": "~9-12 L",
+     "ilaclar": [
+      "Tübokürarin"
+     ]
+    }
+   ]
+  }
+ ]
+}

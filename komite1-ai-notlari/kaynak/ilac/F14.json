@@ -1,0 +1,140 @@
+{
+ "kod": "F14",
+ "ders": "Farmakovijilans",
+ "pdf": "6-Farmakovijilans",
+ "agac": [
+  {
+   "ad": "Etken Madde — Advers Etki",
+   "not": "1997-2001 (rofekoksib 2004)",
+   "alt": [
+    {
+     "ad": "Kalp kapakçığı problemleri",
+     "ilaclar": [
+      "Deksfenfluramin",
+      "Fenfluramin"
+     ]
+    },
+    {
+     "ad": "Ölümcül kalp aritmileri",
+     "ilaclar": [
+      "Terfenadin",
+      "Astemizol",
+      "Grepafloksasin"
+     ]
+    },
+    {
+     "ad": "Ağır karaciğer hasarı",
+     "ilaclar": [
+      "Bromfenak"
+     ]
+    },
+    {
+     "ad": "Potansiyel zararlı etkileşimler",
+     "ilaclar": [
+      "Mibefradil"
+     ]
+    },
+    {
+     "ad": "Hemorajik inme",
+     "ilaclar": [
+      "Fenilpropanolamin"
+     ]
+    },
+    {
+     "ad": "Hepatik yetmezlik",
+     "ilaclar": [
+      "Troglitazon"
+     ]
+    },
+    {
+     "ad": "Ciddi kardiyak advers etkiler",
+     "ilaclar": [
+      "Sisaprid"
+     ]
+    },
+    {
+     "ad": "Rabdomyoliz",
+     "ilaclar": [
+      "Serivastatin"
+     ]
+    },
+    {
+     "ad": "Bronkospazm",
+     "ilaclar": [
+      "Rapaküronyum"
+     ]
+    },
+    {
+     "ad": "Kalp krizi ve inme",
+     "not": "2004'te piyasadan geri çekildi (30 Eylül)",
+     "ilaclar": [
+      "Rofekoksib"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Hasta Sayısı, AİR İçin Eşik Sayı ve Olasılık",
+   "not": "2.000 hastada",
+   "alt": [
+    {
+     "ad": "1/500 (olasılık 0.98)",
+     "ilaclar": [
+      "Azatiyopirin (lenfoma)"
+     ]
+    },
+    {
+     "ad": "1/1.000 (olasılık 0.86)",
+     "ilaclar": [
+      "Praktolol (göz hasarı)"
+     ]
+    },
+    {
+     "ad": "1/10.000 (olasılık 0.18)",
+     "ilaclar": [
+      "Penisilin (anafilaksi)"
+     ]
+    },
+    {
+     "ad": "1/50.000 (olasılık 0.04)",
+     "ilaclar": [
+      "Kloramfenikol (aplastik anemi)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "FV Kilometretaşları — Tetikleyici Olaylar",
+   "alt": [
+    {
+     "ad": "Sülfonamit eliksiri (1937)",
+     "not": "→ Gıda, İlaç ve Kozmetik Yasası (1938)",
+     "ilaclar": [
+      "Sülfonamit eliksiri"
+     ]
+    },
+    {
+     "ad": "Talidomit epidemisi (1962)",
+     "not": "→ Kefauver-Harris Tadilleri; sarı kart (İngiltere)",
+     "ilaclar": [
+      "Talidomit"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "MedWatch (FDA, 1993) Başarıları",
+   "ilaclar": [
+    "Chaparral (diyet suplemanı): hepatoksisite",
+    "Norplant (implante kontraseptif): uygulama bölgesi infeksiyonları, trombositopeni",
+    "Fenfluramin + Fentermin: kalp kapakçığı rahatsızlığı"
+   ]
+  },
+  {
+   "ad": "Güncel Bir Piyasadan Geri Çekilme Örneği (30 Eylül 2004)",
+   "ilaclar": [
+    "Rofekoksib"
+   ]
+  }
+ ]
+}
