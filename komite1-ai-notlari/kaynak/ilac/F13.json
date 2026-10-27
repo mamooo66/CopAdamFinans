@@ -1,0 +1,106 @@
+{
+ "kod": "F13",
+ "ders": "Antitrombositik ve Fibrinolitik İlaçlar",
+ "pdf": "8-Antitrombositik ve Fibrinolitik İlaçlar",
+ "agac": [
+  {
+   "ad": "Antitrombositik ilaçlar",
+   "not": "kanama süresini uzatır",
+   "alt": [
+    {
+     "ad": "Aspirin",
+     "not": "trombosit COX-1'i irreversibl inhibe eder; TXA2 azalır",
+     "ilaclar": [
+      "Asetilsalisilik asit (Aspirin)"
+     ]
+    },
+    {
+     "ad": "ADP reseptörü inhibitörleri",
+     "not": "trombosit ADP reseptörünü irreversibl inhibe eder",
+     "ilaclar": [
+      "Klopidogrel",
+      "Tiklopidin"
+     ]
+    },
+    {
+     "ad": "Trombosit glikoprotein IIb/IIIa reseptör inhibitörleri",
+     "not": "fibrinojen çapraz bağını engeller; i.v.",
+     "alt": [
+      {
+       "ad": "Monoklonal antikor",
+       "not": "irreversibl; vitronektin reseptörünü de bloke eder",
+       "ilaclar": [
+        "Absiksimab"
+       ]
+      },
+      {
+       "ad": "Reseptör blokörleri",
+       "ilaclar": [
+        "Eptifibatid",
+        "Tirofiban"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Dipiridamol",
+     "not": "fosfodiesteraz inh.; sAMP artar; adenozin yıkımı azalır",
+     "ilaclar": [
+      "Dipiridamol"
+     ]
+    },
+    {
+     "ad": "Epoprostenol (Prostasiklin)",
+     "not": "diyaliz sırasında i.v. infüzyon",
+     "ilaclar": [
+      "Epoprostenol"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Fibrinolitik (trombolitik) ilaçlar",
+   "not": "plazminojenin plazmine dönüşümünü sağlar",
+   "ilaclar": [
+    "Streptokinaz",
+    "Ürokinaz",
+    "Alteplaz (rt-PA)",
+    "Reteplaz",
+    "Tenekteplaz",
+    "Anistreplaz"
+   ]
+  },
+  {
+   "ad": "Fibrinolitik ilaçların yaptığı kanamaların tedavisi",
+   "alt": [
+    {
+     "ad": "Kan ürünleri",
+     "ilaclar": [
+      "Taze dondurulmuş plazma",
+      "Tam kan"
+     ]
+    },
+    {
+     "ad": "Fibrinolizin inhibitörü",
+     "ilaclar": [
+      "Aprotinin"
+     ]
+    },
+    {
+     "ad": "Plazminojen aktivasyonunu kompetitif inhibe edenler",
+     "ilaclar": [
+      "Aminokaproik asit",
+      "Traneksamik asit"
+     ]
+    },
+    {
+     "ad": "ADH analoğu",
+     "not": "faktör VIII aktivitesini artırır",
+     "ilaclar": [
+      "Desmopressin"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "kod": "F16",
+ "ders": "Tetrasiklinler ve Amfenikoller",
+ "pdf": "9-Tetrasiklinler Amfenikoller",
+ "agac": [
+  {
+   "ad": "Tetrasiklinler",
+   "not": "30S'e reversibl bağlanır; bakteriyostatik; en geniş spektrum",
+   "alt": [
+    {
+     "ad": "Kısa etkili tetrasiklinler",
+     "not": "Doksisiklin sonrası klinik kullanımı azaldı; <12 yaş yasak",
+     "ilaclar": [
+      "Tetrasiklin",
+      "Oksitetrasiklin"
+     ]
+    },
+    {
+     "ad": "Orta etki süreli tetrasiklin",
+     "not": "En fazla fotosensitivite yapan",
+     "ilaclar": [
+      "Demetilklortetrasiklin (demeklosiklin)"
+     ]
+    },
+    {
+     "ad": "Uzun etkili tetrasiklinler",
+     "alt": [
+      {
+       "ad": "Doksisiklin",
+       "not": "Böbrek yetmezliğinde güvenli; en çok tercih edilen",
+       "ilaclar": [
+        "Doksisiklin"
+       ]
+      },
+      {
+       "ad": "Minosiklin",
+       "not": "En uzun etkili; BOS'a geçer; vestibüler toksisite",
+       "ilaclar": [
+        "Minosiklin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Plazma proteinine bağlanması belirtilenler",
+     "not": "Doksisiklin, metasiklin, demeklosiklin %90-93 bağlanır",
+     "ilaclar": [
+      "Metasiklin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Amfenikoller",
+   "not": "50S'e bağlanır; bakteriyostatik",
+   "alt": [
+    {
+     "ad": "Kloramfenikol",
+     "alt": [
+      {
+       "ad": "Oral ön ilaç esteri (çocuk süspansiyonu)",
+       "not": "Tatsız ester; barsakta hidroliz olur",
+       "ilaclar": [
+        "Kloramfenikol palmitat"
+       ]
+      },
+      {
+       "ad": "Parenteral ön ilaç esteri",
+       "not": "Vücutta hidrolizle aktif kloramfenikole döner",
+       "ilaclar": [
+        "Kloramfenikol sodyum süksinat"
+       ]
+      }
+     ],
+     "ilaclar": [
+      "Kloramfenikol"
+     ]
+    },
+    {
+     "ad": "Tiamfenikol",
+     "not": "Safra yolu enfeksiyonlarında da kullanılır",
+     "ilaclar": [
+      "Tiamfenikol"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Etkileşim: tetrasiklinlerle şelat yapanlar",
+   "not": "Emilimi azaltır; birlikte alınmamalı",
+   "alt": [
+    {
+     "ad": "2 ve 3 değerli metal bileşikleri",
+     "not": "Antiasitler, antianemikler (demir), süt-yoğurt",
+     "ilaclar": [
+      "Kalsiyum",
+      "Demir",
+      "Çinko",
+      "Alüminyum",
+      "Magnezyum"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Etkileşim: amfenikollerle aynı bağlanma yeri için yarışanlar",
+   "not": "Birlikte kullanılmaz",
+   "ilaclar": [
+    "Eritromisin",
+    "Linkomisin",
+    "Klindamisin"
+   ]
+  },
+  {
+   "ad": "Beyin psödotümörü (psödotümör serebri) yapan ilaçlar",
+   "ilaclar": [
+    "Tetrasiklinler",
+    "Nalidiksik asit",
+    "Amiodaron"
+   ]
+  }
+ ]
+}

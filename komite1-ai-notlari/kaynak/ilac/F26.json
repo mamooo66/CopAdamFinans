@@ -1,0 +1,114 @@
+{
+ "kod": "F26",
+ "ders": "Dar Spektrumlu Antistafilokokal ve Antianaerobik Antibiyotikler",
+ "pdf": "15-Dar Spektrumlu Antistafilokokal ve Antianaerobik Antibiyotikler",
+ "agac": [
+  {
+   "ad": "Beta-laktam antibiyotikler",
+   "not": "PBP'leri inhibe ederek hücre duvarı sentezini bozar",
+   "alt": [
+    {
+     "ad": "Antistafilokokal beta-laktamlar (MSSA)",
+     "not": "MRSA'da güvenilir değil",
+     "alt": [
+      {
+       "ad": "Penisilinaza dirençli penisilinler",
+       "ilaclar": [
+        "Oksasilin",
+        "Nafsilin"
+       ]
+      },
+      {
+       "ad": "Birinci kuşak sefalosporin",
+       "not": "Cerrahi profilakside de kullanılır",
+       "ilaclar": [
+        "Sefazolin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Beta-laktam + beta-laktamaz inhibitörü",
+     "not": "İnhibitörler tüm beta-laktamazları etkisizleştirmez",
+     "alt": [
+      {
+       "ad": "Aminopenisilin + beta-laktamaz inhibitörü",
+       "not": "Amoksisilin-klavulanat oral; ampisilin-sulbaktam sıklıkla IV",
+       "ilaclar": [
+        "Amoksisilin-klavulanat",
+        "Ampisilin-sulbaktam"
+       ]
+      },
+      {
+       "ad": "Geniş spektrumlu penisilin + beta-laktamaz inhibitörü",
+       "not": "Pseudomonas aeruginosa dahil",
+       "ilaclar": [
+        "Piperasilin-tazobaktam"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Karbapenemler",
+     "not": "Nöbet riski (özellikle böbrek yetmezliği)",
+     "ilaclar": [
+      "Meropenem"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Protein sentezi inhibitörleri",
+   "alt": [
+    {
+     "ad": "Linkozamid",
+     "not": "50S'e bağlanır; C. difficile riski; D-testi",
+     "ilaclar": [
+      "Klindamisin"
+     ]
+    },
+    {
+     "ad": "Topikal antibiyotik",
+     "not": "İzolösil-tRNA sentetazı inhibe eder",
+     "ilaclar": [
+      "Mupirosin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Nitroimidazoller",
+   "not": "Anaeroplarda indirgenir, DNA hasarı; zorunlu anaeroplar",
+   "ilaclar": [
+    "Metronidazol"
+   ]
+  },
+  {
+   "ad": "Clostridioides difficile enfeksiyonunda kullanılanlar",
+   "alt": [
+    {
+     "ad": "İlk tercih (erişkin, nonfulminan)",
+     "not": "200 mg oral, günde 2 kez, 10 gün",
+     "ilaclar": [
+      "Fidaksomisin"
+     ]
+    },
+    {
+     "ad": "Kabul edilebilir alternatif",
+     "not": "125 mg oral, günde 4 kez, 10 gün (ilk atak)",
+     "ilaclar": [
+      "Oral vankomisin"
+     ]
+    },
+    {
+     "ad": "Fulminan hastalık",
+     "not": "İleus varsa rektal vankomisin",
+     "ilaclar": [
+      "Vankomisin (yüksek doz oral/enteral)",
+      "Metronidazol (intravenöz)"
+     ]
+    }
+   ]
+  }
+ ]
+}

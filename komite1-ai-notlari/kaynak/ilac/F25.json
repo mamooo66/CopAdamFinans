@@ -1,0 +1,276 @@
+{
+ "kod": "F25",
+ "ders": "Antimalaryal ve Ektoparaziter İlaçlar",
+ "pdf": "11-Antimalaryal ve Ektoparaziter ilaçları",
+ "agac": [
+  {
+   "ad": "Antimalaryal ilaçlar",
+   "alt": [
+    {
+     "ad": "Etkiledikleri döneme göre",
+     "alt": [
+      {
+       "ad": "Primer doku şizontosidleri",
+       "not": "karaciğerde pre-eritrositik doku şizontları",
+       "ilaclar": [
+        "Primakin"
+       ]
+      },
+      {
+       "ad": "Kan şizontositleri",
+       "not": "eritrosit içi şizont ve merozoitleri öldürür",
+       "ilaclar": [
+        "Kinin",
+        "Klorokin",
+        "Meflokin",
+        "Halofantrin",
+        "Mepakrin",
+        "Amodiakin",
+        "Pirimetamin"
+       ]
+      },
+      {
+       "ad": "Sekonder doku şizontositleri (radikal küratif ilaçlar)",
+       "not": "P. vivax ve P. ovale ekso-eritrositik şizontlar",
+       "ilaclar": [
+        "Primakin"
+       ]
+      },
+      {
+       "ad": "Gametositler",
+       "not": "gametositleri öldürür; sivrisineğin enfekte olmasını önler",
+       "ilaclar": [
+        "Primakin"
+       ]
+      },
+      {
+       "ad": "Sporontositler",
+       "not": "sivrisinekte zigot-sporozoit dönüşümünü önler",
+       "ilaclar": [
+        "Proguanil (kloroguanid)",
+        "Pirimetamin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Başlıca antimalaryal ilaç grupları",
+     "alt": [
+      {
+       "ad": "4-Aminokinolin türevleri",
+       "not": "en sık kullanılan klorokin; DNA metabolizmasını bozar",
+       "ilaclar": [
+        "Klorokin",
+        "Hidroksiklorokin",
+        "Amodiakin"
+       ]
+      },
+      {
+       "ad": "Kinin",
+       "not": "kınakına alkaloidi; kinidin = dekstroizomeri",
+       "ilaclar": [
+        "Kinin",
+        "Kinidin"
+       ]
+      },
+      {
+       "ad": "8-Aminokinolin türevleri",
+       "not": "en çok kullanılan ve en az toksik: primakin",
+       "ilaclar": [
+        "Pamakin",
+        "Primakin",
+        "Pentakin",
+        "İzopentakin"
+       ]
+      },
+      {
+       "ad": "Pirimidinler",
+       "not": "DHFR inhibitörü; trimetoprime benzer",
+       "ilaclar": [
+        "Pirimetamin"
+       ]
+      },
+      {
+       "ad": "Sulfonamidler ve sulfonlar",
+       "not": "pirimetaminle ardışık blok, sinerjizma",
+       "alt": [
+        {
+         "ad": "Sulfonamidler",
+         "ilaclar": [
+          "Sulfadoksin",
+          "Sulfadiazin"
+         ]
+        },
+        {
+         "ad": "Sulfonlar",
+         "ilaclar": [
+          "Dapson",
+          "Diformildapson"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Biguanidler",
+       "not": "ön ilaç; aktif şekli sikloguanil; DHFR inhibitörü",
+       "ilaclar": [
+        "Proguanil (kloroguanid)",
+        "Sikloguanil"
+       ]
+      },
+      {
+       "ad": "Meflokin",
+       "not": "kinolin-metanol türevi",
+       "ilaclar": [
+        "Meflokin"
+       ]
+      },
+      {
+       "ad": "Tetrasiklinler ve klindamisin",
+       "not": "kininle birlikte multirezistan P. falciparum'da",
+       "alt": [
+        {
+         "ad": "Tetrasiklinler",
+         "ilaclar": [
+          "Doksisiklin",
+          "Tetrasiklin"
+         ]
+        },
+        {
+         "ad": "Linkozamid",
+         "ilaclar": [
+          "Klindamisin"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Artemisinin ve türevleri",
+       "not": "Artemisia annua; çok güçlü ve hızlı etki",
+       "alt": [
+        {
+         "ad": "Yarı sentetik türevler (dihidroartemisin)",
+         "ilaclar": [
+          "Dihidroartemisin",
+          "Artesunat",
+          "Artemeter"
+         ]
+        }
+       ],
+       "ilaclar": [
+        "Artemisinin"
+       ]
+      },
+      {
+       "ad": "Kombinasyonlar",
+       "alt": [
+        {
+         "ad": "Fansidar",
+         "ilaclar": [
+          "Pirimetamin",
+          "Sulfadoksin"
+         ]
+        },
+        {
+         "ad": "Riamet",
+         "not": "komplikasyonsuz falsiparum sıtmasında kinine alternatif",
+         "ilaclar": [
+          "Artemeter",
+          "Lumefantrin"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Ektoparazitlere karşı kullanılan ilaçlar",
+   "not": "harici insektisitler: skabisit (uyuz), pedikülisit (bit)",
+   "alt": [
+    {
+     "ad": "Klorlu hidrokarbonlar",
+     "alt": [
+      {
+       "ad": "Lindan",
+       "not": "pedikülisit + skabisit; nörotoksik, artık tercih edilmez",
+       "ilaclar": [
+        "Lindan"
+       ]
+      },
+      {
+       "ad": "DDT",
+       "not": "toksisitesi nedeniyle artık kullanılmaz",
+       "ilaclar": [
+        "DDT"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Piretrinler ve piretroitler",
+     "alt": [
+      {
+       "ad": "Piretrinler",
+       "not": "Chrysanthemum cinerariaefolium çiçek ekstresi",
+       "ilaclar": [
+        "Piretrin"
+       ]
+      },
+      {
+       "ad": "Piretroitler",
+       "not": "sentetik; ovisidal etkili",
+       "ilaclar": [
+        "Permetrin",
+        "Sumitrin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Kükürtlü bileşikler",
+     "not": "skabisit; Wilkinson: ardıç katranı + kükürt",
+     "ilaclar": [
+      "Presipite kükürt (%5-10 vazelin merhemi)",
+      "Wilkinson pomadı"
+     ]
+    },
+    {
+     "ad": "Diğer bileşikler",
+     "alt": [
+      {
+       "ad": "Benzilbenzoat",
+       "not": "güçlü skabisit; ovisidal ve pedikülosid etkisi zayıf",
+       "ilaclar": [
+        "Benzilbenzoat"
+       ]
+      },
+      {
+       "ad": "Antikolinesteraz ilaçlar",
+       "not": "organik fosfatlı; kolinesterazı irreversibl inhibe eder",
+       "ilaclar": [
+        "Malation",
+        "Karbaril"
+       ]
+      },
+      {
+       "ad": "Krotamiton",
+       "not": "skabisid + antipruritik",
+       "ilaclar": [
+        "Krotamiton"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Biti kaçırıcı",
+     "not": "%2'lik preparat saçlı deriye sürülür",
+     "ilaclar": [
+      "Piperonal"
+     ]
+    }
+   ]
+  }
+ ]
+}

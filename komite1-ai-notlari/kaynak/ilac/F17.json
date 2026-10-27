@@ -1,0 +1,83 @@
+{
+ "kod": "F17",
+ "ders": "Sülfonamidler ve Trimetoprim",
+ "pdf": "10-Sülfonamidler ve Trimetoprim",
+ "agac": [
+  {
+   "ad": "Sülfonamidler",
+   "not": "PABA analoğu; dihidropteroat sentetazı inhibe eder",
+   "alt": [
+    {
+     "ad": "Kısa ve orta etki süreli sülfonamidler",
+     "not": "Sülfizoksazol: kristalüri yapmaz; sülfametoksazol: yapabilir",
+     "ilaclar": [
+      "Sülfadiazin",
+      "Sülfizoksazol",
+      "Sülfametoksazol"
+     ]
+    },
+    {
+     "ad": "Uzun etkili depo sülfonamidler",
+     "not": "Günde tek doz; toksisite nedeniyle tercih edilmez"
+    },
+    {
+     "ad": "Özel kullanılış yerlerine sahip sülfonamidler",
+     "alt": [
+      {
+       "ad": "Konjonktivit tedavisi",
+       "ilaclar": [
+        "Sülfasetamid"
+       ]
+      },
+      {
+       "ad": "Yanık tedavisi",
+       "ilaclar": [
+        "Gümüş sülfadiazin (%1 krem)",
+        "Marfanil (mafenid) %10 krem"
+       ]
+      },
+      {
+       "ad": "Dermatit profilaksisi ve tedavisi",
+       "ilaclar": [
+        "Marfanil (mafenid) %2-5 merhem"
+       ]
+      },
+      {
+       "ad": "Antiinflamatuvar kullanım",
+       "not": "Ülseratif kolit, IBH, romatoid artrit; 5-ASA'ya ayrışır",
+       "alt": [
+        {
+         "ad": "Sülfasalazinin etkin metaboliti / türevleri",
+         "not": "Etkin metabolit 5-aminosalisilat",
+         "ilaclar": [
+          "Mesalazin",
+          "Olsalazin",
+          "Balsalazin"
+         ]
+        }
+       ],
+       "ilaclar": [
+        "Sülfasalazin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Trimetoprim",
+   "not": "Dihidrofolat redüktaz inhibitörü; yapıca primetamine benzer",
+   "ilaclar": [
+    "Trimetoprim"
+   ]
+  },
+  {
+   "ad": "Ko-trimoksazol (kombinasyon)",
+   "not": "1:5 oran; ardışık blok (potansiyalizasyon)",
+   "ilaclar": [
+    "Trimetoprim",
+    "Sülfametoksazol"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "kod": "F15",
+ "ders": "Kemoterapötiklere Giriş",
+ "pdf": "6-Kemoterapötiklere giriş",
+ "agac": [
+  {
+   "ad": "Patojen etkenin cinsine göre kemoterapötik ilaçlar",
+   "alt": [
+    {
+     "ad": "Antibakteriyel ilaçlar",
+     "not": "Bakterilere karşı etkili; antibiyotikler"
+    },
+    {
+     "ad": "Antiviral ilaçlar",
+     "not": "Virüslere karşı etkili; antiviraller"
+    },
+    {
+     "ad": "Antifungal ilaçlar",
+     "not": "Mantar (fungus) etkenlere karşı; antifungaller"
+    },
+    {
+     "ad": "Antiamibik ilaçlar",
+     "not": "Entamoeba histolytica'ya karşı; antiamibikler"
+    },
+    {
+     "ad": "Antimalaryal ilaçlar",
+     "not": "Plazmodium türlerine karşı; antimalaryaller"
+    },
+    {
+     "ad": "Antihelmintik ilaçlar",
+     "not": "Helmintlere (parazit solucanlara) karşı; antelmintikler"
+    },
+    {
+     "ad": "Antineoplastik ilaçlar",
+     "not": "Kanser hücrelerine karşı; sitotoksik ve hedefe yönelik"
+    }
+   ]
+  },
+  {
+   "ad": "Antibakteriyel ilaçlar: etki sonucuna göre",
+   "alt": [
+    {
+     "ad": "Bakterisid ilaçlar",
+     "not": "Bakterileri öldürerek etki gösterir",
+     "alt": [
+      {
+       "ad": "β-Laktamlar",
+       "alt": [
+        {
+         "ad": "Penisilinler"
+        },
+        {
+         "ad": "Sefalosporinler"
+        },
+        {
+         "ad": "Karbapenemler"
+        },
+        {
+         "ad": "Monobaktamlar"
+        }
+       ]
+      },
+      {
+       "ad": "Glikopeptidler",
+       "ilaclar": [
+        "Vankomisin",
+        "Teikoplanin"
+       ]
+      },
+      {
+       "ad": "Aminoglikozidler",
+       "ilaclar": [
+        "Gentamisin",
+        "Amikasin",
+        "Tobramisin",
+        "Streptomisin"
+       ]
+      },
+      {
+       "ad": "Florokinolonlar",
+       "ilaclar": [
+        "Siprofloksasin",
+        "Levofloksasin",
+        "Moksifloksasin"
+       ]
+      },
+      {
+       "ad": "Lipopeptidler",
+       "ilaclar": [
+        "Daptomisin"
+       ]
+      },
+      {
+       "ad": "Polimiksinler",
+       "ilaclar": [
+        "Polimiksin B",
+        "Kolistin"
+       ]
+      },
+      {
+       "ad": "Nitroimidazoller",
+       "not": "Anaeroblara karşı",
+       "ilaclar": [
+        "Metronidazol",
+        "Tinidazol"
+       ]
+      },
+      {
+       "ad": "Rifamisinler",
+       "not": "Mikobakteriler dahil",
+       "ilaclar": [
+        "Rifampin",
+        "Rifabutin",
+        "Rifaksimin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Bakteriyostatik ilaçlar",
+     "not": "Çoğalmayı inhibe eder; immün sisteme zaman kazandırır",
+     "alt": [
+      {
+       "ad": "Tetrasiklinler",
+       "ilaclar": [
+        "Tetrasiklin",
+        "Doksisiklin",
+        "Minosiklin"
+       ]
+      },
+      {
+       "ad": "Makrolidler",
+       "ilaclar": [
+        "Eritromisin",
+        "Klaritromisin",
+        "Azitromisin"
+       ]
+      },
+      {
+       "ad": "Linkozamidler",
+       "ilaclar": [
+        "Klindamisin",
+        "Linkomisin"
+       ]
+      },
+      {
+       "ad": "Sülfonamidler",
+       "not": "Trimetoprim kombinasyonu ile",
+       "ilaclar": [
+        "Sülfametoksazol",
+        "Sülfadiazin"
+       ]
+      },
+      {
+       "ad": "Kloramfenikol",
+       "not": "Özellikle menenjit ve rikettsiyal enfeksiyonlarda",
+       "ilaclar": [
+        "Kloramfenikol"
+       ]
+      },
+      {
+       "ad": "Oksazolidinonlar",
+       "ilaclar": [
+        "Linezolid",
+        "Tedizolid"
+       ]
+      },
+      {
+       "ad": "Streptograminler",
+       "ilaclar": [
+        "Kinupristin/dalfopristin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Antimikrobik spektruma göre",
+   "alt": [
+    {
+     "ad": "Dar spektrumlu kemoterapötikler",
+     "not": "Yalnız bir veya birkaç bakteri türüne etkili",
+     "ilaclar": [
+      "İzoniyazid"
+     ]
+    },
+    {
+     "ad": "Geniş spektrumlu kemoterapötikler",
+     "not": "Fazla sayıda bakteri ve diğer mikroorganizmaya etkili",
+     "ilaclar": [
+      "Tetrasiklinler"
+     ]
+    },
+    {
+     "ad": "Genişletilmiş spektrumlu kemoterapötikler",
+     "not": "Gram (+) kadar önemli sayıda Gram (-)'ye de etkili",
+     "ilaclar": [
+      "Ampisilin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Etki mekanizmasına göre (5 sınıf)",
+   "alt": [
+    {
+     "ad": "1. Hücre duvarı sentezinin inhibisyonu",
+     "not": "Peptidoglikan sentezi/çapraz bağlanması bozulur",
+     "alt": [
+      {
+       "ad": "β-Laktamlar",
+       "alt": [
+        {
+         "ad": "Penisilinler"
+        },
+        {
+         "ad": "Sefalosporinler"
+        },
+        {
+         "ad": "Karbapenemler"
+        },
+        {
+         "ad": "Monobaktamlar"
+        }
+       ]
+      },
+      {
+       "ad": "Glikopeptidler",
+       "ilaclar": [
+        "Vankomisin",
+        "Teikoplanin"
+       ]
+      },
+      {
+       "ad": "Fosfomisin",
+       "ilaclar": [
+        "Fosfomisin"
+       ]
+      },
+      {
+       "ad": "Basitrasin",
+       "ilaclar": [
+        "Basitrasin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "2. Hücre membranının bozulması",
+     "not": "Sitoplazma membranı geçirgenliği bozulur",
+     "alt": [
+      {
+       "ad": "Polimiksinler",
+       "ilaclar": [
+        "Kolistin (polimiksin E)",
+        "Polimiksin B"
+       ]
+      },
+      {
+       "ad": "Daptomisin",
+       "not": "Gram-pozitif bakterilerde",
+       "ilaclar": [
+        "Daptomisin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "3. Protein sentezinin inhibisyonu",
+     "not": "Ribozomun 30S veya 50S alt birimine bağlanır",
+     "alt": [
+      {
+       "ad": "30S alt birimine etki edenler",
+       "alt": [
+        {
+         "ad": "Aminoglikozidler"
+        },
+        {
+         "ad": "Tetrasiklinler"
+        }
+       ]
+      },
+      {
+       "ad": "50S alt birimine etki edenler",
+       "alt": [
+        {
+         "ad": "Makrolidler"
+        },
+        {
+         "ad": "Linkozamidler"
+        },
+        {
+         "ad": "Kloramfenikol"
+        },
+        {
+         "ad": "Oksazolidinonlar",
+         "not": "Şemada: oksazolidinon (linezolid)",
+         "ilaclar": [
+          "Linezolid"
+         ]
+        },
+        {
+         "ad": "Streptograminler",
+         "ilaclar": [
+          "Kinupristin/dalfopristin"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "4. Nükleik asit sentezi veya işlevinin inhibisyonu",
+     "not": "DNA giraz (topoizomeraz II), topoizomeraz IV, RNA polimeraz",
+     "alt": [
+      {
+       "ad": "Florokinolonlar",
+       "ilaclar": [
+        "Siprofloksasin",
+        "Levofloksasin",
+        "Moksifloksasin"
+       ]
+      },
+      {
+       "ad": "Rifamisinler",
+       "ilaclar": [
+        "Rifampin",
+        "Rifabutin",
+        "Rifaksimin"
+       ]
+      },
+      {
+       "ad": "Metronidazol / Tinidazol",
+       "not": "Anaerob bakterilere ve bazı protozoalara etkili",
+       "ilaclar": [
+        "Metronidazol",
+        "Tinidazol"
+       ]
+      },
+      {
+       "ad": "Nitrofurantoin",
+       "not": "Üriner sistem enfeksiyonları",
+       "ilaclar": [
+        "Nitrofurantoin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "5. Folat sentezi/metabolizmasının inhibisyonu",
+     "not": "PABA → DHF → THF → nükleotid sentezi",
+     "alt": [
+      {
+       "ad": "Sülfonamidler",
+       "not": "Dihidropteroat sentetaz basamağını inhibe eder",
+       "ilaclar": [
+        "Sülfametoksazol",
+        "Sülfadiazin"
+       ]
+      },
+      {
+       "ad": "Trimetoprim",
+       "not": "Tetrahidrofolat basamağı; sıklıkla sülfametoksazolle",
+       "ilaclar": [
+        "Trimetoprim"
+       ]
+      },
+      {
+       "ad": "Dapson",
+       "not": "Cüzzam, bazı mikobakteriyel enfeksiyonlar",
+       "ilaclar": [
+        "Dapson"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Etki yerine göre (bakteri hücresi şeması)",
+   "alt": [
+    {
+     "ad": "Hücre duvarı sentezi",
+     "ilaclar": [
+      "Sikloserin",
+      "Vankomisin",
+      "Basitrasin",
+      "Penisilinler",
+      "Sefalosporinler",
+      "Monobaktamlar",
+      "Karbapenemler"
+     ]
+    },
+    {
+     "ad": "Folik asit metabolizması",
+     "ilaclar": [
+      "Trimetoprim",
+      "Sülfonamidler"
+     ]
+    },
+    {
+     "ad": "Sitoplazmik membran yapısı",
+     "ilaclar": [
+      "Polimiksinler",
+      "Daptomisin"
+     ]
+    },
+    {
+     "ad": "DNA giraz",
+     "not": "Kinolonlar",
+     "ilaclar": [
+      "Nalidiksik asit",
+      "Siprofloksasin",
+      "Novobiyosin"
+     ]
+    },
+    {
+     "ad": "RNA uzaması",
+     "ilaclar": [
+      "Aktinomisin"
+     ]
+    },
+    {
+     "ad": "DNA'ya bağımlı RNA polimeraz",
+     "ilaclar": [
+      "Rifampin",
+      "Streptovarisinler"
+     ]
+    },
+    {
+     "ad": "Protein sentezi (50S inhibitörleri)",
+     "ilaclar": [
+      "Eritromisin (makrolidler)",
+      "Kloramfenikol",
+      "Klindamisin",
+      "Linkomisin"
+     ]
+    },
+    {
+     "ad": "Protein sentezi (30S inhibitörleri)",
+     "not": "Nitrofuranlar şemada bu grup parantezinde",
+     "ilaclar": [
+      "Tetrasiklinler",
+      "Spektinomisin",
+      "Streptomisin",
+      "Gentamisin",
+      "Kanamisin",
+      "Amikasin",
+      "Nitrofuranlar"
+     ]
+    },
+    {
+     "ad": "Protein sentezi (tRNA)",
+     "ilaclar": [
+      "Mupirosin",
+      "Puromisin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Antibiyotiklerin geliştirilmesi (dönemlere göre)",
+   "alt": [
+    {
+     "ad": "1930'lar: Sülfonamidler",
+     "not": "Prontosil ilk sülfonamid",
+     "ilaclar": [
+      "Prontosil",
+      "Sülfonamidler"
+     ]
+    },
+    {
+     "ad": "1940'lar: Doğal ürünlerin keşfi",
+     "not": "Penisilin G β-laktam; streptomisin aminoglikozid",
+     "ilaclar": [
+      "Penisilin G",
+      "Streptomisin"
+     ]
+    },
+    {
+     "ad": "1950'ler: Yeni sınıfların gelişimi",
+     "ilaclar": [
+      "Tetrasiklinler",
+      "Kloramfenikol",
+      "Makrolidler",
+      "Eritromisin",
+      "Vankomisin"
+     ]
+    },
+    {
+     "ad": "1960'lar: Yarı sentetik ve yeni ajanlar",
+     "not": "Metisilin penisilinaza dirençli; rifampisin ansamisin",
+     "ilaclar": [
+      "Metisilin",
+      "Gentamisin",
+      "Rifampisin"
+     ]
+    },
+    {
+     "ad": "1970'ler: Geniş spektrumlu ajanlar",
+     "not": "Amoksisilin/klavulanat = β-laktam + β-laktamaz inhibitörü",
+     "ilaclar": [
+      "Sefalosporinler (1. ve 2. kuşak)",
+      "Amoksisilin/klavulanat"
+     ]
+    },
+    {
+     "ad": "1980'ler: Yeni hedefler",
+     "ilaclar": [
+      "Florokinolonlar",
+      "Siprofloksasin",
+      "Karbapenemler",
+      "İmipenem"
+     ]
+    },
+    {
+     "ad": "1990'lar: Geniş spektrum ve dirençli bakterilere karşı",
+     "ilaclar": [
+      "Yeni sefalosporinler (3. ve 4. kuşak)",
+      "Oksazolidinonlar",
+      "Linezolid"
+     ]
+    },
+    {
+     "ad": "2000'ler: Dirençli patojenlere yeni seçenekler",
+     "not": "Daptomisin: lipopeptid; tigesiklin: glisilsiklin",
+     "ilaclar": [
+      "Daptomisin",
+      "Tigesiklin",
+      "Ertapenem"
+     ]
+    },
+    {
+     "ad": "2010'lar-2020'ler: Yeni ajanlar ve kombinasyonlar",
+     "not": "Sefiderokol: siderofor sefalosporin",
+     "ilaclar": [
+      "Yeni β-laktam/β-laktamaz inhibitörü kombinasyonları",
+      "Telavansin",
+      "Dalbavansin",
+      "Sefiderokol",
+      "Tedizolid",
+      "Lefamulin"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1088 @@
+{
+ "kod": "F11",
+ "ders": "Antineoplastik İlaçlar",
+ "pdf": "7-Antineoplastik ilaçlar + 8-Antineoplastik ilaçlar (Ek slayt)",
+ "agac": [
+  {
+   "ad": "Alkilleyici ajanlar",
+   "not": "DNA'ya kovalent bağlanır; ön ilaç, döneme özgü değil",
+   "alt": [
+    {
+     "ad": "Azotlu hardallar (biskloretilaminler)",
+     "ilaclar": [
+      "Siklofosfamid",
+      "Mekloretamin",
+      "Klorambusil",
+      "Melfalan",
+      "İfosfamid"
+     ]
+    },
+    {
+     "ad": "Etileniminler ve metilmelaminler",
+     "ilaclar": [
+      "Aziridin",
+      "Altretamin"
+     ]
+    },
+    {
+     "ad": "Alkil sülfonatlar",
+     "ilaclar": [
+      "Busulfan"
+     ]
+    },
+    {
+     "ad": "Nitrozüreler",
+     "not": "lipofilik; SSS'ye kolay geçer",
+     "ilaclar": [
+      "Karmustin",
+      "Lomustin",
+      "Semustin",
+      "Streptozosin"
+     ]
+    },
+    {
+     "ad": "Triazen ve hidrazen türevleri",
+     "not": "MAO'yu inhibe eder; SSS'ye geçer",
+     "alt": [
+      {
+       "ad": "Triazen türevi",
+       "ilaclar": [
+        "Dakarbazin"
+       ]
+      },
+      {
+       "ad": "Metilhidrazin türevi",
+       "ilaclar": [
+        "Prokarbazin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Antimetabolitler",
+   "not": "nükleik asit sentezi enzimlerini inhibe eder",
+   "alt": [
+    {
+     "ad": "Folik asit antimetabolitleri (folat antagonistleri)",
+     "not": "DHFR inhibisyonu; folinik asitle kurtarma",
+     "ilaclar": [
+      "Metotreksat"
+     ]
+    },
+    {
+     "ad": "Purin antimetabolitleri (pürin analogları)",
+     "ilaclar": [
+      "6-Merkaptopürin (6-MP)",
+      "6-Tioguanin",
+      "Fludarabin"
+     ]
+    },
+    {
+     "ad": "Pirimidin antimetabolitleri (pirimidin analogları)",
+     "not": "5-FU: timidilat sentetaz inhibisyonu",
+     "alt": [
+      {
+       "ad": "Aynı bölümde, alt sınıfı belirtilmeyenler",
+       "ilaclar": [
+        "Gemsitabin",
+        "Kladribin",
+        "Raltitreksed"
+       ]
+      }
+     ],
+     "ilaclar": [
+      "5-Fluorourasil (5-FU)",
+      "Sitarabin (sitozin arabinozid)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Bitkisel kaynaklı antineoplastikler (vinka alkaloidleri ve bitkisel diğerleri)",
+   "not": "mitoz zehirleri; M fazına özgü",
+   "alt": [
+    {
+     "ad": "Vinka alkaloidleri",
+     "not": "tübülini çöktürür, mikrotübül oluşmasını engeller",
+     "ilaclar": [
+      "Vinblastin",
+      "Vinkristin",
+      "Vindesin",
+      "Vinorelbin"
+     ]
+    },
+    {
+     "ad": "Podofilotoksinler",
+     "not": "etopozid mitoz zehiri değil; geç S / G2'ye etkili",
+     "ilaclar": [
+      "Podofilotoksin",
+      "Etopozid",
+      "Tenipozid"
+     ]
+    },
+    {
+     "ad": "Taksanlar",
+     "not": "tübülin sentezini stimüle eder (vinkanın tersi)",
+     "ilaclar": [
+      "Paklitaksel",
+      "Dosetaksel"
+     ]
+    },
+    {
+     "ad": "Kamptotesin türevleri",
+     "not": "topoizomeraz-I inhibitörleri",
+     "ilaclar": [
+      "İrinotekan",
+      "Topotekan"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Sitotoksik antibiyotikler",
+   "not": "interkalasyon, serbest radikal, topoizomeraz-II inh.",
+   "alt": [
+    {
+     "ad": "Daktinomisin grubu",
+     "ilaclar": [
+      "Daktinomisin (Aktinomisin-D)"
+     ]
+    },
+    {
+     "ad": "Daunorubisin ve türevleri (antrasiklinler)",
+     "not": "kardiyotoksisite",
+     "ilaclar": [
+      "Daunorubisin",
+      "Doksorubisin (Adriamisin)",
+      "Epirubisin",
+      "Aklarubisin"
+     ]
+    },
+    {
+     "ad": "Antrasiklinlere yapıca benzeyen (antibiyotik değil)",
+     "ilaclar": [
+      "Mitoksantron (Mitozantron)"
+     ]
+    },
+    {
+     "ad": "Diğer sitotoksik antibiyotikler",
+     "ilaclar": [
+      "Bleomisin",
+      "Plikamisin (Mitramisin)",
+      "Mitomisin (Mutamisin)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Platin bileşikleri ve koruyucu ajanlar",
+   "not": "DNA zincirlerinde çapraz bağ",
+   "alt": [
+    {
+     "ad": "Platin bileşikleri",
+     "ilaclar": [
+      "Sisplatin",
+      "Karboplatin",
+      "Oksaliplatin"
+     ]
+    },
+    {
+     "ad": "Koruyucu ajan",
+     "not": "kümülatif nefrotoksisiteyi azaltan antidot",
+     "ilaclar": [
+      "Amifostin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "İnterferonlar",
+   "not": "JAK/STAT aktivasyonu; immünomodülatör + antiproliferatif",
+   "alt": [
+    {
+     "ad": "Antijenik özelliğe göre insan interferonları",
+     "ilaclar": [
+      "İnterferon alfa",
+      "İnterferon beta",
+      "İnterferon gama"
+     ]
+    },
+    {
+     "ad": "Güncel kullanımda adı geçenler",
+     "ilaclar": [
+      "Alfa-2-A interferon",
+      "Pegile interferonlar",
+      "Ropeginterferon alfa-2b"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Enzim ajanları",
+   "not": "asparagini hidrolize eder; yalnız ALL",
+   "ilaclar": [
+    "L-Asparaginaz"
+   ]
+  },
+  {
+   "ad": "Hormonlar ve hormon antagonistleri",
+   "not": "hormon bağımlı tümörlerin büyümesini baskılar",
+   "alt": [
+    {
+     "ad": "Estrojenler",
+     "ilaclar": [
+      "Dietilstilbestrol",
+      "Fosfesterol",
+      "Etinil estradiol"
+     ]
+    },
+    {
+     "ad": "Progestinler",
+     "ilaclar": [
+      "Megestrol asetat",
+      "Medroksiprogesteron asetat"
+     ]
+    },
+    {
+     "ad": "Antiöstrojenler",
+     "not": "östrojen reseptörünün kompetitif blokajı",
+     "ilaclar": [
+      "Tamoksifen sitrat",
+      "Toremifen"
+     ]
+    },
+    {
+     "ad": "Aromataz inhibitörleri",
+     "ilaclar": [
+      "Formestan",
+      "Anastrozol",
+      "Letrozol",
+      "Eksemestan"
+     ]
+    },
+    {
+     "ad": "Antiandrojenler",
+     "not": "testosteron reseptörü blokajı",
+     "ilaclar": [
+      "Siproteron asetat",
+      "Flutamid",
+      "Bikalutamid",
+      "Nilutamid"
+     ]
+    },
+    {
+     "ad": "GnRH analogları",
+     "not": "hipofizde desensitizasyon; testosteron salınımı durur",
+     "ilaclar": [
+      "Buserelin asetat",
+      "Goserelin asetat",
+      "Triptorelin asetat",
+      "Löprolid",
+      "Nafarelin asetat"
+     ]
+    },
+    {
+     "ad": "Glukokortikoidler",
+     "not": "lenfolitik etki; destekleyici tedavi",
+     "ilaclar": [
+      "Prednizon",
+      "Deksametazon",
+      "Metilprednizolon"
+     ]
+    },
+    {
+     "ad": "Adrenal korteksi etkileyenler (hormon bölümünün devamı)",
+     "not": "adrenal korteks tümörleri; postmenapozal meme Ca",
+     "ilaclar": [
+      "Mitotan",
+      "Aminoglutetimid",
+      "Trilostan"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Diğer antineoplastik ilaçlar",
+   "alt": [
+    {
+     "ad": "Ribonükleotid redüktaz inhibitörü",
+     "not": "S fazına özgü",
+     "ilaclar": [
+      "Hidroksiüre (hidroksikarbamid)"
+     ]
+    },
+    {
+     "ad": "İnterkalan, döneme özgü olmayan",
+     "ilaclar": [
+      "Amsakrin"
+     ]
+    },
+    {
+     "ad": "Oral; ilerlemiş over Ca",
+     "ilaclar": [
+      "Altretamin"
+     ]
+    },
+    {
+     "ad": "Nükleozid analoğu",
+     "not": "adenozin deaminaz inhibisyonu",
+     "ilaclar": [
+      "Pentostatin"
+     ]
+    },
+    {
+     "ad": "A-vitamini analoğu",
+     "not": "dirençli akut promiyelositik lösemi",
+     "ilaclar": [
+      "Tiretinoin"
+     ]
+    },
+    {
+     "ad": "Radyoizotoplar",
+     "ilaclar": [
+      "Radyoaktif fosfor",
+      "Radyoaktif iyod",
+      "Radyoaktif altın",
+      "Stronsiyum 89"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Hedefe yönelik tedavi ajanları (monoklonal antikorlar, TKI)",
+   "not": "mAb · küçük molekül inhibitörleri · ADC · bispesifik antikor",
+   "alt": [
+    {
+     "ad": "Sınıflandırma slaytındaki örnekler",
+     "alt": [
+      {
+       "ad": "Monoklonal antikorlar",
+       "ilaclar": [
+        "Trastuzumab",
+        "Rituximab"
+       ]
+      },
+      {
+       "ad": "Tirozin kinaz inhibitörleri",
+       "ilaclar": [
+        "Imatinib"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Hedefe göre (Ek slayt tablosu)",
+     "alt": [
+      {
+       "ad": "HER2",
+       "ilaclar": [
+        "Trastuzumab",
+        "Pertuzumab",
+        "T-DM1",
+        "T-DXd"
+       ]
+      },
+      {
+       "ad": "EGFR",
+       "ilaclar": [
+        "Cetuximab",
+        "Panitumumab",
+        "Osimertinib"
+       ]
+      },
+      {
+       "ad": "VEGF",
+       "ilaclar": [
+        "Bevacizumab"
+       ]
+      },
+      {
+       "ad": "CD20",
+       "ilaclar": [
+        "Rituximab",
+        "Obinutuzumab"
+       ]
+      },
+      {
+       "ad": "BCR-ABL",
+       "ilaclar": [
+        "Imatinib",
+        "Dasatinib",
+        "Nilotinib"
+       ]
+      },
+      {
+       "ad": "BTK",
+       "ilaclar": [
+        "Ibrutinib",
+        "Acalabrutinib"
+       ]
+      },
+      {
+       "ad": "BCL-2",
+       "ilaclar": [
+        "Venetoclax"
+       ]
+      },
+      {
+       "ad": "CD38",
+       "ilaclar": [
+        "Daratumumab",
+        "Isatuximab"
+       ]
+      },
+      {
+       "ad": "PARP",
+       "ilaclar": [
+        "Olaparib"
+       ]
+      },
+      {
+       "ad": "CDK4/6",
+       "ilaclar": [
+        "Palbociclib",
+        "Ribociclib",
+        "Abemaciclib"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Kanser türüne göre (Goodman & Gilman şeması)",
+     "alt": [
+      {
+       "ad": "Kalın bağırsak",
+       "alt": [
+        {
+         "ad": "VEGF",
+         "ilaclar": [
+          "Bevacizumab"
+         ]
+        },
+        {
+         "ad": "EGFR",
+         "ilaclar": [
+          "Cetuximab",
+          "Panitumumab"
+         ]
+        },
+        {
+         "ad": "VEGFR2",
+         "ilaclar": [
+          "Ramucirumab"
+         ]
+        },
+        {
+         "ad": "KIT, PDGFRB",
+         "ilaclar": [
+          "Regorafenib"
+         ]
+        },
+        {
+         "ad": "PIGF, VEGFA/B",
+         "ilaclar": [
+          "Ziv-aflibercept"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Prostat kanseri",
+       "alt": [
+        {
+         "ad": "CYP17",
+         "ilaclar": [
+          "Abiraterone"
+         ]
+        },
+        {
+         "ad": "Aşı",
+         "ilaclar": [
+          "Sipuleucel-T"
+         ]
+        },
+        {
+         "ad": "Kalsiyumu taklit",
+         "ilaclar": [
+          "Ra 223"
+         ]
+        },
+        {
+         "ad": "Anti-androgen",
+         "ilaclar": [
+          "Enzalutamide"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Lenfoma",
+       "alt": [
+        {
+         "ad": "PD1",
+         "ilaclar": [
+          "Nivolumab"
+         ]
+        },
+        {
+         "ad": "CD20",
+         "ilaclar": [
+          "Ibritumomab tiuxetan",
+          "Rituximab",
+          "Obinutuzumab"
+         ]
+        },
+        {
+         "ad": "CD30",
+         "ilaclar": [
+          "Brentuximab vedotin"
+         ]
+        },
+        {
+         "ad": "HDAC",
+         "ilaclar": [
+          "Vorinostat",
+          "Romidepsin",
+          "Belinostat"
+         ]
+        },
+        {
+         "ad": "Proteasome",
+         "ilaclar": [
+          "Bortezomib"
+         ]
+        },
+        {
+         "ad": "Antimetabolit",
+         "ilaclar": [
+          "Pralatrexate"
+         ]
+        },
+        {
+         "ad": "BTK",
+         "ilaclar": [
+          "Ibrutinib"
+         ]
+        },
+        {
+         "ad": "IL6",
+         "ilaclar": [
+          "Siltuximab"
+         ]
+        },
+        {
+         "ad": "Diğer (Other)",
+         "ilaclar": [
+          "Denileukin diftitox",
+          "Bexarotene"
+         ]
+        },
+        {
+         "ad": "PI3K8",
+         "ilaclar": [
+          "Idelalisib"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Akciğer",
+       "alt": [
+        {
+         "ad": "PD-1",
+         "ilaclar": [
+          "Nivolumab",
+          "Pembrolizumab"
+         ]
+        },
+        {
+         "ad": "EGFR",
+         "ilaclar": [
+          "Erlotinib",
+          "Gefitinib",
+          "Afatinib",
+          "Osimertinib",
+          "Necitumumab"
+         ]
+        },
+        {
+         "ad": "ALK, MET, ROS1",
+         "ilaclar": [
+          "Crizotinib"
+         ]
+        },
+        {
+         "ad": "ALK",
+         "ilaclar": [
+          "Ceritinib",
+          "Alectinib"
+         ]
+        },
+        {
+         "ad": "VEGF",
+         "ilaclar": [
+          "Bevacizumab"
+         ]
+        },
+        {
+         "ad": "VEGFR2",
+         "ilaclar": [
+          "Ramucirumab"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Melanom (cilt kanseri)",
+       "alt": [
+        {
+         "ad": "CTLA4",
+         "ilaclar": [
+          "Ipilimumab"
+         ]
+        },
+        {
+         "ad": "PD1",
+         "ilaclar": [
+          "Nivolumab",
+          "Pembrolizumab"
+         ]
+        },
+        {
+         "ad": "Aşı",
+         "ilaclar": [
+          "Talimogene laherparepvec"
+         ]
+        },
+        {
+         "ad": "MEK",
+         "ilaclar": [
+          "Cobimetinib",
+          "Trametinib"
+         ]
+        },
+        {
+         "ad": "BRAF",
+         "ilaclar": [
+          "Vemurafenib",
+          "Dabrafenib"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Mide ve mide-yemek borusu bileşkesi",
+       "alt": [
+        {
+         "ad": "HER2",
+         "ilaclar": [
+          "Trastuzumab"
+         ]
+        },
+        {
+         "ad": "VEGFR2",
+         "ilaclar": [
+          "Ramucirumab"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Gastrointestinal stromal tümörler",
+       "alt": [
+        {
+         "ad": "KIT, PDGFR, ABL",
+         "ilaclar": [
+          "Imatinib"
+         ]
+        },
+        {
+         "ad": "KIT, PDGFRB, RAF, RET, VEGFR1/2/3",
+         "ilaclar": [
+          "Regorafenib"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Tiroid kanseri",
+       "alt": [
+        {
+         "ad": "EGFR, RET, VEGFR2",
+         "ilaclar": [
+          "Vandetanib"
+         ]
+        },
+        {
+         "ad": "VEGFR2",
+         "ilaclar": [
+          "Lenvatinib"
+         ]
+        },
+        {
+         "ad": "FLT3, KIT, MET, RET, VEGFR",
+         "ilaclar": [
+          "Cabozantinib"
+         ]
+        },
+        {
+         "ad": "KIT, PDGFRB, VEGFR",
+         "ilaclar": [
+          "Sorafenib"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Meme kanseri",
+       "alt": [
+        {
+         "ad": "HR",
+         "ilaclar": [
+          "Tamoxifen",
+          "Anastrozole",
+          "Fulvestrant",
+          "Exemestane",
+          "Letrozole"
+         ]
+        },
+        {
+         "ad": "HER2",
+         "ilaclar": [
+          "Trastuzumab",
+          "Pertuzumab",
+          "T-DM1",
+          "Lapatinib"
+         ]
+        },
+        {
+         "ad": "CDK4, CDK6",
+         "ilaclar": [
+          "Palbociclib"
+         ]
+        },
+        {
+         "ad": "MTOR",
+         "ilaclar": [
+          "Everolimus"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Lösemi",
+       "alt": [
+        {
+         "ad": "BTK",
+         "ilaclar": [
+          "Ibrutinib"
+         ]
+        },
+        {
+         "ad": "Bcl-2",
+         "ilaclar": [
+          "Venetoclax"
+         ]
+        },
+        {
+         "ad": "Retinoic acid derivatives",
+         "ilaclar": [
+          "Tretinoin"
+         ]
+        },
+        {
+         "ad": "ABL, KIT, PDGFR",
+         "ilaclar": [
+          "Imatinib mesylate"
+         ]
+        },
+        {
+         "ad": "CD20",
+         "ilaclar": [
+          "Rituximab",
+          "Ofatumumab",
+          "Obinutuzumab"
+         ]
+        },
+        {
+         "ad": "ABL, SRC, KIT",
+         "ilaclar": [
+          "Dasatinib"
+         ]
+        },
+        {
+         "ad": "ABL",
+         "ilaclar": [
+          "Nilotinib",
+          "Bosutinib"
+         ]
+        },
+        {
+         "ad": "CD52",
+         "ilaclar": [
+          "Alemtuzumab"
+         ]
+        },
+        {
+         "ad": "CD19/CD3",
+         "ilaclar": [
+          "Blinatumomab"
+         ]
+        },
+        {
+         "ad": "PI3K8",
+         "ilaclar": [
+          "Idelalisib"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Böbrek",
+       "alt": [
+        {
+         "ad": "PD-1",
+         "ilaclar": [
+          "Nivolumab"
+         ]
+        },
+        {
+         "ad": "MTOR",
+         "ilaclar": [
+          "Everolimus",
+          "Temsirolimus"
+         ]
+        },
+        {
+         "ad": "VEGF",
+         "ilaclar": [
+          "Bevacizumab"
+         ]
+        },
+        {
+         "ad": "FLT3, KIT, MET, RET, VEGFR",
+         "ilaclar": [
+          "Cabozantinib"
+         ]
+        },
+        {
+         "ad": "KIT, PDGFRB, VEGFR",
+         "ilaclar": [
+          "Axitinib",
+          "Pazopanib",
+          "Sorafenib"
+         ]
+        },
+        {
+         "ad": "VEGFR2",
+         "ilaclar": [
+          "Lenvatinib"
+         ]
+        }
+       ]
+      },
+      {
+       "ad": "Yumurtalık",
+       "alt": [
+        {
+         "ad": "PARP",
+         "ilaclar": [
+          "Olaparib"
+         ]
+        },
+        {
+         "ad": "VEGF",
+         "ilaclar": [
+          "Bevacizumab"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Yan etki yönetiminde adı geçen yardımcı ilaçlar",
+   "alt": [
+    {
+     "ad": "Hemorajik sistit (akrolein)",
+     "not": "siklofosfamid, ifosfamid",
+     "ilaclar": [
+      "Mesna"
+     ]
+    },
+    {
+     "ad": "Metotreksat toksisitesinde kurtarma",
+     "ilaclar": [
+      "Folinik asit"
+     ]
+    },
+    {
+     "ad": "Hiperürisemi (pürin antimetabolitleri)",
+     "not": "hidrasyonla birlikte",
+     "ilaclar": [
+      "Allopurinol"
+     ]
+    },
+    {
+     "ad": "Bulantı-kusma (antiemetikler)",
+     "ilaclar": [
+      "Metoklopramid",
+      "Fenotiazin türevleri",
+      "Ondansetron",
+      "Tropisetron"
+     ]
+    },
+    {
+     "ad": "Ekstravazasyon (doku zedelenmesi, nekroz)",
+     "ilaclar": [
+      "Sodyum tiyosülfat (mekloretamin sızmasında)",
+      "Hyaluronidaz (vinkristin sızmasında)"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Hücre döngüsü fazına göre sınıflama (PDF şeması)",
+   "alt": [
+    {
+     "ad": "S fazı özgü ilaçlar (DNA sentezini inhibe eder)",
+     "alt": [
+      {
+       "ad": "Antimetabolitler",
+       "ilaclar": [
+        "Sitozin arabinozid (Ara-C)",
+        "Gemsitabin",
+        "5-Fluorourasil (5-FU)",
+        "Kapesitabin",
+        "6-Merkaptopürin (6-MP)",
+        "Metotreksat",
+        "Fludarabin",
+        "Pemetreksed"
+       ]
+      },
+      {
+       "ad": "Ribonükleotid redüktaz inhibitörleri",
+       "ilaclar": [
+        "Hidroksiüre"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "G2 fazı özgü ilaçlar (mitoza geçişi inhibe eder)",
+     "alt": [
+      {
+       "ad": "Topoizomeraz II inhibitörleri",
+       "ilaclar": [
+        "Etopozid",
+        "Tenipozid",
+        "Doksorubisin (özellikle S ve G2)"
+       ]
+      },
+      {
+       "ad": "DNA hasarı oluşturan ajanlar",
+       "ilaclar": [
+        "Sisplatin (özellikle G2)",
+        "Karboplatin",
+        "Dakarbazin",
+        "Nitrozüreler (karmustin, lomustin)"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "M fazı özgü ilaçlar (mitozu inhibe eder)",
+     "alt": [
+      {
+       "ad": "Mikrotübül inhibitörleri",
+       "ilaclar": [
+        "Vinkristin",
+        "Vinblastin",
+        "Vinorelbin",
+        "Paklitaksel",
+        "Dosetaksel",
+        "İksabepilon"
+       ]
+      },
+      {
+       "ad": "Diğer",
+       "not": "mikrotübül dinamiğini inhibe eder",
+       "ilaclar": [
+        "Eribulin"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "G1 fazı",
+     "not": "bu faza özgü kemoterapi ilacı yoktur; CDK inhibitörleri",
+     "ilaclar": [
+      "Palbosiklib"
+     ]
+    },
+    {
+     "ad": "G0 fazı",
+     "not": "dinlenme fazı; kemoterapiye en dirençli faz"
+    },
+    {
+     "ad": "Döneme özgü olmayan ilaçlar",
+     "not": "birden fazla fazda etkili; G0 hücrelerini de etkileyebilir",
+     "alt": [
+      {
+       "ad": "Alkilleyici ilaçlar",
+       "ilaclar": [
+        "Siklofosfamid",
+        "İfosfamid",
+        "Melfalan",
+        "Klorambusil",
+        "Busulfan"
+       ]
+      },
+      {
+       "ad": "Platin türevleri",
+       "ilaclar": [
+        "Sisplatin",
+        "Karboplatin",
+        "Oksaliplatin"
+       ]
+      },
+      {
+       "ad": "Nitrozüreler",
+       "ilaclar": [
+        "Karmustin",
+        "Lomustin",
+        "Streptozosin",
+        "Dakarbazin"
+       ]
+      },
+      {
+       "ad": "Antibiyotikler (DNA'ya interkalasyon veya serbest radikal)",
+       "ilaclar": [
+        "Doksorubisin",
+        "Daunorubisin",
+        "Bleomisin",
+        "Mitomisin C"
+       ]
+      },
+      {
+       "ad": "Prokarbazin",
+       "ilaclar": [
+        "Prokarbazin"
+       ]
+      },
+      {
+       "ad": "Diğer",
+       "ilaclar": [
+        "Temozolomid"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

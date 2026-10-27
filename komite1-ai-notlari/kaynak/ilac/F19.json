@@ -1,0 +1,68 @@
+{
+ "kod": "F19",
+ "ders": "Antihelmintik İlaçlar",
+ "pdf": "10-Antihelmintik İlaçlar",
+ "agac": [
+  {
+   "ad": "Antihelmintik ilaçların sınıflandırılması",
+   "alt": [
+    {
+     "ad": "Benzimidazoller",
+     "not": "β-tübüline bağlanır, mikrotübül oluşumunu bozar",
+     "ilaclar": [
+      "Albendazol",
+      "Mebendazol",
+      "Tiabendazol"
+     ]
+    },
+    {
+     "ad": "Nikotinik reseptör agonisti",
+     "not": "nikotinik ACh reseptörü aktivasyonu, spastik paralizi",
+     "ilaclar": [
+      "Pirantel pamoat"
+     ]
+    },
+    {
+     "ad": "Makrosiklik lakton",
+     "not": "glutamat kapılı klor kanallarını aktive eder",
+     "ilaclar": [
+      "İvermektin"
+     ]
+    },
+    {
+     "ad": "Pirazinoizokinolin türevi",
+     "not": "kalsiyum geçirgenliğini artırır",
+     "ilaclar": [
+      "Prazikuantel"
+     ]
+    },
+    {
+     "ad": "Salisilanilid",
+     "not": "oksidatif fosforilasyonu bozar",
+     "ilaclar": [
+      "Niklozamid"
+     ]
+    },
+    {
+     "ad": "Diğer ilaçlar",
+     "ilaclar": [
+      "Dietilkarbamazin",
+      "Piperazin",
+      "Levamizol",
+      "Oksamnikin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Türkiye'de bilinmesi gereken antihelmintikler",
+   "ilaclar": [
+    "Albendazol",
+    "Pirantel pamoat",
+    "Mebendazol",
+    "İvermektin",
+    "Prazikuantel"
+   ]
+  }
+ ]
+}

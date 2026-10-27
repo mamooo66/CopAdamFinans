@@ -1,0 +1,113 @@
+{
+ "kod": "F18",
+ "ders": "Antiseptik ve Dezenfektanlar",
+ "pdf": "9-Antiseptik ve Dezenfektanlar",
+ "agac": [
+  {
+   "ad": "Antiseptik ve dezenfektanların sınıflandırılması",
+   "alt": [
+    {
+     "ad": "Alkoller",
+     "not": "protein denatürasyonu; sporosidal değil",
+     "ilaclar": [
+      "Etanol",
+      "İzopropanol"
+     ]
+    },
+    {
+     "ad": "Aldehitler",
+     "not": "proteinleri modifiye eder",
+     "ilaclar": [
+      "Formaldehit",
+      "Glutaraldehit"
+     ]
+    },
+    {
+     "ad": "Halojenler",
+     "alt": [
+      {
+       "ad": "İyot",
+       "not": "-SH gruplarını okside eder; povidon-iyot = iyodofor",
+       "ilaclar": [
+        "Tentürdiyot",
+        "Povidon-iyot"
+       ]
+      },
+      {
+       "ad": "Klor",
+       "not": "protein ve enzimleri okside eder",
+       "ilaclar": [
+        "Hipoklorit",
+        "Hipokloröz asit (HOCl)"
+       ]
+      }
+     ]
+    },
+    {
+     "ad": "Klorheksidin",
+     "not": "hücre membranını bozar",
+     "ilaclar": [
+      "Klorheksidin"
+     ]
+    },
+    {
+     "ad": "Okside edici ajanlar",
+     "ilaclar": [
+      "Hidrojen peroksit (H₂O₂)",
+      "Potasyum permanganat",
+      "Perasetik asit"
+     ]
+    },
+    {
+     "ad": "Ağır metaller",
+     "alt": [
+      {
+       "ad": "Gümüş bileşikleri",
+       "ilaclar": [
+        "Gümüş sülfadiazin",
+        "Gümüş nitrat"
+       ]
+      },
+      {
+       "ad": "Cıva bileşikleri",
+       "not": "toksisite nedeniyle büyük ölçüde terk edildi"
+      }
+     ]
+    },
+    {
+     "ad": "Sabunlar",
+     "not": "anyonik yüzey aktif; mekanik temizlik",
+     "ilaclar": [
+      "Sabun"
+     ]
+    },
+    {
+     "ad": "Fenoller",
+     "not": "hücre membran geçirgenliğini bozar",
+     "ilaclar": [
+      "Fenol",
+      "Hekzaklorofen"
+     ]
+    },
+    {
+     "ad": "Katyonik yüzey-aktif ajanlar",
+     "not": "anyonik sabunlarla birlikte kullanılmaz",
+     "ilaclar": [
+      "Benzalkonyum klorür",
+      "Setrimid",
+      "Kuarterner amonyum bileşikleri"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Sterilizasyon yöntemleri",
+   "ilaclar": [
+    "Buharlı sterilizasyon (otoklav)",
+    "Etilen oksit",
+    "Hidrojen peroksit gaz plazma",
+    "Perasetik asit sistemleri"
+   ]
+  }
+ ]
+}

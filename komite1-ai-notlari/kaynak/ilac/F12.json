@@ -1,0 +1,94 @@
+{
+ "kod": "F12",
+ "ders": "Antikoagülan İlaçlar",
+ "pdf": "7-Antikoagülan İlaçlar",
+ "agac": [
+  {
+   "ad": "Heparinler",
+   "not": "antitrombin III aracılı; trombin ve faktör Xa inhibisyonu",
+   "alt": [
+    {
+     "ad": "Standart (bayağı) heparin",
+     "ilaclar": [
+      "Heparin sodyum",
+      "Heparin kalsiyum"
+     ]
+    },
+    {
+     "ad": "Düşük molekül ağırlıklı heparinler (DMAH)",
+     "not": "anti-Xa / anti-IIa oranı yüksek",
+     "ilaclar": [
+      "Dalteparin",
+      "Enoksaparin",
+      "Nadroparin",
+      "Parnaparin",
+      "Tinzaparin",
+      "Bemiparin",
+      "Reviparin",
+      "Sertoparin",
+      "Ardeparin"
+     ]
+    },
+    {
+     "ad": "Sentetik heparin türevleri",
+     "not": "antitrombin aracılı faktör Xa inhibisyonu; trombine etkisiz",
+     "ilaclar": [
+      "Fondaparinux"
+     ]
+    },
+    {
+     "ad": "Heparin doz aşımı antidotları",
+     "not": "protamin: bazik protein, heparinle kompleks yapar",
+     "ilaclar": [
+      "Protamin sülfat",
+      "Toluidin mavisi",
+      "Heksadimetrin"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Diğer parenteral antikoagülanlar",
+   "not": "trombin inhibitörleri",
+   "ilaclar": [
+    "Lepirudin",
+    "Bivalirudin",
+    "Argatroban"
+   ]
+  },
+  {
+   "ad": "Oral antikoagülanlar",
+   "alt": [
+    {
+     "ad": "K vitamini antagonistleri (kumarin türevleri)",
+     "not": "K vit.'e bağımlı faktör II, VII, IX, X sentezini bozar",
+     "ilaclar": [
+      "Varfarin",
+      "Dikumarol"
+     ]
+    },
+    {
+     "ad": "Yeni nesil oral antikoagülanlar",
+     "alt": [
+      {
+       "ad": "Direkt trombin inhibitörü",
+       "not": "ön ilaç; yarışmalı",
+       "ilaclar": [
+        "Dabigatran"
+       ]
+      },
+      {
+       "ad": "Faktör Xa inhibitörleri",
+       "not": "direkt faktör Xa inhibisyonu",
+       "ilaclar": [
+        "Apiksaban",
+        "Rivaroksaban",
+        "Edoksaban"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
