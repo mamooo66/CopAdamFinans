@@ -1,0 +1,651 @@
+{
+ "kod": "F11",
+ "ders": "Antineoplastik İlaçlar",
+ "hoca": "Doç. Dr. Oruç Yunusoğlu",
+ "pdf": "7-Antineoplastik ilaçlar + 8-Antineoplastik ilaçlar (Ek slayt)",
+ "basliklar": [
+  {
+   "baslik": "Kanserin gelişimi: etkenler, genetik ve hücresel değişiklikler",
+   "alt": [
+    {
+     "t": "Karsinojenik etkenler",
+     "alt": [
+      "Kimyasal karsinojenler",
+      "İyonizan radyasyon",
+      "Onkojenik virüsler",
+      "Diğer çevresel etkenler"
+     ]
+    },
+    {
+     "t": "Kalıtsal yatkınlık",
+     "alt": [
+      "Germ hattı mutasyonları",
+      "Kalıtsal kanser sendromları: BRCA1, BRCA2, APC, TP53"
+     ]
+    },
+    {
+     "t": "Genetik ve epigenetik değişiklikler",
+     "alt": [
+      "Proto-onkogenlerin aktivasyonu (onkogenler): RAS, MYC, ERBB2 (HER2)",
+      "Tümör baskılayıcı genlerin işlev kaybı: TP53, RB1, APC",
+      "DNA onarım genlerinin işlev kaybı: BRCA1, BRCA2, MLH1, MSH2"
+     ]
+    },
+    {
+     "t": "Hücresel kontrol mekanizmalarının bozulması",
+     "alt": [
+      "Hücre döngüsü kontrol noktalarının işlev kaybı",
+      "Apoptozdan kaçış",
+      "DNA hasarına karşı yanıtın bozulması",
+      "Klonal genişleme ve tümör gelişimi"
+     ]
+    },
+    {
+     "t": "Tümörün ilerlemesi",
+     "alt": [
+      "Anjiyogenez (VEGF, MMP'ler)",
+      "Çevre dokulara invazyon ve uzak organlara metastaz"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Kanserin tanımı ve epidemiyolojisi",
+   "alt": [
+    "Tanım: kontrolsüz çoğalma, invazyon ve metastaz",
+    "Küresel epidemiyoloji (GLOBOCAN 2022): yaklaşık 20 milyon yeni vaka, 9,7 milyon kansere bağlı ölüm",
+    {
+     "t": "Dünyada en sık görülen kanser türleri",
+     "alt": [
+      "Erkeklerde: akciğer %15,3, prostat %14,2, kolorektal %10,4, mide %6,1, karaciğer %5,8",
+      "Kadınlarda: meme %23,8, akciğer %9,4, kolorektal %8,9, serviks %6,8, tiroid %6,4"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antineoplastik tedavinin ana ilkesi",
+   "alt": [
+    "Normal hücrelere zarar vermeden tümör hücresinin büyümesini durdurmak veya yok etmek",
+    {
+     "t": "Antineoplastik ilaçların ortak sınırlılıkları",
+     "alt": [
+      "Düşük selektivite",
+      "Antiproliferatif etki",
+      "İmmünosupresif etki",
+      "Düşük terapötik indeks",
+      "Mutajenik, teratojenik, karsinojenik etkiler"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Hücre siklusu ve döneme özgü ilaçlar",
+   "alt": [
+    {
+     "t": "Hücre siklusu fazları",
+     "alt": [
+      "G1: büyüme ve protein sentezi (8-12 saat)",
+      "S: DNA sentezi (6-8 saat)",
+      "G2: pre-mitotik dönem (2-4 saat)",
+      "M: mitoz (1-2 saat)",
+      "G0: dinlenme fazı (hücresel siklus dışı)"
+     ]
+    },
+    {
+     "t": "S fazı özgü ilaçlar (DNA sentezini inhibe eder)",
+     "alt": [
+      "Antimetabolitler: sitozin arabinozid (Ara-C), gemsitabin, 5-florourasil, kapesitabin, 6-merkaptopürin, metotreksat, fludarabin, pemetreksed",
+      "Ribonükleotid redüktaz inhibitörü: hidroksiüre"
+     ]
+    },
+    {
+     "t": "G2 fazı özgü ilaçlar (mitoza geçişi inhibe eder)",
+     "alt": [
+      "Topoizomeraz II inhibitörleri: etoposid, teniposid, doksorubisin (özellikle S ve G2)",
+      "DNA hasarı oluşturan ajanlar: sisplatin (özellikle G2), karboplatin, dakarbazin, nitrozüreler (karmustin, lomustin)"
+     ]
+    },
+    {
+     "t": "M fazı özgü ilaçlar (mitozu inhibe eder)",
+     "alt": [
+      "Mikrotübül inhibitörleri: vinkristin, vinblastin, vinorelbin, paklitaksel, dosetaksel, iksabepilon",
+      "Diğer: eribulin"
+     ]
+    },
+    {
+     "t": "G1 fazı",
+     "alt": [
+      "Bu faza özgü kemoterapi ilacı yoktur",
+      "CDK inhibitörleri bazı kanserlerde kullanılır (ör. palbosiklib)"
+     ]
+    },
+    {
+     "t": "G0 fazı",
+     "alt": [
+      "Kemoterapiye en dirençli faz",
+      "Bazı tümör hücreleri uzun süre G0'da kalabilir"
+     ]
+    },
+    {
+     "t": "Döneme özgü olmayan ilaçlar (birden fazla fazda etkili, G0'daki hücreleri de etkileyebilir)",
+     "alt": [
+      "Alkilleyici ilaçlar: siklofosfamid, ifosfamid, melfalan, klorambusil, busulfan",
+      "Platin türevleri: sisplatin, karboplatin, oksaliplatin",
+      "Nitrozüreler: karmustin, lomustin, streptozosin, dakarbazin",
+      "Antibiyotikler (DNA'ya interkalasyon veya serbest radikal): doksorubisin, daunorubisin, bleomisin, mitomisin C",
+      "Prokarbazin",
+      "Temozolomid"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antineoplastik ilaçların etkinliğini kısıtlayan faktörler",
+   "alt": [
+    {
+     "t": "Tümör biyolojisi ve tümör-ilaç etkileşmesi",
+     "alt": [
+      "Malign hücre sayısında logaritmik azalma (birinci derece kinetik)",
+      "Rezidüel hücreler nüksten sorumludur",
+      "Tümör hücreleri arasında heterojenite"
+     ]
+    },
+    {
+     "t": "Hücre döngüsü ve proliferasyon hızı",
+     "alt": [
+      "Döneme özgü ve döneme özgü olmayan ilaçlar",
+      "Hızlı çoğalan hücreler duyarlı, yavaş çoğalan (dormant) hücreler dirençli",
+      "Etkinlik toplam maruziyete (EAA/AUC), toksisite doruk konsantrasyona (Cmax) bağlıdır"
+     ]
+    },
+    {
+     "t": "İlacın farmakokinetiği ve farmakolojisi",
+     "alt": [
+      "SSS'ye geçiş: nitrozüreler, prokarbazin, dakarbazin, etopozid, tenipozid",
+      "Dik doz-yanıt eğrisi, düşük terapötik indeks",
+      "Toksisiteyi azaltma: antidot, lokal yüksek konsantrasyon, hematopoietik büyüme faktörleri, kemik iliği transplantasyonu"
+     ]
+    },
+    {
+     "t": "Hasta ile ilgili faktörler",
+     "alt": [
+      "Genel aktivite durumu",
+      "İmmün durum",
+      "Önceden kemoterapi veya radyoterapi",
+      "Yaş, seks, ırk, organların durumu"
+     ]
+    },
+    {
+     "t": "İlaca rezistans (doğal-primer, kazanılmış-sekonder)",
+     "alt": [
+      "Kombinasyon veya yeterli doz ve sürede tek ilaç ile önlenir"
+     ]
+    },
+    {
+     "t": "İlaca direnç mekanizmaları",
+     "alt": [
+      "Hücre içine alımın azalması",
+      "P-glikoprotein ile efluks artışı",
+      "Glutatyon ve ilişkili enzimlerle konjugasyon artışı",
+      "Hedef proteinde yapısal veya kantitatif değişiklik",
+      "İntrasellüler detoksifikasyon artışı (sitokrom P450, glutatyon-S-transferaz)",
+      "Topoizomeraz II enziminde değişiklik",
+      "DNA tamir mekanizmalarının aktivasyonunda artış"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antineoplastik ilaçların ortak yan tesirleri",
+   "alt": [
+    {
+     "t": "Kemik iliği supresyonu (miyelotoksisite)",
+     "alt": [
+      "Lökopeni: hızlı gelişen-hızlı düzelen / yavaş gelişen-geç düzelen"
+     ]
+    },
+    "Lenfotoksik etki ve immünosupresyon (humoral ve hücresel)",
+    {
+     "t": "Hızlı çoğalan diğer normal hücrelerin inhibisyonu",
+     "alt": [
+      "Ağızda ülser, stomatit, enterit, alopesi",
+      "Spermatogenez ve oogenez bozukluğu: empotans, kısırlık, amenore"
+     ]
+    },
+    {
+     "t": "Bulantı ve kusma",
+     "alt": [
+      "Özellikle sisplatin, dakarbazin, mekloretamin, doksorubisin, daunorubisin, epirubisin, siklofosfamid",
+      "Antiemetikler: metoklopramid, fenotiyazin, ondansetron, tropisetron"
+     ]
+    },
+    {
+     "t": "Lokal reaksiyon: i.v. infüzyonda ekstravazasyon, doku zedelenmesi, nekroz",
+     "alt": [
+      "Mekloretamin sızmasında sodyum tiyosülfat",
+      "Vinkristinde hyaluronidaz, sıcak uygulama"
+     ]
+    },
+    {
+     "t": "Hiperürisemi (purin antimetabolitleriyle)",
+     "alt": [
+      "Allopurinol ve hidrasyon"
+     ]
+    },
+    "Alerjik reaksiyonlar: asparaginaz, sisplatin, melfalan",
+    {
+     "t": "Diğer toksik tesirler",
+     "alt": [
+      "Nefrotoksisite: metotreksat, sisplatin",
+      "Kardiyotoksisite: doksorubisin, fluorourasil, siklofosfamid, amsakrin",
+      "Hepatotoksisite: metotreksat, fluorourasil, sitarabin, aklarubisin, asparaginaz",
+      "Periferik nöropati: vinka alkaloidleri, sisplatin",
+      "Santral nörotoksisite: vinka alkaloidleri, fluorourasil, metotreksat, siklofosfamid",
+      "Akciğer toksisitesi: bleomisin, busulfan, mitomisin, nitrozüre türevleri",
+      "Uzun süreli sıvı retansiyonu ve bacak ödemi: dosetaksel"
+     ]
+    },
+    "Embriyotoksik ve teratojenik etki",
+    {
+     "t": "Karsinojenik ve mutajenik etki",
+     "alt": [
+      "Yüksek: alkilleyiciler, prokarbazin",
+      "Düşük: antimetabolitler, vinka alkaloidleri"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antineoplastik ilaçların farmakolojik sınıflandırılması",
+   "alt": [
+    {
+     "t": "1. Alkilleyici ajanlar (DNA alkilleyicileri)",
+     "alt": [
+      "Azotlu hardallar, nitrozüreler, triazen ve hidrazen türevleri, busulfan, prokarbazin"
+     ]
+    },
+    {
+     "t": "2. Antimetabolitler",
+     "alt": [
+      "Folat antagonistleri (metotreksat)",
+      "Pürin analogları (6-merkaptopürin)",
+      "Pirimidin analogları (5-fluorourasil)"
+     ]
+    },
+    {
+     "t": "3. Bitkisel kaynaklı antineoplastikler",
+     "alt": [
+      "Vinka alkaloidleri (vinkristin, vinblastin)",
+      "Taksanlar (paklitaksel, dosetaksel)"
+     ]
+    },
+    {
+     "t": "4. Sitotoksik antibiyotikler",
+     "alt": [
+      "Doksorubisin, daunorubisin, bleomisin, mitomisin"
+     ]
+    },
+    {
+     "t": "5. Platin bileşikleri ve koruyucu ajanlar",
+     "alt": [
+      "Sisplatin, karboplatin, oksaliplatin",
+      "Koruyucu ajan: amifostin"
+     ]
+    },
+    {
+     "t": "6. Enzim ajanları",
+     "alt": [
+      "L-asparaginaz"
+     ]
+    },
+    {
+     "t": "7. Hormonlar ve hormon antagonistleri",
+     "alt": [
+      "Glukokortikoidler",
+      "Antiöstrojenler (tamoksifen)",
+      "Aromataz inhibitörleri",
+      "Antiandrojenler"
+     ]
+    },
+    {
+     "t": "8. Diğer antineoplastikler ve hedefe yönelik tedavi ajanları",
+     "alt": [
+      "Monoklonal antikorlar (trastuzumab, rituksimab)",
+      "Tirozin kinaz inhibitörleri (imatinib)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Alkilleyici ilaçlar",
+   "alt": [
+    "Ortak özellikler: ön-ilaçlar; döneme özgü olmayan (en fazla G1 ve S); etilenimonyum ve karbonyum türevleri",
+    "Ortak farmakolojik özellikler: miyelotoksisite, lenfotoksisite-immünosupresyon, bulantı-kusma, mukozit, radyomimetik etki, spermatogenezi en fazla deprese edenler",
+    {
+     "t": "1) Azotlu hardallar (biskloretilaminler)",
+     "alt": [
+      "Siklofosfamid: steril hemorajik sistit (akrolein), antidotu mesna",
+      "Mekloretamin",
+      "Klorambusil",
+      "Melfalan",
+      "İfosfamid"
+     ]
+    },
+    {
+     "t": "2) Etileniminler ve metilmelaminler",
+     "alt": [
+      "Aziridin",
+      "Altretamin"
+     ]
+    },
+    {
+     "t": "3) Alkil sülfonatlar",
+     "alt": [
+      "Busulfan: kronik miyeloid lösemi; busulfan akciğer sendromu"
+     ]
+    },
+    {
+     "t": "4) Nitrozüreler (lipofilik, SSS'ye kolayca girer)",
+     "alt": [
+      "Karmustin",
+      "Lomustin",
+      "Semustin"
+     ]
+    },
+    {
+     "t": "5) Triazen ve hidrazen türevleri",
+     "alt": [
+      "Dakarbazin (triazen türevi)",
+      "Prokarbazin (metilhidrazin türevi)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antimetabolitler",
+   "alt": [
+    {
+     "t": "1) Folik asit antimetabolitleri",
+     "alt": [
+      "Metotreksat: dihidrofolat redüktaz inhibisyonu; folinik asit ile kurtarma"
+     ]
+    },
+    {
+     "t": "2) Pürin antimetabolitleri",
+     "alt": [
+      "6-Merkaptopürin",
+      "6-Tioguanin",
+      "Fludarabin"
+     ]
+    },
+    {
+     "t": "3) Pirimidin antimetabolitleri",
+     "alt": [
+      "5-Fluorourasil: timidilat sentetaz inhibisyonu",
+      "Sitarabin (sitozin arabinozid)",
+      "Gemsitabin",
+      "Kladribin",
+      "Raltitreksed"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Mitoz zehirleri ve bitkisel kaynaklı diğer ilaçlar",
+   "alt": [
+    "Mitoz zehirleri (metafaz zehirleri): tübülin moleküllerine bağlanır (M dönemine özgü)",
+    {
+     "t": "1) Vinka alkaloidleri",
+     "alt": [
+      "Vinblastin",
+      "Vinkristin",
+      "Vindesin",
+      "Vinorelbin"
+     ]
+    },
+    {
+     "t": "2) Podofilotoksinler",
+     "alt": [
+      "Podofilotoksin",
+      "Etopozid",
+      "Tenipozid"
+     ]
+    },
+    {
+     "t": "3) Taksanlar (Taxus brevifolia)",
+     "alt": [
+      "Paklitaksel",
+      "Dosetaksel"
+     ]
+    },
+    {
+     "t": "4) Kamptotesin türevleri (topoizomeraz-I inhibisyonu)",
+     "alt": [
+      "İrinotekan",
+      "Topotekan"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Sitotoksik antibiyotikler",
+   "alt": [
+    "Daktinomisin (aktinomisin-D)",
+    "Daunorubisin (kardiyotoksisite)",
+    "Doksorubisin (adriamisin)",
+    "Epirubisin",
+    "Aklarubisin",
+    "Mitoksantron (mitozantron)",
+    "Bleomisin",
+    "Plikamisin (mitramisin)",
+    "Mitomisin (mutamisin)"
+   ]
+  },
+  {
+   "baslik": "Sisplatin, diğer platin türevleri ve amifostin",
+   "alt": [
+    "Sisplatin",
+    "Karboplatin",
+    "Oksaliplatin",
+    "Amifostin (koruyucu ajan)"
+   ]
+  },
+  {
+   "baslik": "İnterferonlar",
+   "alt": [
+    "Sınıflandırma: alfa (lökositler), beta (doku fibroblastları), gama (T lenfositler)",
+    "Sitotoksik etki mekanizması: NK hücreleri ve makrofajların uyarılması, hücre yüzeyi reseptörleri",
+    "Antineoplastik etki mekanizması: JAK/STAT yolu; tip I (IFN-α, IFN-β) ve tip II (IFN-γ) reseptörleri (ek slayt)",
+    "Alfa-2A interferon: saçlı hücreli lösemi; i.m. uygulama",
+    {
+     "t": "Güncel kullanımı (ek slayt)",
+     "alt": [
+      "Saçlı hücreli lösemi",
+      "Kaposi sarkomu",
+      "Miyeloproliferatif neoplaziler (polisitemia vera)"
+     ]
+    },
+    {
+     "t": "Günümüzdeki yeri ve sınırlılıkları (ek slayt)",
+     "alt": [
+      "Melanom",
+      "Renal hücreli karsinom"
+     ]
+    },
+    {
+     "t": "Yan etkileri",
+     "alt": [
+      "Ateş, üşüme, titreme (grip benzeri semptomlar)",
+      "Trombositopeni ve lökopeni (miyelosupresyon)",
+      "Yorgunluk, iştahsızlık, kilo kaybı, alopesi",
+      "Karaciğer enzimlerinde artış (hepatotoksisite)",
+      "Yüksek dozda geri dönüşlü nefrotoksisite (proteinüri)",
+      "Nöropsikiyatrik etkiler, tiroid fonksiyon bozuklukları, otoimmün olaylar (ek slayt)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "L-asparaginaz",
+   "alt": [
+    "Kaynak: E. coli ve Erwinia carotovora kültürleri",
+    "Etki: asparagini aspartik asit ve amonyağa hidrolize eder",
+    "Kullanım: yalnızca akut lenfositik lösemi",
+    "Yan etkiler: kemik iliği depresyonu yapmaz; pıhtılaşma bozuklukları, hiperglisemi, hipoalbuminemi, alerjik ve anafilaktik reaksiyonlar"
+   ]
+  },
+  {
+   "baslik": "Hormon ve hormon antagonistleri",
+   "alt": [
+    {
+     "t": "Estrojenler",
+     "alt": [
+      "Dietilstilbestrol, fosfesterol, etinil estradiol"
+     ]
+    },
+    {
+     "t": "Progestinler",
+     "alt": [
+      "Megestrol asetat, medroksiprogesteron asetat"
+     ]
+    },
+    {
+     "t": "Antiöstrojenler",
+     "alt": [
+      "Tamoksifen sitrat, toremifen"
+     ]
+    },
+    {
+     "t": "Antiandrojenler",
+     "alt": [
+      "Siproteron asetat, flutamid, bikalutamid, nilutamid"
+     ]
+    },
+    {
+     "t": "GnRH analogları",
+     "alt": [
+      "Buserelin asetat, goserelin asetat, triptorelin asetat, löprolid, nafarelin asetat"
+     ]
+    },
+    {
+     "t": "Aromataz inhibitörleri",
+     "alt": [
+      "Formestan, anastrozol, letrozol, eksemastan"
+     ]
+    },
+    {
+     "t": "Glukokortikoid hormonlar (prednizon)",
+     "alt": [
+      "Lenfolitik etki; endikasyonlar: akut lenfositik lösemi, Hodgkin ve Hodgkin dışı lenfomalar, myeloma",
+      "Yan etkiler: su-tuz tutulması, hiperglisemi, hipertansiyon, osteoporoz, adrenal korteks atrofisi, immünosupresyon"
+     ]
+    },
+    {
+     "t": "Glukokortikoidlerin kanser tedavisinde kullanım amaçları",
+     "alt": [
+      "Antineoplastik (lenfolitik) etki",
+      "Destekleyici (adjuvan) tedavi",
+      "Ödem ve inflamasyon kontrolü",
+      "Hiperkalsemi tedavisi",
+      "İmmünsupresif ve antiinflamatuvar etkiler",
+      "Endokrin etkiler ve hormon bağımlı tümörler"
+     ]
+    },
+    {
+     "t": "Lenfolitik ve antiproliferatif etki",
+     "alt": [
+      "Lenfoid dokuda proliferasyonun inhibisyonu",
+      "Glukokortikoid reseptör aracılı gen regülasyonu",
+      "Lenfoid dokularda immünsupresyon",
+      "Sekonder etkiler (destekleyici düzeyde)"
+     ]
+    },
+    {
+     "t": "Kullanım amacına göre glukokortikoid örnekleri (tablo) (ek slayt)",
+     "alt": [
+      "Antikanser etki: prednizon, deksametazon",
+      "Antiemetik etki ve hipersensitivite/infüzyon reaksiyonlarının önlenmesi: deksametazon, metilprednizolon",
+      "Beyin ödemi, tümör ilişkili inflamasyon ve semptomlar, iştah ve genel semptom kontrolü",
+      "Hematolojik malignitelerde kombinasyon tedavisi"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Diğer antineoplastik ilaçlar",
+   "alt": [
+    "Mitotan: adrenal kortekste selektif sitotoksisite",
+    "Aminoglutetimid, trilostan",
+    "Hidroksiüre (hidroksikarbamid): ribonükleotid redüktaz inhibisyonu, S dönemine özgü",
+    "Amsakrin",
+    "Altretamin",
+    "Pentostatin: adenozin deaminaz inhibisyonu",
+    "Tiretinoin (A vitamini analogu)",
+    {
+     "t": "Radyoizotoplar",
+     "alt": [
+      "Radyoaktif fosfor",
+      "Radyoaktif iyod",
+      "Radyoaktif altın",
+      "Stronsiyum 89"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Hedefe yönelik tedaviler ve monoklonal antikorlar",
+   "alt": [
+    {
+     "t": "Hedefe yönelik tedavi (targeted therapy) ilkesi",
+     "alt": [
+      "Moleküler hedeflere müdahale; sinyal transdüksiyon inhibitörleri, immünterapiler, hormon terapileri",
+      "Tedavi seçimi tümörün moleküler özelliklerine ve biyobelirteçlere dayanır (ek slayt)",
+      "Platformlar: monoklonal antikorlar, küçük moleküllü inhibitörler, antikor-ilaç konjugatları (ADC), bispesifik antikorlar (ek slayt)"
+     ]
+    },
+    {
+     "t": "Monoklonal antikorlar",
+     "alt": [
+      "Hedefe yönelik tedavi seçeneklerinden biri",
+      "Etki yolları: reseptör sinyalizasyonu, hücre aracılı sitotoksisite (ADCC), komplemente bağlı sitotoksisite (CDC)"
+     ]
+    },
+    {
+     "t": "Kanser türüne göre onaylı hedefe yönelik ilaçlar (Goodman ve Gilman, 2017)",
+     "alt": [
+      "Kalın bağırsak",
+      "Prostat kanseri",
+      "Lenfoma",
+      "Akciğer",
+      "Melanom (cilt kanseri)",
+      "Mide ve mide-yemek borusu bileşkesi",
+      "Gastrointestinal stromal tümörler",
+      "Tiroid kanseri",
+      "Meme kanseri",
+      "Lösemi",
+      "Böbrek",
+      "Yumurtalık"
+     ]
+    },
+    {
+     "t": "Hedef-ilaç-kullanım-yan etki tablosu (ek slayt)",
+     "alt": [
+      "HER2: trastuzumab, pertuzumab, T-DM1, T-DXd",
+      "EGFR: cetuximab, panitumumab, osimertinib",
+      "VEGF: bevacizumab",
+      "CD20: rituximab, obinutuzumab",
+      "BCR-ABL: imatinib, dasatinib, nilotinib",
+      "BTK: ibrutinib, acalabrutinib",
+      "BCL-2: venetoclax",
+      "CD38: daratumumab, isatuximab",
+      "PARP: olaparib",
+      "CDK4/6: palbociclib, ribociclib, abemaciclib"
+     ]
+    },
+    "Türkiye'de hedefe yönelik tedaviler (TİTCK ruhsat, SUT geri ödeme) (ek slayt)",
+    "Konvansiyonel kemoterapi ve hedefe yönelik tedavilerin karşılaştırması (ek slayt)"
+   ]
+  }
+ ]
+}

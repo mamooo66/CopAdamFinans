@@ -1,0 +1,236 @@
+{
+ "kod": "F16",
+ "ders": "Tetrasiklinler ve Amfenikoller",
+ "hoca": "Prof. Dr. Akif Hakan Kurt",
+ "pdf": "9-Tetrasiklinler Amfenikoller",
+ "basliklar": [
+  {
+   "baslik": "Tetrasiklinler: etki mekanizması",
+   "sayfa": "2",
+   "alt": [
+    "30S alt birimine reversibl bağlanır, protein sentezini durdurur",
+    "Bakteriyostatik",
+    "Minosiklin ve doksisiklin diğer tetrasiklinlere rezistan mikroorganizmalara da etkili"
+   ]
+  },
+  {
+   "baslik": "Tetrasiklinler: etki spektrumu",
+   "sayfa": "2-5",
+   "alt": [
+    "En geniş spektrumlu antimikrobik ilaçlar",
+    "Gram pozitif koklar: artık çoğu rezistan",
+    "Gram pozitif aerobik ve anaerobik basiller: B. anthracis, Clostridium, Listeria monocytogenes (penisilin G kadar güçlü değil)",
+    "Gram negatif basillerde ilk tercih: Brucella, Vibrio cholerae, Pseudomonas mallei, P. pseudomallei, Haemophilus ducreyi, Calymmatobacterium granulomatis",
+    "Diğer duyarlı bakteriler: Yersinia pestis, Y. enterocolitica, Bordetella pertussis, Francisella tularensis, Pasteurella multocida",
+    {
+     "t": "Bakteri dışı duyarlı mikroorganizmalar",
+     "alt": [
+      "Riketsiyalar (R. prowazeki, Coxiella burnetii)",
+      "Klamidyalar (C. trachomatis, C. pneumoniae, C. psittaci)",
+      "Spiroketler (Treponema pallidum, Borrelia recurrentis, B. burgdorferi)",
+      "Mycoplasma pneumoniae, Actinomyces israelii, Ureaplasma urealyticum",
+      "Entamoeba histolytica, Plasmodium"
+     ]
+    },
+    "Funguslar duyarlı değil"
+   ]
+  },
+  {
+   "baslik": "Tetrasiklinler: farmakokinetik",
+   "sayfa": "6-8",
+   "alt": [
+    {
+     "t": "Emilim",
+     "alt": [
+      "Minosiklin %100, doksisiklin %95, tetrasiklin %77, oksitetrasiklin %60",
+      "2 ve 3 değerli metallerle (Ca, Fe, Zn, Al, Mg) şelasyon",
+      "Antiasitler, demir bileşikleri, süt ve yoğurt birlikte alınmamalı"
+     ]
+    },
+    {
+     "t": "Plazma proteinlerine bağlanma",
+     "alt": [
+      "En fazla: doksisiklin, metasiklin, demetilklortetrasiklin (%90-93)",
+      "En az: oksitetrasiklin (%35)"
+     ]
+    },
+    {
+     "t": "Dağılım",
+     "alt": [
+      "BOS hariç tüm doku ve sıvılara iyi dağılır",
+      "Minosiklin ve doksisiklin en lipofilik; yalnız minosiklin BOS ve SSS'ye yeterince geçer (vestibüler toksisite, meningokok profilaksisi)",
+      "Kemik ve malign tümör dokusuna geçer",
+      "Plasentayı geçer, fetal kemik ve dişlerde birikir, anne sütüne geçer"
+     ]
+    },
+    "İtrah: böbrekler ve safra"
+   ]
+  },
+  {
+   "baslik": "Tetrasiklinlerin kullanılışı",
+   "sayfa": "9-10",
+   "alt": [
+    "Oral veya parenteral; cilt ve göz pomadı, göz damlası, ovül; doksisiklin tercih edilir",
+    {
+     "t": "En tercih edilen antibiyotik oldukları durumlar",
+     "alt": [
+      "Riketsiya enfeksiyonları (epidemik tifus, Q ateşi); kloramfenikol de etkili",
+      "Kolera, granuloma inguinale, borreliozis, leptospiroz",
+      "Klamidya enfeksiyonları: psittakozis, keratokonjonktivit, pnömoni",
+      "Pelvis içi infeksiyonlarda kombine tedavi"
+     ]
+    },
+    "Stafilokok, streptokok ve enterokok enfeksiyonlarında rezistan suşlar nedeniyle tercih edilmez"
+   ]
+  },
+  {
+   "baslik": "Tetrasiklin türleri",
+   "sayfa": "11-13",
+   "alt": [
+    {
+     "t": "Tetrasiklin, oksitetrasiklin",
+     "alt": [
+      "Kısa etkili; doksisiklin çıktıktan sonra kullanımı azaldı",
+      "12 yaş altı çocuklarda kullanılmaz"
+     ]
+    },
+    {
+     "t": "Demetilklortetrasiklin (demeklosiklin)",
+     "alt": [
+      "Orta etki süreli",
+      "En fazla fotosensitivite yapan"
+     ]
+    },
+    {
+     "t": "Doksisiklin",
+     "alt": [
+      "Etki süresi uzun; mide-barsaktan tama yakın emilir",
+      "Eliminasyon karaciğerden, böbrek yetmezliğinde güvenli",
+      "Yetişkin ilk gün 2x100 mg, sonra 100 mg/gün"
+     ]
+    },
+    {
+     "t": "Minosiklin",
+     "alt": [
+      "En uzun etki süreli tetrasiklin",
+      "Reversibl vestibüler bozukluk (%70'e varan oranda) nedeniyle az tercih edilir"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Tetrasiklinlerin yan etkileri",
+   "sayfa": "14-20",
+   "alt": [
+    "Gastrointestinal: bulantı, kusma, anoreksi, ishal; Candida üremesi; Clostridium difficile psödomembranöz kolit",
+    "Diş ve kemik: kahverengi lekelenme, gelişme bozukluğu; gebelikte 4. aydan sonra verilmez, 12 yaş altında kontendike",
+    "Hepatotoksik: karaciğerde yağlı dejenerasyon (karaciğer bozukluğu ve gebelerde yüksek doz)",
+    "Nefrotoksik: asidoz, azotemi, hiperfosfatemi; böbrek yetmezliğinde doksisiklin tercih edilir",
+    "Alerjik belirtiler: ürtiker, anjiyonörotik ödem, dermatit",
+    "Hipersensitivite / fotosensitivite: demeklosiklin ve doksisiklin; cilt koyulaşması, tırnak pigmentasyonu",
+    "Tromboflebit (i.v.), i.m. uygulamada ağrı ve infiltrasyon",
+    "Hematolojik: K vitamini sentezinde azalma ve kanama eğilimi; nadiren nötropeni, hemolitik anemi",
+    "SSS: minosiklin ile vertigo, baş dönmesi, denge bozukluğu, kulak çınlaması (vestibüler toksisite)",
+    "Beyin psödotümörü (bebeklerde): fontanel şişmesi, papilla ödemi; nalidiksik asit ve amiodaron da yapar",
+    "Gebelerde: fetüs toksisitesi ve katabolik asidoz"
+   ]
+  },
+  {
+   "baslik": "Amfenikoller: genel özellikler",
+   "sayfa": "21",
+   "alt": [
+    "Kloramfenikol ve tiamfenikol",
+    "Üstünlükleri: geniş spektrumlu, yan etki insidansı düşük, vücutta dağılımı iyi, ucuz"
+   ]
+  },
+  {
+   "baslik": "Amfenikoller: etki mekanizması",
+   "sayfa": "22",
+   "alt": [
+    "50S alt birimine bağlanarak protein sentezini bozar; bakteriyostatik",
+    "Kloramfenikol memeli hücresinde 70S ribozom ürünlerini de inhibe eder (aplastik anemi)",
+    "Eritromisin, linkomisin ve klindamisinle aynı bağlanma yeri için yarışır, birlikte kullanılmaz"
+   ]
+  },
+  {
+   "baslik": "Amfenikoller: etki spektrumu",
+   "sayfa": "23",
+   "alt": [
+    "Gram pozitif koklar: S. pneumoniae, S. pyogenes, S. aureus",
+    "Gram pozitif basiller (Nocardia hariç)",
+    "Gram negatif bakteriler: Neisseria, H. influenzae, C. diphtheriae, B. pertussis, Brucella, V. cholerae",
+    "Anaeroblar: Bacteroides, C. perfringens",
+    "Enterobakterler: Salmonella, Shigella, E. coli, Klebsiella pneumoniae, Proteus mirabilis",
+    "Bakteri dışı: riketsiya, klamidya, T. pallidum, leptospiralar"
+   ]
+  },
+  {
+   "baslik": "Kloramfenikolün farmakokinetiği",
+   "sayfa": "24-26",
+   "alt": [
+    "Çok lipofilik, ince barsaktan emilim %100'e yakın",
+    "Oral: palmitat esteri; parenteral: süksinat esteri (vücutta hidrolizle aktif kloramfenikol)",
+    "Beyin, BOS ve vücut sıvılarına yüksek konsantrasyonda dağılır; kan-beyin engelini en fazla geçen ilaç",
+    "Fetüse geçişi kolay; karaciğerde metabolize edilir (karaciğer yetmezliğinde doz ayarı)",
+    "Yarı ömür yaklaşık 3 saat; yenidoğanda (2 haftaya kadar) 24 saat, 2-4 haftalıkta 12 saat"
+   ]
+  },
+  {
+   "baslik": "Kloramfenikolün kullanımı",
+   "sayfa": "27-29",
+   "alt": [
+    "Tifo (Salmonella typhi): nüks sık, miyelotoksik; fluorokinolonlar ilk tercih, çocuk ve gebelerde seftriakson",
+    {
+     "t": "Menenjit",
+     "alt": [
+      "H. influenzae: ampisilinle kombine veya ampisilin direncinde tek başına",
+      "N. meningitidis ve S. pneumoniae: penisilin G'ye alerjide alternatif",
+      "Aerob Gram negatif basiller, stafilokok menenjiti, B. fragilis beyin absesi"
+     ]
+    },
+    "Riketsiya enfeksiyonlarında tetrasiklin kullanılamıyorsa alternatif",
+    "Göz ve vajina infeksiyonları",
+    "Bruselloz, tularemi, veba, listeria",
+    "Yersinia enterocolitica sepsisinde (diğeri aminoglikozitler)"
+   ]
+  },
+  {
+   "baslik": "Preparatlar ve tiamfenikol",
+   "sayfa": "30-32",
+   "alt": [
+    {
+     "t": "Preparatlar",
+     "alt": [
+      "Kloramfenikol",
+      "Kloramfenikol palmitat (çocuk süspansiyonu)",
+      "Kloramfenikol sodyum süksinat (enjeksiyonluk)",
+      "Tiamfenikol"
+     ]
+    },
+    "Doz: yetişkin ve çocuk 50 mg/kg/gün, 4 eşit doz; yenidoğan 25 mg/kg/gün",
+    {
+     "t": "Tiamfenikol",
+     "alt": [
+      "Kloramfenikolden daha az etkili",
+      "Emilimi daha iyi, plazma proteinlerine daha az bağlanır",
+      "%50-70'i değişmeden böbrekten atılır; böbrek yetmezliğinde doz ayarı",
+      "Safra yolu infeksiyonlarında da kullanılır"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Amfenikollerin yan tesirleri",
+   "sayfa": "33-35",
+   "alt": [
+    "1) Kemik iliği depresyonu",
+    "2) Gastrointestinal bozukluklar",
+    "3) Alerjik cilt döküntüleri, ürtiker, anjiyoödem",
+    "4) Gri sendrom: prematüre ve yenidoğanda konjügasyon yetersizliği (solunum ve dolaşım depresyonu, hipotermi, metabolik asidoz, gri cilt); aşırı doz alan erişkinlerde de görülür",
+    "5) Herxheimer reaksiyonu: tifo basillerinin toksinleriyle dolaşım kollapsı; sistemik glukokortikoidler",
+    "6) Nörotoksik etki: baş ağrısı, ruhsal depresyon, deliryum, konfüzyon; nadiren periferik nörit ve optik nöropati",
+    "Doz ve kontrendikasyonlar: aşırı duyarlılık, hematopoietik bozukluklar, anüri"
+   ]
+  }
+ ]
+}

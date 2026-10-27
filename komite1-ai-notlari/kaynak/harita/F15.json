@@ -1,0 +1,243 @@
+{
+ "kod": "F15",
+ "ders": "Kemoterapötiklere Giriş",
+ "hoca": "Doç. Dr. Oruç Yunusoğlu",
+ "pdf": "6-Kemoterapötiklere giriş",
+ "basliklar": [
+  {
+   "baslik": "Tarihçe ve kemoterapide temel ilke",
+   "sayfa": "2-3",
+   "alt": [
+    "Tarihçe: 17. yüzyıl, enfeksiyon tedavisinde kimyasal madde kullanımı; 20. yüzyıl başı Paul Ehrlich ve seçici toksisite",
+    "Temel ilke: konakçıya hiç veya çok az toksik, hastalık etkeni üzerinde letal veya toksik etkili madde",
+    "Hedef: mikroorganizmayı etkisiz kılarken konak hücreye minimum zarar vermek"
+   ]
+  },
+  {
+   "baslik": "Kemoterapötiklerin sınıflandırılması (hedef etkene göre)",
+   "sayfa": "4",
+   "alt": [
+    "Antibakteriyel ilaçlar (antibiyotikler)",
+    "Antiviral ilaçlar (virüslere karşı)",
+    "Antifungal ilaçlar (mantar/fungus)",
+    "Antiamibik ilaçlar (Entamoeba histolytica)",
+    "Antimalaryal ilaçlar (Plasmodium)",
+    "Antihelmintik ilaçlar (helmint/parazit)",
+    "Antineoplastik ilaçlar (kanser: sitotoksik ve hedefe yönelik)"
+   ]
+  },
+  {
+   "baslik": "Bakteriyostatik ve bakterisid ilaçlar",
+   "sayfa": "5-7",
+   "alt": [
+    {
+     "t": "Bakteriyostatik olanlar",
+     "alt": [
+      "Bakteri üremesini durdurur, doğrudan öldürmez; duran bakterileri bağışıklık sistemi yok eder",
+      "Örnekler: tetrasiklinler, kloramfenikol, eritromisin"
+     ]
+    },
+    {
+     "t": "Bakterisid olanlar",
+     "alt": [
+      "Bakteri hücrelerini doğrudan öldürür; hızlı etki gerektiren durumlarda tercih edilir",
+      "Örnekler: penisilinler, sefalosporinler, aminoglikozidler"
+     ]
+    },
+    {
+     "t": "Bakterisid ilaç grupları (sınıflama şeması)",
+     "alt": [
+      "β-laktamlar",
+      "Glikopeptitler",
+      "Aminoglikozidler",
+      "Florokinolonlar",
+      "Lipopeptitler",
+      "Polimiksinler",
+      "Nitroimidazoller",
+      "Rifamisinler"
+     ]
+    },
+    {
+     "t": "Bakteriyostatik ilaç grupları (sınıflama şeması)",
+     "alt": [
+      "Tetrasiklinler",
+      "Makrolidler",
+      "Linkozamidler",
+      "Sülfonamidler",
+      "Kloramfenikol",
+      "Oksazolidinonlar",
+      "Streptograminler"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Bakteri hücre duvarı: Gram pozitif ve Gram negatif",
+   "sayfa": "8",
+   "alt": [
+    "Gram pozitif: kalın peptidoglikan tabakası, teikoik asitler (ör. Staphylococcus, Streptococcus)",
+    "Gram negatif: ince peptidoglikan, dış membran ve LPS, porinler (ör. Escherichia coli, Pseudomonas, Neisseria)"
+   ]
+  },
+  {
+   "baslik": "Antimikrobik etki gücünün göstergeleri: MİK ve MBK",
+   "sayfa": "9",
+   "alt": [
+    "MİK (MIC): minimum inhibitör konsantrasyon, bakteriyostatik etki gücü",
+    "MBK (MBC): minimum bakterisid konsantrasyon, bakterilerin %99,9'undan fazlasını öldüren minimum konsantrasyon"
+   ]
+  },
+  {
+   "baslik": "Antimikrobik spektrum",
+   "sayfa": "10",
+   "alt": [
+    "Dar spektrumlu: bir veya birkaç tür (ör. izoniyazid)",
+    "Geniş spektrumlu: çok sayıda tür (ör. tetrasiklinler)",
+    "Genişletilmiş spektrumlu: Gram pozitiflere ek olarak önemli sayıda Gram negatife etkili (ör. ampisilin)"
+   ]
+  },
+  {
+   "baslik": "Antibiyogram ve antimikrobiyal duyarlılık testi",
+   "sayfa": "11, 19",
+   "alt": [
+    "Mikroorganizma izolasyonu ve tanımlanması, duyarlılık testi, sonucun EUCAST/CLSI ile yorumlanması (duyarlı, artırılmış maruziyetle duyarlı, dirençli)",
+    {
+     "t": "In vitro duyarlık test yöntemleri",
+     "alt": [
+      "Disk difüzyon yöntemi",
+      "Agar dilüsyon yöntemi (katı ortamda)",
+      "Buyonda dilüsyon yöntemi (sıvı ortamda)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antibakteriyel kemoterapötiklerin etki mekanizmaları",
+   "sayfa": "12-13",
+   "alt": [
+    {
+     "t": "1. Hücre duvarı sentezinin inhibisyonu",
+     "alt": [
+      "β-laktamlar: penisilinler, sefalosporinler, karbapenemler, monobaktamlar",
+      "Glikopeptitler: vankomisin, teikoplanin",
+      "Fosfomisin",
+      "Basitrasin"
+     ]
+    },
+    {
+     "t": "2. Hücre membranının bozulması",
+     "alt": [
+      "Polimiksinler: kolistin (polimiksin E), polimiksin B",
+      "Daptomisin"
+     ]
+    },
+    {
+     "t": "3. Protein sentezinin inhibisyonu",
+     "alt": [
+      "30S alt birimine etki edenler: aminoglikozidler, tetrasiklinler",
+      "50S alt birimine etki edenler: makrolidler, linkozamidler, kloramfenikol, oksazolidinonlar (linezolid), streptograminler"
+     ]
+    },
+    {
+     "t": "4. Nükleik asit sentezi veya işlevinin inhibisyonu",
+     "alt": [
+      "Florokinolonlar (DNA giraz, topoizomeraz IV)",
+      "Rifamisinler (RNA polimeraz)",
+      "Metronidazol / tinidazol",
+      "Nitrofurantoin"
+     ]
+    },
+    {
+     "t": "5. Folat sentezi / metabolizmasının inhibisyonu",
+     "alt": [
+      "Sülfonamidler",
+      "Trimetoprim",
+      "Dapson"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antibiyotiklerin geliştirilmesi",
+   "sayfa": "14",
+   "alt": [
+    "Önemli keşifler ve klinik kullanıma giriş (tarihsel zaman çizelgesi)"
+   ]
+  },
+  {
+   "baslik": "Antimikrobiyal direnç",
+   "sayfa": "15-18",
+   "alt": [
+    {
+     "t": "Direnç türleri",
+     "alt": [
+      "Doğal (intrinsik) direnç",
+      "Kazanılmış direnç",
+      "Çapraz direnç"
+     ]
+    },
+    {
+     "t": "Rezistansın fenotipik mekanizmaları",
+     "alt": [
+      "Dış duvardaki porus yapısının bozulması ile permeabilitenin azalması",
+      "İlacı yıkan enzim (β-laktamazlar)",
+      "İlaca duyarsız yeni enzim türü sentezi",
+      "İlacın hücre içinde modifikasyonu (aminoglikozidler)",
+      "İlacın hücre içine alımının azalması",
+      "İlacın etki yerine bağlanmasının azalması (aminoglikozidlerin 30S alt birimine bağlanması)"
+     ]
+    },
+    {
+     "t": "Direnç gelişimini azaltmak için dikkat edilecekler",
+     "alt": [
+      "Etken duyarlıysa veya duyarlı olduğuna inanılıyorsa ilaç kullanmak",
+      "Yeterli dozda ve mümkün olduğunca kısa süre",
+      "Önceden duyarlık testi; bölgedeki direnç prevalansını bilmek",
+      "Mümkün olduğunca dar spektrumlu ilaç",
+      "Salmonella ve Shigella nedeniyle hayvanlarda kullanımı kısıtlamak"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Kemoterapötik seçimi ve kemoprofilaksi",
+   "sayfa": "19-20",
+   "alt": [
+    "Seçim: patojen etkenin izolasyonu ve duyarlık testi ile antibiyogram",
+    {
+     "t": "Kemoprofilaksi",
+     "alt": [
+      "Belirli enfeksiyonların önlenmesi; direnç gelişimi pahasına",
+      "Başka hastalığı olanlarda (ör. kalp kapakçık bozukluğu) sekonder enfeksiyonu önleme",
+      "Cerrahi girişimlerle ilgili kemoprofilaksi"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Antibiyotik direncinin önemi ve direnç ile mücadele",
+   "sayfa": "21-24",
+   "alt": [
+    "Akut enfeksiyon hastalıkları dünyada ölümlerin %25'inden, gelişmekte olan ülkelerde %45'inden sorumludur (DSÖ)",
+    {
+     "t": "Antibiyotik direnci neden önemli?",
+     "alt": [
+      "Tedavi başarısızlığı, tedavi gecikmesi",
+      "Hastanede yatış süresi ve maliyet artışı",
+      "Mortalite riski",
+      "Daha geniş spektrumlu, daha toksik veya uygulaması zor ilaç ihtiyacı"
+     ]
+    },
+    {
+     "t": "Antibiyotik direnciyle savaşma (antibiyotik farkındalığı)",
+     "alt": [
+      "Reçetelerin azaltılması: uygun endikasyon, doz ve süre",
+      "Viral enfeksiyonlarda ve tıp dışı amaçlarla kullanımın durdurulması",
+      "Yeni ve daha ucuz antibiyotik geliştirme stratejileri",
+      "Tarım ve veterinerlikte (çiftlik hayvanı büyütmek için gıda katkısı) yanlış kullanım"
+     ]
+    }
+   ]
+  }
+ ]
+}

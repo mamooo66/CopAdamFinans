@@ -1,0 +1,180 @@
+{
+ "kod": "F17",
+ "ders": "Sülfonamidler ve Trimetoprim",
+ "hoca": "Prof. Dr. Akif Hakan Kurt",
+ "pdf": "10-Sülfonamidler ve Trimetoprim",
+ "basliklar": [
+  {
+   "baslik": "Sülfonamidler: etki mekanizması",
+   "sayfa": "2",
+   "alt": [
+    "Bakteriyel enfeksiyonlarda sistemik kullanıma giren ilk etkin kemoterapötik",
+    "Bakteriler folik asidi PABA'dan sentezler; sülfonamidler PABA analoğu (antimetabolit)",
+    "Dihidropteroat sentetaz için yarışır, folik asid sentezini inhibe eder; RNA ve DNA sentezi bozulur"
+   ]
+  },
+  {
+   "baslik": "Sülfonamidlerin antimikrobik spektrumu",
+   "sayfa": "3",
+   "alt": [
+    "Gram pozitif: A grubu β-hemolitik streptokoklar, S. pneumoniae, B. anthracis'in bazı suşları",
+    "Diğer: Haemophilus influenzae, H. ducreyi, Brucella, Pseudomonas pseudomallei, Vibrio cholerae, Corynebacterium diphtheriae, Yersinia pestis, Calymmatobacterium granulomatis, Actinomyces, Nocardia, Plasmodium, Toxoplasma, bazı Enterobacteriaceae"
+   ]
+  },
+  {
+   "baslik": "Sülfonamidlerin farmakokinetiği",
+   "sayfa": "4",
+   "alt": [
+    "Mide-barsaktan iyi emilir; plazma proteinlerine %20-80 bağlanır",
+    "BOS hariç diğer vücut sıvılarına iyi nüfuz eder",
+    "KC'de N-asetilasyonla inaktive olur; böbreklerden atılır (glomerüler filtrasyon, tübüler sekresyon)",
+    "Eliminasyon yarı ömrü ilaca göre değişir (4-150 saat)"
+   ]
+  },
+  {
+   "baslik": "Sülfonamidlerin sınıflandırılması",
+   "sayfa": "5-7",
+   "alt": [
+    {
+     "t": "1. Kısa ve orta etki süreli sülfonamidler",
+     "alt": [
+      "Sülfadiazin",
+      "Sülfizoksazol",
+      "Sülfametoksazol"
+     ]
+    },
+    "Uzun etkili depo sülfonamidler: günde tek doz, ciddi toksisite nedeniyle tercih edilmez",
+    {
+     "t": "3. Özel kullanılış yerlerine sahip sülfonamidler",
+     "alt": [
+      "Sülfasetamid: konjonktivit",
+      "Gümüş-sülfadiazin %1 krem: yanık",
+      "Mafenid (marfanil) %10 krem, %2-5 merhem: dermatit profilaksisi ve tedavisi",
+      "Sülfasalazin: ülseratif kolit, idiyopatik enflamatuvar barsak hastalıkları, romatoid artrit (5-aminosalisilata ayrışır; mesalazin, olsalazin, balsalazin)"
+     ]
+    },
+    {
+     "t": "Sülfizoksazol ve sülfametoksazol",
+     "alt": [
+      "Sülfizoksazol: suda çözünürlüğü yüksek, kristalüri yapmaz, t1/2 6 saat, sistemik ve üriner infeksiyonlarda en çok tercih edilen",
+      "Sülfametoksazol: kristalüri yapabilir; trimetoprimle kombinasyonu ko-trimoksazol"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Sülfonamidlerin kullanılış yerleri ve yan tesirleri",
+   "sayfa": "8-9",
+   "alt": [
+    "Ko-trimoksazol çıktıktan sonra tek başına kullanım alanı daraldı; hastane dışı nonkomplike İYE",
+    "Günlük su tüketimi 1,5 litrenin altına düşmemeli (idrar yollarında çökmeyi önlemek için)",
+    {
+     "t": "Yan tesirleri",
+     "alt": [
+      "Allerjik belirtiler",
+      "İdrar yollarında çökme",
+      "Hematolojik bozukluklar: G6PD eksikliğinde hemoliz, nadiren kemik iliği depresyonu",
+      "GİS bozuklukları",
+      "Doğuma yakın dönemde kernikterus",
+      "Nadiren hepatit ve nörotoksik etki",
+      "Depo sülfonamidlerde Stevens-Johnson sendromu"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Ko-trimoksazol (trimetoprim + sülfametoksazol)",
+   "sayfa": "12",
+   "alt": [
+    "Tablet, süspansiyon, ampul; trimetoprim 80 mg + sülfametoksazol 400 mg (forte 160/800 mg), oran 1:5",
+    "Trimetoprim yapıca sıtma ilacı primetamine benzer; t1/2 11 saat, sülfametoksazol 10-12 saat",
+    "Ardışık blok (dihidropteroat sentaz ve dihidrofolat redüktaz): potansiyalizasyon, daha güçlü antibakteriyel etki",
+    "Sülfametoksazol, yarı ömürleri yakın olduğu için seçilmiştir"
+   ]
+  },
+  {
+   "baslik": "Ko-trimoksazol: antibakteriyel spektrum ve farmakokinetik",
+   "sayfa": "14-15",
+   "alt": [
+    {
+     "t": "Antibakteriyel spektrum",
+     "alt": [
+      "Gram negatif aerob enterobakterler: E. coli, Proteus, Salmonella, Shigella",
+      "Gram negatif diğer: H. influenzae, Acinetobacter, Citrobacter, Brucella, V. cholerae, Yersinia, B. pertussis, G. vaginalis",
+      "Gram pozitif koklar: S. pneumoniae, S. pyogenes, S. aureus, S. epidermidis",
+      "Gram negatif koklar: N. meningitidis, N. gonorrhoeae",
+      "Diğer: Nocardia, Pneumocystis carinii, M. tuberculosis"
+     ]
+    },
+    {
+     "t": "Farmakokinetik",
+     "alt": [
+      "Trimetoprim görece lipofilik, tama yakın emilir, dokulara iyi nüfuz eder",
+      "Prostat ve bazı dokularda plazmadakinden birkaç kat fazla",
+      "Böbrek yetmezliğinde her iki komponentin eliminasyonu yavaşlar"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Ko-trimoksazolün başlıca endikasyonları",
+   "sayfa": "16-18",
+   "alt": [
+    {
+     "t": "a) Genitoüriner infeksiyonlar",
+     "alt": [
+      "Alt ve üst İYE'de ilk tercihlerden; akut sistit (tek doz forte)",
+      "Kronik rekürren İYE ve piyelonefrit",
+      "Akut ve kronik bakteriyel prostatit",
+      "Ürojenital gonore (penisiline alerjide veya penisilinaz salgılayan gonokokta)"
+     ]
+    },
+    {
+     "t": "b) Solunum yolu infeksiyonları",
+     "alt": [
+      "Hastane dışı alt solunum yolu infeksiyonları (S. pneumoniae, H. influenzae)",
+      "Akut bronşit ve kronik bronşitin önlenmesi",
+      "Akut otitis media ve sinüzit"
+     ]
+    },
+    {
+     "t": "c) GİS infeksiyonları",
+     "alt": [
+      "Shigella enteritinde florokinolon alternatifi",
+      "Tifo dahil salmonella infeksiyonlarında florokinolon ve kloramfenikol alternatifi",
+      "Enteropatojenik E. coli'ye bağlı çocuk ishali"
+     ]
+    },
+    {
+     "t": "d) Diğerleri",
+     "alt": [
+      "Pneumocystis carinii pnömonisinde en çok tercih edilen ilaç",
+      "Nocardia asteroides infeksiyonunda en çok tercih edilen",
+      "Melioidozis (P. pseudomallei): en tercih edilen 3 ilaçtan biri (diğerleri seftazidim, seftriakson)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Ko-trimoksazol: yan tesirler ve kontrendikasyonlar",
+   "sayfa": "19-20",
+   "alt": [
+    {
+     "t": "Yan tesirleri",
+     "alt": [
+      "En sık kaşıntı, makülopapüler veya morbiliform döküntü; nadiren kemik iliği depresyonu",
+      "Uzun süreli kullanımda folik asit eksikliğine bağlı megaloblastik anemi (uzun tedavide folik asit verilmeli)"
+     ]
+    },
+    {
+     "t": "Kontrendikasyonları",
+     "alt": [
+      "Gebelerde teratojenik etki",
+      "Emziren annelere ve 12 aydan küçük bebeklere önerilmez",
+      "Streptokokal farenjit ve tonsillitte kontrendike"
+     ]
+    }
+   ]
+  }
+ ]
+}
