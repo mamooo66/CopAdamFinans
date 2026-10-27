@@ -1,0 +1,48 @@
+{"kod": "F18", "ders": "Antiseptik ve Dezenfektanlar", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "9-Antiseptik ve Dezenfektanlar",
+ "basliklar": [
+  {"baslik": "Temel kavramlar ve ilkeler", "sayfa": "3-7", "alt": [
+    {"t": "Temel kavramlar", "alt": ["Antiseptik: canlı dokulara uygulanan antimikrobik madde", "Dezenfektan: cansız yüzey ve materyallerde mikroorganizmaları azaltmak/öldürmek için kullanılan madde", "Jermisid: mikroorganizmaları öldüren genel terim"]},
+    {"t": "Etkinliği belirleyen faktörler", "alt": ["konsantrasyon", "temas süresi", "sıcaklık", "mikroorganizmanın türü", "organik madde varlığı", "yüzeyin yapısı", "pH", "En önemli prensip: önce temizlik, sonra dezenfeksiyon/sterilizasyon"]},
+    "İdeal antiseptik/dezenfektan",
+    {"t": "Temizlik, antisepsi, dezenfeksiyon, sterilizasyon", "alt": ["temizlik", "antisepsi", "dezenfeksiyon", "sterilizasyon"]},
+    {"t": "Spaulding sınıflaması", "alt": ["kritik (sterilizasyon)", "yarı kritik (yüksek düzey dezenfeksiyon / sterilizasyon)", "kritik olmayan (düşük/orta düzey dezenfeksiyon)"]}
+  ]},
+  {"baslik": "Antiseptik ve dezenfektanların sınıflandırılması", "sayfa": "8", "alt": [
+    "Alkoller", "Aldehitler",
+    {"t": "Halojenler", "alt": ["iyot", "klor"]},
+    "Klorheksidin", "Okside edici ajanlar", "Ağır metaller", "Sabunlar", "Fenoller", "Katyonik yüzey-aktif ajanlar"
+  ]},
+  {"baslik": "Alkoller", "sayfa": "9-10", "alt": [
+    "Etki mekanizması (protein denatürasyonu, hücre membranının bozulması)",
+    {"t": "Başlıca ajanlar", "alt": ["etanol", "izopropanol"]},
+    "Özellikleri (hızlı bakterisid; sporlara etkisiz; %60–90, %70)",
+    {"t": "Klinik kullanım", "alt": ["el antisepsisi", "sağlam deri antisepsisi", "küçük yüzeylerin dezenfeksiyonu"]},
+    "Dezavantajlar (kuruluk, irritasyon, yanıcı, sporları öldürmez)"
+  ]},
+  {"baslik": "Aldehitler", "sayfa": "11", "alt": ["Formaldehit", "Glutaraldehit"]},
+  {"baslik": "Halojenler", "sayfa": "12-14", "alt": [
+    {"t": "İyot", "alt": ["Etki mekanizması", "Özellikleri"]},
+    {"t": "İyodun preparatları", "alt": ["tentürdiyot (iyot + alkol)", "povidon-iyot (iyodofor)"]},
+    {"t": "Klor", "alt": ["Etki mekanizması (hipokloröz asit, HOCl)", "Özellikleri"]}
+  ]},
+  {"baslik": "Klorheksidin", "sayfa": "15", "alt": ["Etki mekanizması", "Kullanım", "Avantaj", "Dezavantaj"]},
+  {"baslik": "Okside edici ajanlar: potasyum permanganat", "sayfa": "16", "alt": ["Okside edici ajan; bakterisid ve fungisid", "Astrenjan etki", "Dokuları kahverengi-mor renkte boyar"]},
+  {"baslik": "Ağır metaller", "sayfa": "17", "alt": ["Gümüş bileşikleri (gümüş sülfadiazin)", "Gümüş nitrat", "Cıva bileşikleri"]},
+  {"baslik": "Sabunlar", "sayfa": "18", "alt": ["Anyonik yüzey aktif maddeler", "Mekanik temizlik ve el hijyeni"]},
+  {"baslik": "Fenoller", "sayfa": "19", "alt": ["Etki mekanizması", "Özellikleri", "Fenol", "Hekzaklorofen"]},
+  {"baslik": "Katyonik yüzey aktif ajanlar", "sayfa": "20", "alt": [
+    {"t": "Üyeleri", "alt": ["benzalkonyum klorür", "setrimid", "kuarterner amonyum bileşikleri"]},
+    "Etki", "Anyonik sabunlarla birlikte kullanılmamalı"
+  ]},
+  {"baslik": "Grupların karşılaştırılması ve klinik seçim", "sayfa": "21-23, 27", "alt": [
+    {"t": "5 grubun karşılaştırılması", "alt": ["alkoller", "iyot", "klor", "klorheksidin", "H₂O₂"]},
+    "Spektrum karşılaştırması (bakteri, mantar, virüs, spor)",
+    "Klinikte hangisi nerede (el hijyeni, sağlam deri, preoperatif cilt, su dezenfeksiyonu, cansız yüzey, kritik cerrahi alet, mukoza ile temas eden cihaz)",
+    "Ajan özet tablosu: mekanizma, en önemli kullanım, en önemli dezavantaj"
+  ]},
+  {"baslik": "Dezenfeksiyonda en sık yapılan hatalar", "sayfa": "24", "alt": ["Temizlik yapmadan dezenfektan kullanmak", "Konsantrasyonu yanlış hazırlamak", "Temas süresine uymamak", "Her yüzey için aynı ürünü kullanmak", "Dezenfeksiyonu sterilizasyon sanmak"]},
+  {"baslik": "Sterilizasyon", "sayfa": "25-26", "alt": [
+    {"t": "Temel yöntemler", "alt": ["buharlı sterilizasyon (otoklav)", "etilen oksit", "hidrojen peroksit gaz plazma", "perasetik asit sistemleri", "diğer düşük sıcaklık sterilizasyon yöntemleri"]},
+    "Sterilizasyon ve dezenfeksiyon karşılaştırması"
+  ]}
+ ]}

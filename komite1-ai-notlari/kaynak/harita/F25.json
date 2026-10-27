@@ -1,0 +1,43 @@
+{"kod": "F25", "ders": "Antimalaryal ve Ektoparaziter İlaçlar", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "11-Antimalaryal ve Ektoparaziter ilaçları",
+ "basliklar": [
+  {"baslik": "Malarya (sıtma) ve Plasmodium türleri", "sayfa": "2-4", "alt": [
+    "Tanım: Plasmodium protozoalarının dişi anofel sivrisinekler aracılığıyla bulaştığı ateşli enfeksiyon",
+    "Dünya ve Türkiye'de sıtma",
+    {"t": "İnsanda hastalık yapan dört Plasmodium türü", "alt": ["P. vivax (tersiyana)", "P. malariae (kuartana)", "P. ovale", "P. falciparum"]}
+  ]},
+  {"baslik": "Antimalaryal ilaçların sınıflandırılması ve tedavi şekilleri", "sayfa": "5-7", "alt": [
+    {"t": "Etkiledikleri döneme göre", "alt": ["Primer doku şizontosidleri", "Kan şizontositleri", "Sekonder doku şizontositleri (radikal küratif ilaçlar)", "Gametositler", "Sporontositler"]},
+    {"t": "Tedavi şekilleri", "alt": ["Kozal (nedene dönük) profilaksi", "Süpresif tedavi (profilaksi)", "Radikal tedavi", "Antigametositik tedavi"]}
+  ]},
+  {"baslik": "Etki mekanizmaları", "sayfa": "8-9", "alt": [
+    "Kinin, 4-aminokinolin, 8-aminokinolin ve akridin türevleri: DNA metabolizmasını bozar",
+    "Kloroguanid ve pirimetamin: dihidrofolat redüktaz inhibisyonu"
+  ]},
+  {"baslik": "4-aminokinolin türevleri", "sayfa": "10-13", "alt": [
+    {"t": "Klorokin", "alt": ["Farmakokinetik", "Akut P. vivax ve P. falciparum tedavisi", "Yan etkiler"]},
+    "Hidroksiklorokin, amodiakin"
+  ]},
+  {"baslik": "Kinin", "sayfa": "14-16", "alt": ["Kınakına (Cinchona) alkaloidi", "Kullanım (rezistan P. falciparum, tetrasiklin ile kombinasyon, koma)", "Kinidin", "Yan etkiler ve çinkonizm; gebelerde kontrendike"]},
+  {"baslik": "8-aminokinolin türevleri", "sayfa": "17-18", "alt": ["Pamakin, primakin, pentakin, izopentakin", "Primakin: doku şizontosid ve gametositosid", "Yan etkiler (G6PD eksikliğinde akut hemoliz)"]},
+  {"baslik": "Pirimidinler (pirimetamin)", "sayfa": "19", "alt": ["Trimetoprime benzer", "Etkinlik", "Fansidar"]},
+  {"baslik": "Sulfonamidler ve sulfonlar", "sayfa": "20", "alt": ["Sulfadoksin, sulfadiazin", "Dapson, diformildapson", "Pirimetamin ile sinerjizma"]},
+  {"baslik": "Biguanidler (proguanil)", "sayfa": "21", "alt": ["Ön-ilaç; sikloguanil", "Profilaksi"]},
+  {"baslik": "Meflokin", "sayfa": "22", "alt": ["Kinolin-metanol türevi", "Süpresif tedavi", "Nörotoksik ve kardiyotoksik etki"]},
+  {"baslik": "Tetrasiklinler ve klindamisin", "sayfa": "23", "alt": ["Doksisiklin, tetrasiklin", "Klindamisin"]},
+  {"baslik": "Artemisinin ve türevleri", "sayfa": "24-25", "alt": ["Artemisia annua kaynaklı", "Artesunat, artemeter", "Artemeter + lumefantrin kombinasyonu (Riamet)"]},
+  {"baslik": "Ektoparazitler ve tedavi ilkeleri", "sayfa": "26-39", "alt": [
+    {"t": "Önemli iki ektoparazit", "alt": ["Sarcoptes scabiei (uyuz)", "Pediculus (bitlenme)"]},
+    "Uyuzun yerleştiği bölgeler",
+    {"t": "İnsan biti türleri", "alt": ["Pediculus humanus capitis (baş biti)", "Pediculus humanus corporis (vücut biti)", "Phthirus pubis (pubis biti)"]},
+    "Ektoparazitlere karşı etkili ilaçlar: skabisit ve pedikülisit",
+    "Uyuz tedavisi",
+    "Baş ve pubis biti tedavisi",
+    "Kirpik bitlenmesi; yakın temaslıların tedavisi; piperonal"
+  ]},
+  {"baslik": "Ektoparazitlere karşı kullanılan ilaçlar", "sayfa": "40-56", "alt": [
+    {"t": "Klorlu hidrokarbonlar", "alt": ["lindan", "DDT"]},
+    {"t": "Piretrinler ve piretroitler", "alt": ["piretrinler", "permetrin", "sumitrin"]},
+    {"t": "Kükürtlü bileşikler", "alt": ["presipite kükürt merhemi", "Wilkinson pomad"]},
+    {"t": "Diğer bileşikler", "alt": ["benzilbenzoat", "antikolinesteraz ilaçlar: malation, karbaril", "krotamiton"]}
+  ]}
+ ]}

@@ -1,0 +1,44 @@
+{"kod": "F02", "ders": "İlaçların Dağılımı", "hoca": "Prof. Dr. Akif Hakan Kurt", "pdf": "2-İlaçların Dağılımı",
+ "basliklar": [
+  {"baslik": "Giriş: dağılım", "sayfa": "2", "alt": [
+    "Farmakokinetiğin dört ana süreci (ADME)",
+    "İlaçların dağılımı"]},
+  {"baslik": "İlaçların dağıldığı fizyolojik sıvı kompartmanları", "sayfa": "3-4", "alt": [
+    {"t": "Fizyolojik sıvı kompartmanları", "alt": ["plazma", "interstisyel sıvı", "intraselüler sıvı"]},
+    {"t": "Kompartmanlara göre dağılan ilaçlar", "alt": [
+      "sadece plazmada dağılanlar (dekstranlar, heparin, varfarin, süramin, Evans mavisi)",
+      "bütün sıvı kompartmanlarına dağılanlar (alkol, antipirin, üre)",
+      "sadece ekstraselüler sıvıda dağılanlar (tübokürarin, gentamisin, karbenisilin)"]},
+    "Kompartman hacmi ölçüm yöntemleri"]},
+  {"baslik": "Kan içindeki dağılım", "sayfa": "5-11", "alt": [
+    {"t": "Plazma proteinleri", "alt": ["albümin", "α1-asid glikoprotein"]},
+    "Proteine göre bağlanan ilaçlara örnekler (α1-asid glikoprotein, lipoproteinler, gama-globülinler)",
+    "Protein bağlanmasının reversibl olması (Kd, bağ türleri)",
+    "Bağlanma oranını belirleyen faktörler ve doygunluk",
+    "Bazı ilaçların kan proteinlerine bağlanma yüzdeleri (güçlü / orta / zayıf bağlananlar)",
+    "Plazma proteinlerine bağlanmanın hastalık hallerinde değişmesi",
+    "Plazmada bağlı ve serbest ilaç fraksiyonlarının özellikleri"]},
+  {"baslik": "Dağılım hızı ve dağılımla ilgili özel durumlar", "sayfa": "12", "alt": [
+    "Difüzyon hızı",
+    "Doku perfüzyon hızı",
+    "İlacın doku komponentlerine afinitesi",
+    "Plazma proteinlerine bağlanma"]},
+  {"baslik": "Özel dağılım bölgeleri", "sayfa": "13-16, 20", "alt": [
+    {"t": "İlaçların santral sinir sistemine geçişi (kan-beyin engeli)", "alt": [
+      "engeli gevşeten etkenler",
+      "engelin bulunmadığı bölgeler",
+      "engelin yapısı (tight junction, bazal membran, astrosit, P-glikoprotein)"]},
+    "İlaçların BOS'a geçişi (kan-BOS engeli)",
+    "İlaçların plasentadan fetusa geçişi"]},
+  {"baslik": "Özel dağılım durumları", "sayfa": "17-19", "alt": [
+    "Sekestrasyon",
+    "Redistribüsyon (yeniden dağılım)",
+    "İyon tuzağı"]},
+  {"baslik": "Sanal dağılım hacmi (Vd)", "sayfa": "21-23", "alt": [
+    "Tanım ve formül",
+    "Vd karşılaştırması (toplam vücut suyu, tübokürarin, furosemid, digoksin)",
+    "Sanal dağılım hacminin sağladığı üç önemli yarar"]},
+  {"baslik": "Dağılımın kinetiği", "sayfa": "24", "alt": [
+    "Tek kompartımanlı model",
+    {"t": "İki kompartımanlı dışarıya açık model", "alt": ["santral kompartman", "periferik kompartman"]}]}
+ ]}

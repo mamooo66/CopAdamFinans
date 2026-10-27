@@ -1,0 +1,19 @@
+{"kod": "F26", "ders": "Dar Spektrumlu Antistafilokokal ve Antianaerobik Antibiyotikler", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "15-Dar Spektrumlu Antistafilokokal ve Antianaerobik Antibiyotikler",
+ "basliklar": [
+  {"baslik": "Klinik önem ve epidemiyolojik veriler", "sayfa": "3-4", "alt": ["Antistafilokokal ve antianaerobik antibiyotiklerin klinik önemi", "İnsidans ve epidemiyolojik veriler (stafilokok enfeksiyonları, MRSA bakteriyemisi, anaerobik enfeksiyonlar)"]},
+  {"baslik": "Genel bakış", "sayfa": "5", "alt": ["MSSA ve MRSA ayrımı", "Kültür ve antibiyogram sonrası tedavinin daraltılması", "Apse ve komplike intraabdominal enfeksiyonlarda kaynak kontrolü"]},
+  {"baslik": "Oksasilin, nafsilin ve sefazolin", "sayfa": "6", "alt": ["Etki mekanizması", "Başlıca endikasyon", "Tedavi süresi", "Önemli yan etkiler", "Klinik uyarı (MRSA'da güvenilir değil)"]},
+  {"baslik": "Klindamisin", "sayfa": "7", "alt": ["Etki mekanizması (50S ribozomal alt birim)", "Spektrum", "Endikasyon", "Tedavi süresi", "Önemli yan etkiler (C. difficile ilişkili kolit)", "Direnç uyarısı (D-testi)"]},
+  {"baslik": "Mupirosin", "sayfa": "8", "alt": ["Etki mekanizması (izolösil-tRNA sentetaz inhibisyonu)", "Endikasyon", "Uygulama (topikal, nazal)", "Tipik süre", "Yan etkiler", "Önemli uyarı (direnç gelişimi)"]},
+  {"baslik": "Metronidazol ve diğer nitroimidazoller", "sayfa": "9", "alt": ["Etki mekanizması", "Spektrum", "Endikasyon", "Tedavi süresi", "Yan etkiler", "Önemli uyarı"]},
+  {"baslik": "Amoksisilin-klavulanat ve ampisilin-sulbaktam", "sayfa": "10", "alt": ["Etki mekanizması", "Endikasyon", "Klinik kullanım", "Tedavi süresi", "Yan etkiler", "Önemli uyarılar"]},
+  {"baslik": "Piperasilin-tazobaktam ve karbapenemler", "sayfa": "11", "alt": ["Etki mekanizması", "Piperasilin-tazobaktam", "Meropenem", "Tedavi süresi", "Yan etkiler", "Önemli uyarı (meropenemde nöbet riski)"]},
+  {"baslik": "Enfeksiyon türüne göre tedavi süresi", "sayfa": "12", "alt": ["Komplike olmayan selülit", "Komplike intraabdominal enfeksiyon", "Bakteriyemi ve endokardit", "Kemik-eklem enfeksiyonları", "Tedaviyi uzatma kararı"]},
+  {"baslik": "Clostridioides difficile enfeksiyonu", "sayfa": "13", "alt": ["Risk faktörü", "İlk tercih (fidaksomisin; alternatif oral vankomisin)", "Fidaksomisin rejimi", "Oral vankomisin rejimi", "Metronidazol (AGA 2026 önerisi)", "Fulminan hastalık"]},
+  {"baslik": "Klinik özet ve temel mesajlar", "sayfa": "14", "alt": ["Oksasilin / nafsilin / sefazolin", "Klindamisin", "Mupirosin", "Metronidazol", "Amoksisilin-klavulanat / ampisilin-sulbaktam", "Piperasilin-tazobaktam / meropenem", "Tedavi süresi"]},
+  {"baslik": "Karşılaştırma tabloları", "sayfa": "15-17", "alt": [
+    "Etkin maddeler, mekanizma ve spektrum",
+    "Klinik kullanım, tedavi süresi ve güvenlilik",
+    {"t": "Klinik açıdan kritik karşılaştırmalar", "alt": ["MSSA bakteriyemisi", "MRSA enfeksiyonu", "Anaerobik intraabdominal enfeksiyon", "Apse", "Geniş spektrumlu antibiyotik kullanımı", "Böbrek fonksiyon bozukluğu", "Uzayan antibiyotik tedavisi"]}
+  ]}
+ ]}

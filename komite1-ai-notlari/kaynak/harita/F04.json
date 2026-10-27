@@ -1,0 +1,35 @@
+{"kod": "F04", "ders": "İlaçların Eliminasyonu", "hoca": "Prof. Dr. Akif Hakan Kurt", "pdf": "4-İlaçların Eliminasyonu",
+ "basliklar": [
+  {"baslik": "Giriş: eliminasyon = biyotransformasyon + atılım", "sayfa": "2-4", "alt": [
+    "Hidrofilik ve lipofilik ilaçların atılımı",
+    {"t": "Atılım yolları", "alt": ["karaciğerden safra içine", "böbreklerden (esas mekanizma)", "akciğerlerden", "salya içinde", "süt içinde", "diğer vücut salgıları (ter, gözyaşı, genital)"]}]},
+  {"baslik": "I. Böbreklerden itrah", "sayfa": "5-13", "alt": [
+    "A. Glomerüler filtrasyon (GF)",
+    {"t": "B. Tübüler sekresyon (salgılanma)", "alt": ["Tablo 6.1: tübülüslerden salgılanma suretiyle itrah edilen ilaçlar", "P-glikoprotein (MDR-1)", "P-aminohipürik asid ve penisilin G"]},
+    "C. Tübüler reabsorpsiyon",
+    "Renal klirens ve eliminasyon yarılanma ömrü",
+    "Yarılanma ömrüne göre eliminasyon",
+    "Böbrek itrah fonksiyonunun yaşa göre değişmesi"]},
+  {"baslik": "II. Karaciğerden safra içine itrah", "sayfa": "14-20", "alt": [
+    "Karaciğerden safra içine atılım (enterohepatik siklus, geçiş mekanizması)",
+    "Safraya itrahın derecesini etkileyen 3 özellik",
+    "Karaciğer hücresi membranında aktif transport taşıyıcıları",
+    "Hepatik klirens",
+    "İlk-geçiş (first pass) / presistemik eliminasyon",
+    "Yaşlanmanın hepatik eliminasyona etkisi"]},
+  {"baslik": "III. Akciğerlerden itrah", "sayfa": "21", "alt": []},
+  {"baslik": "IV. Diğer yerlerden itrah", "sayfa": "22-24", "alt": [
+    "Salya içinde itrah",
+    "Süt içinde itrah",
+    "İyon tuzağı ile anne sütüne geçiş",
+    "Tablo 6.2: emziren kadınlarda kontrendike olan ilaçlar"]},
+  {"baslik": "Suni (yapay) itrah yöntemleri", "sayfa": "25-26", "alt": [
+    "Hemodiyaliz",
+    "Hemoperfüzyon",
+    "Periton diyalizi"]},
+  {"baslik": "Eliminasyon kinetiği", "sayfa": "27-29", "alt": [
+    "İlaç eliminasyonunun kinetiği",
+    "Total klirens",
+    "Doza-bağımlı (non-lineer) kinetik",
+    "Lineer ve non-lineer kinetiğe uyan ilaçlar"]}
+ ]}

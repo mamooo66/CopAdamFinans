@@ -1,0 +1,52 @@
+{"kod": "F03", "ders": "İlaçların Metabolizması (Biyotransformasyon)", "hoca": "Prof. Dr. Akif Hakan Kurt", "pdf": "3-İlaçların Metabolizması",
+ "basliklar": [
+  {"baslik": "Giriş: biyotransformasyon (metabolizma)", "sayfa": "2-8", "alt": [
+    "Biyoinaktivasyon (detoksikasyon)",
+    {"t": "Biyoaktivasyon", "alt": ["daha etkili bileşikler (kodein → morfin)", "daha toksik bileşikler (metil alkol, asetaminofen)"]},
+    {"t": "Ön-ilaç (prodrug, inaktif prekürsör)", "alt": ["kortizon, prednizon", "karotenler (provitamin-A)", "bakampisilin", "enalapril"]},
+    "Maksatlı olarak ön-ilaç yapma nedenleri",
+    "Tablo 5.1: biyotransformasyon sonucu etkinliğin değişmesine ait örnekler",
+    "Tablo 5.2: toksik metabolitlere dönüşme örnekleri"]},
+  {"baslik": "Enzimatik olmayan biyotransformasyon", "sayfa": "9-11", "alt": [
+    "Değişmeden atılan ilaçlar",
+    "Biyotransformasyonun genel sonuçları (ksenobiyotikler)",
+    "Biyotransformasyon yapan enzimlerin yerleşimi",
+    "Enzimatik olmayan biyotransformasyon (penisilin G, atroküryum)"]},
+  {"baslik": "Enzimatik olay türleri: iki faz", "sayfa": "12", "alt": [
+    "I. faz reaksiyonları (oksidasyon, redüksiyon, kopma)",
+    "II. faz reaksiyonları (konjugasyon)"]},
+  {"baslik": "1. Oksidasyon", "sayfa": "13-20", "alt": [
+    "Sitokrom P450 (CYP) enzimleri",
+    "CYP katalitik döngüsü",
+    {"t": "Başlıca mikrozomal CYP enzimleri ve katkı yüzdeleri", "alt": ["CYP3A4", "CYP2D6", "CYP2C grubu"]},
+    "Tablo 5.3: önemli sitokrom P450 enzimlerinin substratları",
+    "Genetik polimorfizm ve CYP enzimlerinin yerleşimi",
+    "CYP enzimlerinin yaptığı oksidlenme olayları (I): aromatik hidroksilasyon, alifatik hidroksilasyon, N-/O-/S-dealkilasyon",
+    "CYP enzimlerinin yaptığı oksidlenme olayları (II): desülfürasyon, S-oksidasyon, N-oksidasyon ve N-hidroksilasyon",
+    {"t": "Mikrozomal olmayan enzimlerin yaptığı oksidasyon", "alt": ["MAO", "diamin oksidaz", "ksantin oksidaz", "tirozin hidroksilaz", "alkol dehidrogenaz", "aldehid dehidrogenaz"]}]},
+  {"baslik": "2. İndirgenme (redüksiyon)", "sayfa": "21", "alt": [
+    "Aldehidlerin alkollere dönüşümü",
+    "Azo (N=N) grubunun aminlere dönüşümü",
+    "Nitro gruplarının amin veya hidroksilamin grubuna dönüşümü"]},
+  {"baslik": "3. Kopma", "sayfa": "22-23", "alt": [
+    {"t": "Hidroliz", "alt": ["esterazlar", "peptidazlar", "amidazlar"]},
+    "Dekarboksilasyon",
+    "Glikozidlerin hidrolizi"]},
+  {"baslik": "4. Konjugasyon", "sayfa": "24-28", "alt": [
+    "Konjugasyon genel (8 çeşit)",
+    {"t": "Glukuronik asidle birleşme", "alt": ["UDP-glukuronil transferaz", "glukuronatların atılımı", "enterohepatik siklus"]},
+    "N-metilasyon",
+    "O-metilasyon",
+    "N-asetilasyon (yavaş asetilleyiciler)",
+    "Sülfat ile konjugasyon (sülfatasyon)",
+    "Glutatyon ile konjugasyon",
+    "Amino asidle konjugasyon",
+    "Diğer konjugasyonlar"]},
+  {"baslik": "Mikrozomal enzim indüksiyonu / inhibisyonu", "sayfa": "29-32", "alt": [
+    "Enzim indüksiyonu ve inhibisyonu (pratik önemi)",
+    "Enzim indüksiyonu ve inhibisyonunun plazma düzeyine etkisi",
+    "Tablo 5.5: CYP450 enzimlerini indükleyen ve inhibe eden ilaçlar",
+    "Oto-indüksiyon",
+    "İntihar (suicide) tipi inhibitörler",
+    "Enzim aktivasyonu"]}
+ ]}

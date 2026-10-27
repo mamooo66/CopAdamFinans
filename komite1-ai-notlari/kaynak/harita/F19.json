@@ -1,0 +1,26 @@
+{"kod": "F19", "ders": "Antihelmintik İlaçlar", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "10-Antihelmintik İlaçlar",
+ "basliklar": [
+  {"baslik": "Helmintler: yerleşim yerleri ve sınıflandırma", "sayfa": "3-4", "alt": [
+    "Helmintlerin insanda yerleşim yerleri ve tutulan organlar (ince bağırsak, kalın bağırsak, karaciğer ve safra yolları, akciğer, kan ve damar sistemi, lenfatik damarlar, kas dokusu, beyin ve MSS, deri ve deri altı, göz, üriner sistem ve mesane)",
+    {"t": "Helmintlerin sınıflandırılması", "alt": ["Nematodlar (yuvarlak solucanlar)", "Sestodlar (şerit solucanlar)", "Trematodlar (yaprak solucanlar)"]}
+  ]},
+  {"baslik": "Antihelmintik ilaçların sınıflandırılması ve etki mekanizmaları", "sayfa": "5-6", "alt": [
+    {"t": "Farmakolojik gruplar", "alt": ["Benzimidazoller: albendazol, mebendazol", "Nikotinik reseptör agonisti: pirantel pamoat", "Makrosiklik lakton: ivermektin", "Pirazinoizokinolin türevi: prazikuantel", "Salisilanilid: niklozamid", "Diğer ilaçlar: dietilkarbamazin, piperazin"]},
+    "Etki mekanizmaları tablosu (ilaç, temel etki mekanizması, sonuç)"
+  ]},
+  {"baslik": "Albendazol", "sayfa": "9", "alt": ["Farmakolojik grup: benzimidazol", "Etki mekanizması", "Başlıca kullanım alanları", "Advers etkiler"]},
+  {"baslik": "Mebendazol", "sayfa": "10", "alt": ["Farmakolojik grup: benzimidazol", "Etki mekanizması", "Başlıca kullanım alanları", "Advers etkiler", "Metronidazol ile birlikte kullanımdan kaçınılmalı"]},
+  {"baslik": "Pirantel pamoat", "sayfa": "11", "alt": ["Etki mekanizması", "Başlıca kullanım alanları", "Piperazin ile birlikte kullanımdan kaçınılmalı"]},
+  {"baslik": "İvermektin", "sayfa": "12", "alt": ["Etki mekanizması", "Başlıca kullanım alanları", "Advers etkiler", "Kortikosteroid öncesi strongiloidiyazis riski; Loa loa eş enfeksiyonu; gebelik ve 15 kg altı çocuklar"]},
+  {"baslik": "Prazikuantel", "sayfa": "13", "alt": ["Etki mekanizması", "Başlıca kullanım alanları", "Nörosistiserkozda tedavi öncesi değerlendirme"]},
+  {"baslik": "Niklozamid ve diğer ilaçlar", "sayfa": "14", "alt": ["Niklozamid", "Dietilkarbamazin", "Piperazin", "Levamizol", "Tiabendazol", "Oksamnikin"]},
+  {"baslik": "Türkiye'de bilinmesi gereken antihelmintikler", "sayfa": "15", "alt": ["Albendazol", "Pirantel pamoat", "Mebendazol", "İvermektin", "Prazikuantel"]},
+  {"baslik": "Güncel tedavi rejimleri", "sayfa": "16-20", "alt": [
+    "Bağırsak nematodları (askariyazis, triküriazis, kancalı kurt)",
+    "Kıl kurdu tedavisi (albendazol, mebendazol, pirantel pamoat; ikinci doz gerekli mi?)",
+    "Strongiloidiyazis tedavisi (ilk seçenek ivermektin; alternatif albendazol; hiperinfeksiyon)",
+    "Şistozomiyazis ve taeniyazis (prazikuantel)",
+    {"t": "Kistik ekinokokkoz ve nörosistiserkoz", "alt": ["Etken", "İlaç", "Tedavi kararı", "Ek yaklaşım"]}
+  ]},
+  {"baslik": "Güvenlik ve ilaç izlemi", "sayfa": "21", "alt": ["Gebelik", "Küçük çocuklar", "Uzun süreli albendazol", "İvermektin", "Nörosistiserkoz", "Kist hidatik"]}
+ ]}

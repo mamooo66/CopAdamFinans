@@ -59,6 +59,8 @@ td li{margin:.4mm 0}
 td li ul{padding-left:4mm;color:#36535A}
 tr{page-break-inside:avoid;break-inside:avoid}
 .ozet td{font-size:9.4pt}
+.ozet tr.g td{background:#0B4552;color:#fff;font-weight:700}
+.ozet td.d{width:42mm;font-weight:600}
 .ozet td.k{width:13mm;text-align:center;font-weight:800;color:#0B4552}
 .yok{color:#9A6B10;font-style:italic}
 .not{font-size:8.6pt;color:#4B6B73;margin-top:5mm}
@@ -88,16 +90,17 @@ def main():
     ozet, govde = [], []
     for grup, dersler in GRUPLAR:
         govde.append(f"<h2>{e(grup)}</h2>")
+        ozet.append(f'<tr class="g"><td colspan="3">{e(grup)}</td></tr>')
         for x in dersler:
             if isinstance(x, tuple) or x not in veri:
                 ad, bilgi = (x[1], x[2]) if isinstance(x, tuple) else (x, "")
-                ozet.append(f'<tr><td>{e(grup)}</td><td class="k">—</td><td>{e(ad)}</td>'
+                ozet.append(f'<tr><td class="k">—</td><td class="d">{e(ad)}</td>'
                             f'<td class="yok">2026-27 PDF\'i Drive\'da yok · {e(bilgi)}</td></tr>')
                 govde.append(f'<h3><span class="kod">—</span>{e(ad)}<span class="hoca">{e(bilgi)}</span></h3>'
                              f'<p class="yok">Bu dersin 2026-27 PDF\'i Drive\'da yok; PDF gelince haritası eklenecek.</p>')
                 continue
             d = veri[x]
-            ozet.append(f'<tr><td>{e(grup)}</td><td class="k">{e(x)}</td><td>{e(d["ders"])}</td>'
+            ozet.append(f'<tr><td class="k">{e(x)}</td><td class="d">{e(d["ders"])}</td>'
                         f'<td>{", ".join(e(b["baslik"]) for b in d["basliklar"])}</td></tr>')
             satir = "".join(
                 f'<tr><td class="ub">{e(b["baslik"])}'
@@ -113,7 +116,7 @@ def main():
              f'<div class="ust"><b>Komite 1 AI Notları</b> · Dönem III · 2026-27 · Her dersin üst ve alt başlıkları '
              f'o dersin 2026-27 PDF\'indeki başlıklardan, PDF\'teki sırayla alındı. Kodlar Farmakoloji notlarındaki '
              f'bölüm kodlarıdır (F12 → notlarda F12).</div>'
-             f'<h2>Özet: hangi ders hangi grupta</h2><table class="ozet"><tr><th>Grup</th><th>Kod</th><th>Ders</th>'
+             f'<h2>Özet: hangi ders hangi grupta</h2><table class="ozet"><tr><th>Kod</th><th>Ders</th>'
              f'<th>Üst başlıklar</th></tr>{"".join(ozet)}</table>'
              f'{"".join(govde)}'
              f'<p class="not">Gruplar (Genel Farmakoloji, Kemoterapötikler …) dersleri bir arada görmek için '

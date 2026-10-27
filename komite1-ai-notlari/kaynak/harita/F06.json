@@ -1,0 +1,66 @@
+{"kod": "F06", "ders": "İlaçların Etki Mekanizmaları", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "2-İlaçların Etkimekanizmaları",
+ "basliklar": [
+  {"baslik": "İlaçların etki mekanizmaları: genel ayrım", "sayfa": "4, 32", "alt": [
+    {"t": "Reseptör aracılı mekanizmalar", "alt": ["ligand kapılı iyon kanalları", "G proteinine bağlı reseptörler (GPCR)", "enzimle ilişkili reseptörler", "hücre içi / nükleer reseptörler"]},
+    {"t": "Non-reseptör aracılı mekanizmalar", "alt": ["fiziksel / kimyasal nonspesifik etki", "enzim inhibisyonu / aktivasyonu", "transporter / ATPaz etkisi", "iyon kanallarının açılması / blokajı", "antimetabolit etki", "yerine koyma (replasman)", "endojen maddelerin salıverilmesini değiştirme", "şelasyon", "maddeyi bağlama / nötralizasyon", "gen transkripsiyonu / mRNA ekspresyonu"]}]},
+  {"baslik": "Reseptör ve reseptörlerin 4 ana ailesi", "sayfa": "5-7, 13-14", "alt": [
+    "Reseptör tanımı",
+    {"t": "Reseptörlerin 4 ana ailesi", "alt": ["ligand kapılı iyon kanalları", "G proteinine bağlı reseptörler (GPCR)", "enzimle ilişkili reseptörler", "hücre içi / nükleer reseptörler"]},
+    "Membran reseptörleri (GPCR, ligand kapılı iyon kanalları, enzimle ilişkili reseptörler, diğer: TLR)",
+    "Reseptör ailelerinin karşılaştırması (sinyal mekanizması, yanıt başlangıcı)"]},
+  {"baslik": "Agonist ve antagonist (giriş)", "sayfa": "10-12", "alt": [
+    "İlaçların etkilediği bazı hedefler: reseptörler, agonistleri, antagonistleri",
+    "İlaç etkisinin kinetiği ve ilaç bağlanmasının kinetiği",
+    "İlaç-reseptör bağlanma-etki ilişkisi"]},
+  {"baslik": "Doğrudan iyon kanalına bağlı reseptörler", "sayfa": "15-16", "alt": [
+    "nikotinik ACh reseptörü (nAChR)",
+    "GABAA reseptörü",
+    "glutamat reseptörleri (AMPA, NMDA, kainat)",
+    "5-HT3 reseptörü",
+    "glisin reseptörü",
+    "Farklı iyonların konsantrasyon değişimlerine bağlı etkiler (Na⁺ ve Ca²⁺, K⁺, Cl⁻)"]},
+  {"baslik": "G proteinine bağlı reseptörler (GPCR)", "sayfa": "17-25", "alt": [
+    {"t": "G protein tipleri", "alt": ["Gs", "Gi", "Gq", "G12/13"]},
+    "GPCR sinyal sisteminin 3 temel bileşeni (reseptör, transdüser G proteini, efektör)",
+    "G reseptörlerinin çalışma prensibi",
+    "G proteinleri ile kenetli reseptörlere örnekler (efektör, ikinci haberci)",
+    "G proteini kenetli hücresel olaylar"]},
+  {"baslik": "Enzimle ilişkili reseptörler", "sayfa": "26", "alt": [
+    "Reseptör tirozin kinazlar (RTK)",
+    "Reseptör tirozin fosfatazlar (RPTP)",
+    "Sitokin reseptörleri (JAK/STAT)",
+    "Non-reseptör tirozin kinazlar"]},
+  {"baslik": "İkinci haberciler ve reseptör sonrası sinyal basamakları", "sayfa": "27-28", "alt": [
+    {"t": "İkinci haberciyi oluşturan enzim ve temel etki", "alt": ["adenilat siklaz → cAMP → PKA", "fosfolipaz C → IP₃ ve DAG", "guanilat siklaz → cGMP → PKG", "Ca²⁺ → kalmodulin"]},
+    {"t": "Reseptör sonrası sinyal basamaklarını hedefleyen ajanlar", "alt": ["pertussis toksini", "kolera toksini", "lityum", "kafein", "tapsigargin", "forskolin", "fasudil"]}]},
+  {"baslik": "İlaçların agonistik etkileri", "sayfa": "29-30", "alt": [
+    "Sinerjizm",
+    "Potansiyalizasyon (supra-aditif etki)",
+    "Reseptör düzeyinde potansiyalizasyon",
+    "İlaç agonizması için örnekler"]},
+  {"baslik": "Kilit-anahtar reseptör modeli", "sayfa": "31", "alt": []},
+  {"baslik": "Non-reseptör aracılı mekanizmalar", "sayfa": "33-45", "alt": [
+    "Fiziksel / kimyasal nonspesifik etki",
+    "Reseptörlerin aktivasyonu / inhibisyonu",
+    "Enzimlerin aktivasyonu / inhibisyonu",
+    "Antimetabolit olarak etki",
+    "Transporterlar ve ATPazlar",
+    "İyon kanallarının açılması / kapatılması",
+    "Yerine koyma (replasman) tedavisi",
+    "Endojen maddelerin salıverilmesini değiştirme",
+    "Şelasyon yoluyla etki",
+    "Maddeyi bağlayarak etkisizleştirme",
+    "Gen transkripsiyonu ve mRNA ekspresyonunun değiştirilmesi",
+    {"t": "Yeni nesil biyolojik / biyobenzer ilaçlar", "alt": ["anti-TNF-α", "anti-IL-6", "anti-IL-17", "anti-IL-12/23", "anti-CD20", "anti-HER2", "anti-VEGF", "anti-EGFR", "anti-RANKL", "anti-IgE", "anti-C5", "anti-integrin", "insülin analogları", "eritropoietinler"]}]},
+  {"baslik": "Terminoloji ve antagonizma", "sayfa": "46-56", "alt": [
+    {"t": "Terminoloji", "alt": ["reseptör bölgesi", "agonist", "parsiyel agonist", "invers agonist", "antagonist"]},
+    "Kompetitif antagonist",
+    "İrreversibl / nonkompetitif antagonizma",
+    "Agonist vs antagonist (şemalar)",
+    "Fizyolojik ve kimyasal antagonizma",
+    {"t": "İlaçlar arasındaki etkileşimler (özet şema)", "alt": ["farmakodinamik (sinerjizma, antagonizma)", "farmakokinetik (emilim, dağılım, metabolizma, atılım)", "farmasötik (geçimsizlik)"]},
+    "Antagonizma: kimyasal, fizyolojik, farmakolojik (kompetitif / nonkompetitif)"]},
+  {"baslik": "Doz–yanıt eğrileri", "sayfa": "57", "alt": ["Kademeli (graded) doz–yanıt eğrisi", "Kuantal (quantal) doz–yanıt eğrisi"]},
+  {"baslik": "Tolerans ve reseptör düzenlenmesi (terminoloji)", "sayfa": "58", "alt": ["tolerans", "taşifilaksi", "desensitizasyon", "down-regulation", "up-regulation"]},
+  {"baslik": "Terapötik pencere / terapötik indeks", "sayfa": "59", "alt": ["TI = TD50 / ED50 veya LD50 / ED50", "ED50, TD50, LD50"]}
+ ]}

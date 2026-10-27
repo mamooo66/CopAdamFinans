@@ -1,0 +1,61 @@
+{"kod": "F09", "ders": "İlaç-İlaç Etkileşimleri", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "4-ilaç-ilaç etkileşimleri",
+ "basliklar": [
+  {"baslik": "Advers ilaç olayları ve ilaç etkileşimlerinin önemi", "alt": [
+    "Advers ilaç olayları: önemli hasta güvenliği sorunu, %28–56'sı önlenebilir",
+    "İlaç hataları: yanlış ilaç, yanlış doz, yanlış uygulama yolu, uygunsuz kombinasyon, yetersiz izlem",
+    "İlaç etkileşimlerine bağlı ölümler (küresel veri yok; ilaç ilişkili zarar)",
+    {"t": "Olumsuz ve olumlu etkileşme", "alt": [
+      "Olumsuz: ilaç etkisinde kayıp, beklenmeyen artış, toksisite",
+      "Olumlu: terapötik etkinlikte artış, yan etkide azalma, toksisitenin tedavisi"]},
+    "İlaç etkileşimlerinin önemi"]},
+  {"baslik": "Etkileşimin tanımı ve türleri", "alt": [
+    {"t": "Etkileşimin sonucu", "alt": ["sumasyon", "sinerjizm", "antagonizm"]},
+    {"t": "İlaç etkileşim türleri", "alt": ["ilaç-ilaç", "ilaç-gıda", "ilaç-madde", "ilaç-hastalık", "ilaç-laboratuvar test"]}]},
+  {"baslik": "Mekanizmaya göre etkileşimler", "alt": [
+    {"t": "Farmasötik etkileşim", "alt": ["örnek: sodyum tiyopental + vekuronyum, i.v. setinde çökelti"]},
+    {"t": "Farmakokinetik etkileşim", "alt": ["emilim", "dağılım", "metabolizma", "atılım"]},
+    {"t": "Farmakodinamik etkileşim", "alt": ["farmakolojik etki düzeyinde: sinerjizma, antagonizma"]}]},
+  {"baslik": "Farmakokinetik etkileşimler", "alt": [
+    "Tanım: sistemik konsantrasyonu değiştirerek etki yerindeki miktar ve süreyi etkiler",
+    "Absorbsiyon düzeyinde etkileşme",
+    "Dağılım düzeyinde etkileşme",
+    {"t": "Metabolizma düzeyinde etkileşme (CYP enzimleri)", "alt": [
+      "enzim inhibisyonu: metabolizma ↓ → ilaç düzeyi ↑ → toksisite",
+      "enzim indüksiyonu: metabolizma ↑ → ilaç düzeyi ↓ → etkinlik ↓",
+      "klinik örnekler: kinidin (CYP2D6), eritromisin (CYP3A4), rifampisin (güçlü indükleyici)",
+      "İndükleyenler: rifampisin, St John's wort",
+      "İnhibe edenler: ketokonazol, itrakonazol, flukonazol, eritromisin vb. makrolidler, fluvoksamin, fluoksetin, sertralin, nefazodon, verapamil, omeprazol, greyfurt suyu",
+      "nonmikrozomal enzimlerde de inhibisyon olur"]},
+    {"t": "Etkileşim sınıfları (I–VI) ve örnek etkileşimler", "alt": [
+      "I: kontrendike (sildenafil + nitrat)",
+      "II: mümkünse birlikte kullanılmamalı (statin + gemfibrozil)",
+      "III: sınıfın tümü için geçerli değil (makrolid + statin)",
+      "IV: serum düzeyi/laboratuvar izlemi (digoksin + loop diüretik)",
+      "V: düzey artabilir veya azalabilir (verapamil + beta-bloker)",
+      "VI: diğer ilacın başlanması/kesilmesiyle ortaya çıkar (varfarin + tiroid ilaçları)"]},
+    {"t": "Atılım düzeyinde etkileşme", "alt": [
+      "tübüler sekresyonda katyon ve anyon transport sistemleri (tetraetil amonyum × sisplatin; probenesid × penisilin-sefalosporin)",
+      "digoksin: böbreklerden P-glikoprotein pompasıyla tübüler sekresyon",
+      "idrar pH'ı ve itrah: zayıf asidik ilaçlar (varfarin vb., salisilat, fenobarbital, sülfadiazin, tolbutamid, nitrofurantoin, nalidiksik asit, tetrasiklin)",
+      "idrar pH'ı ve itrah: zayıf bazik ilaçlar (amfetaminler, efedrin, fenitoin, klorpromazin, amitriptilin, imipramin, meperidin, kinin, kinidin, teofilin)"]}]},
+  {"baslik": "Farmakodinamik etkileşmeler", "alt": [
+    "Tanım: aditif etkiyle toplam etki artar; ters etkiyle azalır ya da ortadan kalkar",
+    "SSS depresanları birbirinin etkisini potansiye eder",
+    {"t": "Antagonizma türleri", "alt": ["kimyasal antagonizma", "fizyolojik antagonizma (ayrı reseptör mekanizmasıyla zıt yönde etki)", "farmakolojik antagonizma (aynı reseptöre bağlanma)"]}]},
+  {"baslik": "Etkileşmeyi değiştiren faktörler ve yatkın ilaçlar", "alt": [
+    {"t": "Etkileşmeye yatkın ilaç özellikleri: terapötik aralığı dar ilaçlar", "alt": [
+      "oral antikoagülanlar (varfarin)", "antikanser (5-florourasil)", "immünsupresif (siklosporin)", "antiaritmik (kinidin)",
+      "dijital glikozidleri (digoksin)", "antikonvülzanlar (fenitoin)", "oral hipoglisemik (gliburid)"]}]},
+  {"baslik": "Önemli etkileşim listeleri", "alt": [
+    {"t": "En önemli 10 ilaç-ilaç etkileşimi", "alt": [
+      "sildenafil + nitrat", "opioid + benzodiazepin", "metotreksat + trimetoprim", "varfarin + NSAİİ", "varfarin + amiodaron",
+      "digoksin + amiodaron", "simvastatin + gemfibrozil", "SSRI/SNRI + MAO inhibitörü", "ACEİ/ARB + spironolakton", "lityum + NSAİİ"]},
+    "Malpraktis açısından yüksek riskli 10 ilaç etkileşimi",
+    {"t": "En tehlikeli 10 ilaç etkileşimi", "alt": [
+      "varfarin + NSAİ (asetilsalisilik asit, parasetamol, metamizol)", "varfarin + sülfonamid", "varfarin + makrolid", "varfarin + kinolon",
+      "varfarin + fenitoin", "ACE inhibitörü + potasyum preparatı", "ACE inhibitörü + spironolakton", "digoksin + amiodaron", "digoksin + verapamil", "teofilin + kinolon"]},
+    "İlaç-ilaç etkileşmeleri açısından risk grupları"]},
+  {"baslik": "Doğru ilaç dozunu belirleyen faktörler", "alt": [
+    {"t": "Terapötik indeks (TI)", "alt": ["MEK: minimum etkili konsantrasyon", "MTK: maksimum toksik öncesi konsantrasyon", "TI = MTK/MEK", "dar terapötik indeksli: digoksin, teofilin, varfarin"]},
+    "İlaç yarı ömrü (T½) ve doz aralığı"]}
+ ]}

@@ -1,0 +1,52 @@
+{"kod": "F05", "ders": "İlaç Uygulama Yolları ve Farmasötik Biçimler", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "1-İlaç Uygulama Yolları",
+ "basliklar": [
+  {"baslik": "Giriş: uygulama yerlerine göre ayrım", "sayfa": "3-7", "alt": [
+    "Lokal uygulama yolları",
+    "Sistemik uygulama yolları",
+    "İlaçların farmasötik biçimleri"]},
+  {"baslik": "İlaçların lokal uygulama yolları", "sayfa": "8-35", "alt": [
+    {"t": "Lokal ilaç uygulama yolları (liste)", "alt": ["ağız içine", "mide-barsak kanalına", "intratekal", "intravajinal", "intraplevral ve intraperitonal", "rektum veya kolon içine", "deriye", "deri içine (intrakütan)", "göze", "intranazal", "intrakardiyak", "intrauterin", "intraartiküler"]},
+    {"t": "Deriye uygulama (epidermal veya perkütan)", "alt": ["uygulama bölgesine göre absorpsiyon", "lokal uygulanabilen farmasötik şekiller (merhem, krem, pomad, toz, çözelti, süspansiyon, losyon)"]},
+    "Deri içine (intrakütan) injeksiyon",
+    {"t": "Göze uygulama", "alt": ["kolir, oftalmik preparatlar", "uygulama kuralları ve nazolakrimal kanal"]},
+    {"t": "İntranazal uygulama", "alt": ["dikkat edilecek noktalar"]},
+    "Kulak içine uygulama",
+    "Ağız içi (bukkal) uygulama",
+    "Mide-barsak kanalına uygulama",
+    "İntratekal uygulama",
+    "İntrakardiyak uygulama",
+    "İntraartiküler uygulama",
+    "İntrauterin uygulama",
+    "Vajina içine (intravajinal) uygulama",
+    "Rektum veya kolon içine uygulama",
+    "Lezyon içine uygulama"]},
+  {"baslik": "Sistemik etki için uygulama yerleri", "sayfa": "36", "alt": [
+    "Parenteral uygulama",
+    "Enteral uygulama",
+    "Transdermal uygulama",
+    "İnhalasyon yolu ile uygulama"]},
+  {"baslik": "Parenteral uygulama", "sayfa": "37-63", "alt": [
+    "Parenteral uygulama genel (parenteral uygulanabilen farmasötik şekiller)",
+    {"t": "İntravenöz (i.v.) enjeksiyon", "alt": ["avantajlar / seçildiği durumlar", "dezavantajlar"]},
+    {"t": "İntramüsküler (i.m.) enjeksiyon", "alt": ["uygulama bölgeleri", "absorpsiyon hızını etkileyen faktörler", "avantajları", "komplikasyonları"]},
+    "Subkütan (s.c.) enjeksiyon",
+    "İntraarteriyel (i.a.) enjeksiyon",
+    "Kemik iliği içine enjeksiyon",
+    "İnfüzyon pompaları"]},
+  {"baslik": "Enteral uygulama", "sayfa": "64-75", "alt": [
+    {"t": "Oral uygulama (per oral, p.o.)", "alt": ["oral farmasötik şekiller (tablet, kapsül, draje, enterik kaplı tablet, çiğneme tableti, granül, şase, şurup)", "tablet ve kapsüllerin kullanımı", "şurupların kullanımı"]},
+    "Sublingual ve bukkal uygulama",
+    "Rektal uygulama"]},
+  {"baslik": "Transdermal uygulama", "sayfa": "76-80", "alt": [
+    "Merhem",
+    "TTS (transdermal terapötik sistem)"]},
+  {"baslik": "İnhalasyon yolu ile uygulama", "sayfa": "81-99", "alt": [
+    "İnhalasyon tedavisinin üstünlükleri",
+    {"t": "İnhalasyon tedavi cihazları", "alt": ["ölçülü doz inhaler (ÖDİ)", "kuru toz inhaler (KTİ)", "nebülizatör"]},
+    "ÖDİ kullanımı ve hataları",
+    "Spacer kullanımı",
+    {"t": "Kuru toz inhalerler (KTİ)", "alt": ["turbuhaler", "diskus", "inhaler kapsül (aerolizer, handihaler)"]},
+    "Nebulizasyon tedavisi"]},
+  {"baslik": "Endotrakeal uygulama", "sayfa": "100", "alt": []},
+  {"baslik": "Çeşitli yollardan ilaç uygulamada dikkat edilmesi gereken noktalar", "sayfa": "101-102", "alt": []}
+ ]}

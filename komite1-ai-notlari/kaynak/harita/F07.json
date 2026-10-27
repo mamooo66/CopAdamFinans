@@ -1,0 +1,48 @@
+{"kod": "F07", "ders": "İlaç Etkisini Değiştiren Faktörler", "hoca": "Doç. Dr. Oruç Yunusoğlu", "pdf": "3-İlaçların Etkilerini Değiştiren Faktörler",
+ "basliklar": [
+  {"baslik": "Giriş: ilaç etkisini değiştiren faktörlerin listesi", "sayfa": "3-4", "alt": [
+    "Farmakokinetiği ve farmakodinamiği değiştiren faktörler; dozlamanın bireyselleştirilmesi",
+    "İlaç etkisini değiştiren faktörlerin listesi (vücut ağırlığı, yaş, organ hastalıkları, cinsiyet, veriliş yolu, ritimler, çevre ve diyet, genetik, hastalık hali, tampon olaylar, biyolojik değişkenlik, kiralite, tolerans, diğer ilaçlar, sosyal çevre, plasebo, uyunç)"]},
+  {"baslik": "Vücut ağırlığı, dağılım hacmi ve ilacın klirensi", "sayfa": "5-9", "alt": [
+    "Vücut ağırlığı",
+    "Klirens",
+    "Dağılım hacmi (Vd)",
+    "Vd'nin yaşa göre değişmesi (çocuk, şişmanlık, ödem)",
+    "Yağsız ideal ağırlığa göre doz hesabı"]},
+  {"baslik": "Yaş", "sayfa": "10-15", "alt": [
+    {"t": "Yenidoğan ve bebeklerde", "alt": ["eliminasyon mekanizmaları olgunlaşmamıştır", "sıvı kompartmanı fazla, plazma proteinleri az", "kan-beyin bariyeri olgunlaşmamış", "mide asit salgısı nötral, mide boşalma süresi uzamış", "kalp debisi ve dağılım hızı"]},
+    "Pediatride 3 çağ: yenidoğan, bebek, çocuk",
+    "Yaşlılarda (mide asiditesi, villus atrofisi, KC kan akımı, enzim aktivitesi, böbrek fonksiyonları)"]},
+  {"baslik": "Absorpsiyonun azalması ve eliminasyon organlarının hastalıkları", "sayfa": "16-20", "alt": [
+    "Şok ve konjestif kalp yetmezliği",
+    {"t": "Böbrek hastalıkları / böbrek yetmezliği", "alt": ["probenesid", "aminoglikozitler", "fenobarbital", "fenilbutazon", "digoksin", "tetrasiklinler (minosiklin ve doksisiklin hariç)"]},
+    {"t": "Karaciğer hastalıkları", "alt": ["yüksek oranda eliminasyona uğrayan ilaçlar (lidokain, morfin, meperidin)", "ön-ilaçlar (kortizon, prednizon, primidon)"]}]},
+  {"baslik": "Cinsiyet", "sayfa": "21-22", "alt": ["Yağ dokusu dağılımı", "Seks hormonlarına bağlı mikrozomal enzim aktivitesi"]},
+  {"baslik": "Veriliş yolu", "sayfa": "23-24", "alt": [
+    "Oral ve parenteral dozlar",
+    "Uygulama yolu: PK profilini değiştirir (oral, IV, IM/SC, transdermal, intranazal/bukkal/sublingual)"]},
+  {"baslik": "Veriliş zamanı, gün içi ritm ve diğer ritmler", "sayfa": "25-26", "alt": ["Gün içi ritm (sirkadyen ritim)"]},
+  {"baslik": "Çevresel faktörler ve diyet", "sayfa": "27-31", "alt": [
+    "Çevre kirliliği ve mikrozomal enzimler (indükleyenler; sigara dumanı ve karbonmonoksid)",
+    "Diyet: doğal maddeler, katkı maddeleri, beslenme yetersizliği, alkol ve kahve",
+    "Besinlerdeki iyonların ilaçları bağlaması (Ca⁺⁺ - tetrasiklinler)",
+    "Greyfurt suyu ve CYP3A4 (terfenadin, astemizol, atorvastatin)",
+    "K vitamini içeren yeşil sebzeler ve oral antikoagülanlar (varfarin)"]},
+  {"baslik": "Genetik faktörler", "sayfa": "32", "alt": ["Genetik polimorfizm"]},
+  {"baslik": "Önceden var olan hastalık hali veya özel durumlar", "sayfa": "33-35", "alt": [
+    {"t": "Hastalık halleri", "alt": ["miyastenia gravis", "konjestif kalp yetmezliği", "bronşiyal astım", "atopi", "gebelik"]},
+    "Gebelikte farmakokinetik değişiklikler"]},
+  {"baslik": "İlaç etkisini tamponlayan ikincil olaylar", "sayfa": "36", "alt": []},
+  {"baslik": "Biyolojik değişkenlik", "sayfa": "37", "alt": []},
+  {"baslik": "Kirallik (kiralite)", "sayfa": "38", "alt": ["R/S izomerler (enantiyomerler)", "dekstro / levo", "dekstropropoksifen - levopropoksifen"]},
+  {"baslik": "Tolerans, taşiflaksi ve desensitizasyon", "sayfa": "39-49", "alt": [
+    "Tolerans",
+    "Çapraz tolerans",
+    {"t": "Tolerans, oluşumuna göre", "alt": ["biyokimyasal (farmakokinetik) tolerans: otoindüksiyon", "farmakodinamik (hücresel) tolerans: down-regülasyon, up-regülasyon"]},
+    "Taşiflaksi (akut tolerans)",
+    {"t": "Desensitizasyon", "alt": ["homolog desensitizasyon", "heterolog desensitizasyon", "desensitizasyon mekanizmaları (5 mekanizma)", "oluşma ve geri dönme hızı"]}]},
+  {"baslik": "Sosyal çevre ve ruhsal durum", "sayfa": "50", "alt": []},
+  {"baslik": "Diğer ilaçların vücutta bulunması", "sayfa": "50", "alt": ["Farmakodinamik ve farmakokinetik etkileşmeler"]},
+  {"baslik": "Plasebo ve ilacın plasebo etkisi", "sayfa": "51", "alt": []},
+  {"baslik": "Uyunç (compliance)", "sayfa": "52", "alt": []}
+ ]}

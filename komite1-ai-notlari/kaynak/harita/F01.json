@@ -1,0 +1,51 @@
+{"kod": "F01", "ders": "Farmakolojiye Giriş ve Absorpsiyon", "hoca": "Prof. Dr. Akif Hakan Kurt", "pdf": "1-Farmakolojiye Giriş",
+ "basliklar": [
+  {"baslik": "Tanım ve temel kavramlar", "sayfa": "3-6", "alt": [
+    "Farmakolojide genel kavramlar (in vitro, in vivo, in silico)",
+    "İlaç (DSÖ tanımı)",
+    {"t": "Terminoloji", "alt": ["etki (action)", "tesir (effect)", "yanıt (response)", "absorpsiyon", "doz", "farmasötik şekiller"]},
+    "İlaç formülasyonu ve tedavi türleri (radikal tedavi, palyatif/semptomatik tedavi)"]},
+  {"baslik": "İlaç etkisinin temel özellikleri", "sayfa": "7-8", "alt": [
+    {"t": "Temel özellikler", "alt": ["seçicilik (selektivite)", "etkinin geçici olması", "doza bağımlılık"]},
+    "Rasyonel tedavi ve zehir"]},
+  {"baslik": "Farmakolojinin dalları", "sayfa": "9-10", "alt": [
+    {"t": "Farmakolojinin dalları (I)", "alt": ["klinik farmakoloji", "farmakovijilans", "farmakodinami", "farmakokinetik", "kemoterapi"]},
+    {"t": "Farmakolojinin dalları (II)", "alt": ["farmakoterapi", "farmakogenomik (farmakogenetik)"]}]},
+  {"baslik": "İlaçların kaynakları", "sayfa": "11-14", "alt": [
+    {"t": "İlaç kaynakları", "alt": ["bitkiler", "hayvanlar", "mikroorganizmalar", "madenler (mineraller)", "kimyasal sentez"]},
+    "Biyoteknolojik ilaçlar",
+    "Biyoteknolojik ilaçların üretim esası",
+    "Biyoteknolojik ilaç örnekleri"]},
+  {"baslik": "İlaçların sınıflandırılması", "sayfa": "15", "alt": [
+    "Kimyasal yapıya göre",
+    "Etki yerine göre",
+    "Kullanım amaçlarına göre",
+    "Bitkisel kaynaklarına göre"]},
+  {"baslik": "İlaç adları", "sayfa": "16", "alt": ["Genel ad (jenerik ad)", "Müstahzar adı (ticari ad)"]},
+  {"baslik": "İlaç müstahzarları ve eşdeğerlikleri", "sayfa": "17", "alt": ["Farmasötik eşdeğerlik", "Biyoeşdeğerlik", "Biyoyararlanım"]},
+  {"baslik": "İlaçların biyolojik membranlardan geçişi (giriş)", "sayfa": "18", "alt": []},
+  {"baslik": "Absorpsiyon hızını etkileyen faktörler", "sayfa": "19-23", "alt": [
+    {"t": "İlaçla ilgili faktörler", "alt": [
+      {"t": "İlaç molekülünün fizikokimyasal özellikleri", "alt": ["molekül büyüklüğü", "lipofiliklik"]},
+      "İlacın farmasötik şeklinin ve çözücüsünün fiziksel özellikleri",
+      "İlaç konsantrasyonu",
+      "İlacın farmakolojik özelliği"]},
+    {"t": "Veriliş yeri ile ilgili biyolojik faktörler", "alt": [
+      "İlacın uygulama yerinden geçen kan akım hızı",
+      "Absorbe eden yüzeyin genişliği ve geçirgenliği"]}]},
+  {"baslik": "Mide-barsak kanalından absorpsiyon", "sayfa": "24-26", "alt": [
+    "Mide-barsak kanalından absorpsiyonu etkileyen faktörler",
+    {"t": "Midenin boşalma süresi", "alt": ["geciktiren durumlar", "hızlandıran durumlar"]},
+    "Barsak motilitesi ve besinlerin ilaç absorpsiyonuna etkisi"]},
+  {"baslik": "Hücrelerden geçiş", "sayfa": "27-28", "alt": [
+    {"t": "Hücrelerden geçiş yolları", "alt": ["pasif diffüzyon (transselüler, parasellüler)", "taşıyıcı aracılı transport (aktif, kolaylaştırılmış)", "pinositoz ve reseptör aracılı endositoz"]},
+    {"t": "Aktif transport, kolaylaştırılmış transport ve taşıma türleri", "alt": ["uniport", "ko-transport (simport)", "kontratransport (antiport)"]}]},
+  {"baslik": "İlaçların iyonizasyonu", "sayfa": "29-31", "alt": [
+    "İlaçların iyonizasyonu (zayıf asid / zayıf baz)",
+    "Henderson–Hasselbalch denklemi",
+    "pH'a göre iyonizasyon yüzdesi"]},
+  {"baslik": "Absorpsiyon kinetiği", "sayfa": "32-33", "alt": [
+    "Sıfırıncı derece kinetiği",
+    "Birinci derece kinetiği",
+    "Sıfırıncı ve birinci derece kinetik eğrileri"]}
+ ]}
